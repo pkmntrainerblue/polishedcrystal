@@ -3208,10 +3208,10 @@ endc
 	learnset 1, WRAP
 	learnset 1, LEER
 	learnset 5, THUNDER_WAVE
-	learnset 11, AQUA_JET ; Twister → egg move
+	learnset 11, ICE_SHARD ; Twister → egg move
 	learnset 15, DRAGON_RAGE
 	learnset 21, HEADBUTT ; Slam → tutor move
-	learnset 25, AGILITY
+	learnset 25, AURORA_BEAM
 	learnset 31, DRAGONBREATH ; Dragon Tail → GSC TM move
 	learnset 35, AQUA_TAIL
 	learnset 41, BARRIER ; Dragon Rush → event move
@@ -3221,14 +3221,14 @@ endc
 	learnset 61, HYPER_BEAM
 
 	evos_attacks Dragonair
-	evo_data EVOLVE_LEVEL, 55, DRAGONITE
+	evo_data EVOLVE_LEVEL, 95, DRAGONITE
 	learnset 1, WRAP
 	learnset 1, LEER
 	learnset 5, THUNDER_WAVE
-	learnset 11, AQUA_JET ; Twister → egg move
+	learnset 11, ICE_SHARD ; Twister → egg move
 	learnset 15, DRAGON_RAGE
 	learnset 21, HEADBUTT ; Slam → tutor move
-	learnset 25, AGILITY
+	learnset 25, AURORA_BEAM
 	learnset 33, DRAGONBREATH ; Dragon Tail → GSC TM move
 	learnset 39, AQUA_TAIL
 	learnset 47, BARRIER ; Dragon Rush → event move

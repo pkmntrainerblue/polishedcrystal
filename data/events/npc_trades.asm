@@ -3,19 +3,19 @@ NPCTrades:
 ; NPC_TRADE_MIKE in Goldenrod City
 	db TRADE_DIALOGSET_COLLECTOR
 	dp ABRA, NO_FORM  ; wants
-	dp MACHOP, FEMALE ; gives
-	rawchar "Muscle@@@@@"
+	dp CHARMANDER, MALE ; gives
+	rawchar "Charzi@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,  LEVEL_BALL,   SITRUS_BERRY
 	dw 37460
 	rawchar "Mike@@@@", $00
 ; NPC_TRADE_KYLE in Violet City
 	db TRADE_DIALOGSET_COLLECTOR
-	dp POLIWAG, NO_FORM ; wants
-	dp VOLTORB, MALE    ; gives
-	rawchar "Mimic@@@@@@"
-	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_DEF_DOWN,   PREMIER_BALL, PERSIM_BERRY
+	dp BELLSPROUT, NO_FORM ; wants
+	dp DRATINI, FEMALE    ; gives
+	rawchar "Winter@@@@@"
+	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SATK_UP_ATK_DOWN,   PREMIER_BALL, LUCKY_EGG
 	dw 48926
-	rawchar "Kyle@@@@", $00
+	rawchar "Clair@@@", $00
 ; NPC_TRADE_TIM in Olivine City
 	db TRADE_DIALOGSET_HAPPY
 	dp STEELIX, NO_FORM ; wants

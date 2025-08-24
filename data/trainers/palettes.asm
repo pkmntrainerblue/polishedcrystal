@@ -6,7 +6,7 @@ if !DEF(MONOCHROME)
 KrisPalette:
 INCLUDE "gfx/trainers/carrie.pal"
 ChrisPalette:
-INCLUDE "gfx/trainers/cal.pal"
+INCLUDE "gfx/trainers/rich_boy.pal"
 CrysPalette:
 INCLUDE "gfx/trainers/jacky.pal"
 INCLUDE "gfx/trainers/falkner.pal"

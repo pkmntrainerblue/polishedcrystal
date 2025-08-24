@@ -3221,7 +3221,7 @@ endc
 	learnset 61, HYPER_BEAM
 
 	evos_attacks Dragonair
-	evo_data EVOLVE_LEVEL, 99, DRAGONITE
+	evo_data EVOLVE_LEVEL, 55, DRAGONITE
 	learnset 1, WRAP
 	learnset 1, LEER
 	learnset 5, THUNDER_WAVE

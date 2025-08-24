@@ -1,13 +1,13 @@
-	db  91,  84,  75,  80,  130,  130 ; 590 BST
+	db  61,  84,  65,  70,  70,  70 ; 420 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DRAGON, ICE ; type
+	db DRAGON, DRAGON ; type
 	db 45 ; catch rate
 	db 144 ; base exp
 	db NO_ITEM, DRAGON_SCALE ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for DRAGONAIR, SHED_SKIN, SHED_SKIN, SNOW_WARNING
+	abilities_for DRAGONAIR, SHED_SKIN, SHED_SKIN, MARVEL_SCALE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_DRAGON ; egg groups
 

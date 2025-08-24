@@ -11,9 +11,9 @@ NPCTrades:
 ; NPC_TRADE_KYLE in Violet City
 	db TRADE_DIALOGSET_COLLECTOR
 	dp QUILAVA, NO_FORM ; wants
-	dp DRATINI, FEMALE    ; gives
-	rawchar "Winter@@@@@"
-	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SATK_UP_ATK_DOWN,   PREMIER_BALL, LUCKY_EGG
+	dp DRATINI, MALE    ; gives
+	rawchar "Dragoon@@@@"
+	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,   PREMIER_BALL, LUCKY_EGG
 	dw 48926
 	rawchar "Clair@@@", $00
 ; NPC_TRADE_TIM in Olivine City

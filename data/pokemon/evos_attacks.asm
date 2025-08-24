@@ -3208,12 +3208,12 @@ endc
 	learnset 1, WRAP
 	learnset 1, LEER
 	learnset 5, THUNDER_WAVE
-	learnset 11, ICY_WIND ; Twister → egg move
+	learnset 11, AQUA_JET ; Twister → egg move
 	learnset 15, DRAGON_RAGE
-	learnset 21, AURORA_BEAM ; Slam → tutor move
+	learnset 21, HEADBUTT ; Slam → tutor move
 	learnset 25, AGILITY
 	learnset 31, DRAGONBREATH ; Dragon Tail → GSC TM move
-	learnset 35, ICE_BEAM
+	learnset 35, AQUA_TAIL
 	learnset 41, BARRIER ; Dragon Rush → event move
 	learnset 45, SAFEGUARD
 	learnset 51, DRAGON_DANCE
@@ -3225,12 +3225,12 @@ endc
 	learnset 1, WRAP
 	learnset 1, LEER
 	learnset 5, THUNDER_WAVE
-	learnset 11, ICY_WIND ; Twister → egg move
+	learnset 11, AQUA_JET ; Twister → egg move
 	learnset 15, DRAGON_RAGE
-	learnset 21, AURORA_BEAM ; Slam → tutor move
+	learnset 21, HEADBUTT ; Slam → tutor move
 	learnset 25, AGILITY
 	learnset 33, DRAGONBREATH ; Dragon Tail → GSC TM move
-	learnset 39, ICE_BEAM
+	learnset 39, AQUA_TAIL
 	learnset 47, BARRIER ; Dragon Rush → event move
 	learnset 53, SAFEGUARD
 	learnset 61, DRAGON_DANCE

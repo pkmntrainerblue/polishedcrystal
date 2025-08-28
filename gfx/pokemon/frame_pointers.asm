@@ -410,7 +410,7 @@ FramesPointers:
 
 	dw UrsalunaBloodmoonFrames
 
-    dw PikachuPikaFrames
-	dw PikachuChuchuFrames
+    dw PikachuTrainerRedFrames
+	dw PikachuTrainerYellowFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

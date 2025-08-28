@@ -1556,3 +1556,11 @@ TaurosPaldeanFireBackpic:  INCBIN "gfx/pokemon/tauros_paldean_fire/back.2bpp.lz"
 SECTION "TaurosPaldeanWater Pics", ROMX
 TaurosPaldeanWaterFrontpic: INCBIN "gfx/pokemon/tauros_paldean_water/front.animated.2bpp.lz"
 TaurosPaldeanWaterBackpic:  INCBIN "gfx/pokemon/tauros_paldean_water/back.2bpp.lz"
+
+SECTION "PikachuTrainerRed Pics", ROMX
+PikachuTrainerRedFrontpic:  INCBIN "gfx/pokemon/pikachu_pika/front.animated.2bpp.lz"
+PikachuTrainerRedBackpic:  INCBIN "gfx/pokemon/pikachu_plain/back.2bpp.lz"
+
+SECTION "PikachuTrainerYellow Pics", ROMX
+PikachuTrainerYellowFrontpic: INCBIN "gfx/pokemon/pikachu_chuchu/front.animated.2bpp.lz"
+PikachuTrainerYellowBackpic:  INCBIN "gfx/pokemon/pikachu_chuchu/back.2bpp.lz"

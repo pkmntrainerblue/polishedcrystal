@@ -1816,3 +1816,13 @@ SECTION "UrsalunaBloodmoon Mini Icon", ROMX
 UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lz"
 UrsalunaBloodmoonMiniMask:: INCBIN "gfx/minis/ursaluna_bloodmoon_mask.1bpp.lz"
 UrsalunaBloodmoonIcon::     INCBIN "gfx/icons/ursaluna_bloodmoon.2bpp.lz"
+
+SECTION "PikachuTrainerRed Mini Icon", ROMX
+PikachuTrainerRedMini::         INCBIN "gfx/minis/pikachu.2bpp.lz"
+PikachuTrainerRedMiniMask::     INCBIN "gfx/minis/pikachu_mask.1bpp.lz"
+PikachuTrainerRedIcon::         INCBIN "gfx/icons/pikachu.2bpp.lz"
+
+SECTION "PikachuTrainerYellow Mini Icon", ROMX
+PikachuTrainerYellowMini::         INCBIN "gfx/minis/pikachu.2bpp.lz"
+PikachuTrainerYellowMiniMask::     INCBIN "gfx/minis/pikachu_mask.1bpp.lz"
+PikachuTrainerYellowIcon::         INCBIN "gfx/icons/pikachu.2bpp.lz"

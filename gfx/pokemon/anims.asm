@@ -439,6 +439,3 @@ TaurosPaldeanWaterAnimation: INCLUDE "gfx/pokemon/tauros_paldean_water/anim.asm"
 
 UrsalunaPlainAnimation:     INCLUDE "gfx/pokemon/ursaluna_plain/anim.asm"
 UrsalunaBloodmoonAnimation: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim.asm"
-
-PikachuTrainerRedAnimation:   INCLUDE "gfx/pokemon/pikachu_pika/anim.asm"
-PikachuTrainerYellowAnimation: INCLUDE "gfx/pokemon/pikachu_chuchu/anim.asm"

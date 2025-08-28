@@ -398,4 +398,7 @@ endr
 
 	mini_icon UrsalunaBloodmoon
 
+    mini_icon Pikachu ; Red
+    mini_icon Pikachu ; Yellow
+
 	assert_table_length NUM_UNIQUE_POKEMON

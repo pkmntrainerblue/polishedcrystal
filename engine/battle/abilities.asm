@@ -1848,6 +1848,7 @@ PixilateAbility:
 	jr AteAbilities
 GalvanizeAbility:
 	ld b, ELECTRIC
+    jr AteAbilities
 AteAbilities:
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVarAddr

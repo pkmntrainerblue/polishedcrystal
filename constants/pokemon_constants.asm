@@ -500,6 +500,14 @@ DEF PALDEAN_FORM EQU 5
 	ext_const_def 2
 	ext_const URSALUNA_BLOODMOON_FORM ; 189 (2)
 
+; trainer forms
+DEF TRAINER_FORM EQU 6
+
+; pikachu
+    ext_const_def 2
+    ext_const PIKACHU_TRAINER_RED_FORM ; 18a
+    ext_const PIKACHU_TRAINER_YELLOW_FORM ; 18b
+
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
 
 ; these constants include EGG and a dummy entry as species

@@ -16,4 +16,6 @@ InvalidVariants: ; for Wonder Trade and invalid inherited forms
 	dp GYARADOS,   GYARADOS_RED_FORM
 	dp TYPHLOSION, HISUIAN_FORM
 	dp URSALUNA,   URSALUNA_BLOODMOON_FORM
+    dp PIKACHU,    PIKACHU_TRAINER_RED_FORM
+    dp PIKACHU,    PIKACHU_TRAINER_YELLOW_FORM
 	db 0

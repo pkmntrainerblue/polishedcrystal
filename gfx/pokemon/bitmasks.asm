@@ -439,3 +439,6 @@ TaurosPaldeanWaterBitmasks: INCLUDE "gfx/pokemon/tauros_paldean_water/bitmask.as
 
 UrsalunaPlainBitmasks:     INCLUDE "gfx/pokemon/ursaluna_plain/bitmask.asm"
 UrsalunaBloodmoonBitmasks: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/bitmask.asm"
+
+PikachuTrainerRedBitmasks:    INCLUDE "gfx/pokemon/pikachu_pika/bitmask.asm"
+PikachuTrainerYellowBitmasks: INCLUDE "gfx/pokemon/pikachu_chuchu/bitmask.asm"

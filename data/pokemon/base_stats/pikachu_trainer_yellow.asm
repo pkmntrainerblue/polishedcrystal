@@ -1,4 +1,4 @@
-  db  65,  60,  60, 125, 110,  95 ; 515 BST
+    db  65,  60,  60, 125, 110,  95 ; 515 BST
 	;   hp  atk  def  spe  sat  sdf
 
 

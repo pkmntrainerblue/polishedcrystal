@@ -351,4 +351,7 @@ EvosAttacksPointers::
 
 	dw UrsalunaBloodmoonEvosAttacks
 
+    dw PikachuTrainerRedEvosAttacks
+    dw PikachuTrainerYellowEvosAttacks
+
 	assert_table_length NUM_EXT_POKEMON

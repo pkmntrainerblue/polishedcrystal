@@ -255,3 +255,6 @@ TaurosPlainFrames:        INCLUDE "gfx/pokemon/tauros_plain/frames.asm"
 TaurosPaldeanFrames:      INCLUDE "gfx/pokemon/tauros_paldean/frames.asm"
 TaurosPaldeanFireFrames:  INCLUDE "gfx/pokemon/tauros_paldean_fire/frames.asm"
 TaurosPaldeanWaterFrames: INCLUDE "gfx/pokemon/tauros_paldean_water/frames.asm"
+
+PikachuTrainerRedFrames:   INCLUDE "gfx/pokemon/pikachu_pika/frames.asm"
+PikachuTrainerYellowFrames: INCLUDE "gfx/pokemon/pikachu_chuchu/frames.asm"

@@ -347,4 +347,6 @@ EggSpeciesMovesPointers::
 
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna (Bloodmoon Form)
 
+    dw PichuEggSpeciesMoves             ; Pikachu (Trainer Red Form)
+    dw PichuEggSpeciesMoves             ; Pikachu (Trainer Yellow Form)
 	assert_table_length NUM_EXT_POKEMON

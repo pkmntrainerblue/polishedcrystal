@@ -3346,3 +3346,23 @@ UrsalunaBloodmoonPokedexEntry::
 	page "itself with mud"
 	next "that is as hard as"
 	next "iron.@"
+
+SECTION "PikachuTrainerRedPokedexEntry", ROMX
+PikachuTrainerRedPokedexEntry::
+	db "Mouse@"
+	db   "When it is anger-"
+	next "ed, it immediately"
+	next "discharges the"
+	page "energy stored in"
+	next "the pouches in its"
+	next "red cheeks.@"
+
+SECTION "PikachuTrainerYellowPokedexEntry", ROMX
+PikachuTrainerYellowPokedexEntry::
+	db "Mouse@"
+	db   "When it is anger-"
+	next "ed, it immediately"
+	next "discharges the"
+	page "energy stored in"
+	next "the pouches in its"
+	next "yellow cheeks.@"

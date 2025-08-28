@@ -382,4 +382,7 @@ INCLUDE "data/pokemon/base_stats/tauros_paldean_water.asm"
 
 INCLUDE "data/pokemon/base_stats/ursaluna_bloodmoon.asm"
 
+INCLUDE "data/pokemon/base_stats/pikachu_trainer_red.asm"
+INCLUDE "data/pokemon/base_stats/pikachu_trainer_yellow.asm"
+
 	assert_table_length NUM_EXT_POKEMON

@@ -504,7 +504,7 @@ DEF PALDEAN_FORM EQU 5
 DEF TRAINER_FORM EQU 6
 
 ; pikachu
-    ext_const_def 4
+    ext_const_def 7
     ext_const PIKACHU_TRAINER_RED_FORM ; 18a
     ext_const PIKACHU_TRAINER_YELLOW_FORM ; 18b
 

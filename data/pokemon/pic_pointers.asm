@@ -414,7 +414,7 @@ PokemonPicPointers::
 
 	pics UrsalunaBloodmoon
 
-    pics PikachuTrainerRed
-	pics PikachuTrainerYellow
+    pics PikachuPika
+	pics PikachuChuchu
 
 	assert_table_length NUM_UNIQUE_POKEMON

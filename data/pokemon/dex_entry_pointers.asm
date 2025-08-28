@@ -348,4 +348,6 @@ PokedexDataPointerTable:
 
 	dba UrsalunaBloodmoonPokedexEntry
 
+    dba PikachuTrainerRedPokedexEntry
+    dba PikachuTrainerYellowPokedexEntry
 	assert_table_length NUM_EXT_POKEMON

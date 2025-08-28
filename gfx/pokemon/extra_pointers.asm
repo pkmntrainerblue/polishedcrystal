@@ -410,7 +410,7 @@ AnimationExtraPointers:
 
 	dw UrsalunaBloodmoonAnimationExtra
 
-    dw PikachuPikaAnimationExtra
-	dw PikachuChuchuAnimationExtra
+    dw PikachuTrainerRedAnimationExtra
+	dw PikachuTrainerYellowAnimationExtra
 
 	assert_table_length NUM_UNIQUE_POKEMON

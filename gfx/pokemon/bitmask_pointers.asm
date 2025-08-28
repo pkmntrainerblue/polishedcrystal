@@ -410,4 +410,7 @@ BitmasksPointers:
 
 	dw UrsalunaBloodmoonBitmasks
 
+    dw PikachuPikaBitmasks
+	dw PikachuChuchuBitmasks
+
 	assert_table_length NUM_UNIQUE_POKEMON

@@ -1639,6 +1639,7 @@ OffensiveDamageAbilities:
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
+    dwb AERILATE, AerilateAbility
 	dbw -1, -1
 
 DefensiveDamageAbilities:
@@ -1848,6 +1849,11 @@ PixilateAbility:
 	jr AteAbilities
 GalvanizeAbility:
 	ld b, ELECTRIC
+    jr AteAbilities
+AerilateAbility:
+	ld b, FLYING
+	jr AteAbilities
+
 AteAbilities:
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVarAddr

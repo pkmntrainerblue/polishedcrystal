@@ -155,6 +155,7 @@ AbilityDescriptions:
 	dw SharpnessDescription
 	dw ArmorTailDescription
 	dw MindsEyeDescription
+    dw AerilateDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -914,4 +915,9 @@ ArmorTailDescription:
 MindsEyeDescription:
 	text "Bypass evasion and"
 	next "Ghost immunity."
+	done
+
+AerilateDescription:
+	text "Normal-type moves"
+	next "become Flying."
 	done

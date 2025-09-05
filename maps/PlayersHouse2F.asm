@@ -100,7 +100,7 @@ endr
 	giveitem MAX_REPEL, 99
 	giveitem ESCAPE_ROPE, 99
 	giveitem ABILITY_CAP, 99
-    giveitem ABILITY_PATCH, 99
+    giveitem ABILITYPATCH, 99
 	giveitem LEAF_STONE, 99
 	giveitem FIRE_STONE, 99
 	giveitem WATER_STONE, 99

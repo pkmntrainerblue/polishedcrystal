@@ -1639,7 +1639,7 @@ OffensiveDamageAbilities:
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
-    dwb AERILATE, AerilateAbility
+    dbw AERILATE, AerilateAbility
 	dbw -1, -1
 
 DefensiveDamageAbilities:

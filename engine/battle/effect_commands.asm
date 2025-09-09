@@ -5926,6 +5926,8 @@ BattleCommand_recoil:
 	ret z
 	cp MAGIC_GUARD
 	ret z
+    cp STORM_CROWN
+    ret z
 
 	ld a, b
 	cp DOUBLE_EDGE

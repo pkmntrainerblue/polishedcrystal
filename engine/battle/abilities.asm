@@ -1639,6 +1639,7 @@ OffensiveDamageAbilities:
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
+    dbw STORM_CROWN, StormCrownAbility
 	dbw -1, -1
 
 DefensiveDamageAbilities:
@@ -1812,6 +1813,7 @@ SandForceAbility:
 	jmp MultiplyAndDivide
 
 RecklessAbility:
+StormCrownAbility:
 ; 120% damage for (Hi) Jump Kick and recoil moves except for Struggle
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar

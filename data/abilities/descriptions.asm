@@ -155,6 +155,7 @@ AbilityDescriptions:
 	dw SharpnessDescription
 	dw ArmorTailDescription
 	dw MindsEyeDescription
+    dw StormCrownDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -914,4 +915,9 @@ ArmorTailDescription:
 MindsEyeDescription:
 	text "Bypass evasion and"
 	next "Ghost immunity."
+	done
+
+StormCrownDescription:
+	text "Removes recoil and"
+	next "boosts power."
 	done

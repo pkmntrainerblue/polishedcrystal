@@ -4655,34 +4655,41 @@ BattleAnim_Spark:
 	anim_ret
 
 BattleAnim_WildCharge:
-	anim_3gfx ANIM_GFX_CHARGE, ANIM_GFX_LIGHTNING, ANIM_GFX_EXPLOSION
-	anim_battlergfx_1row
-	anim_bgp $1b
-	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_sound 0, 0, SFX_SWORDS_DANCE
-	anim_call BattleAnimSub_EnergyOrb
-	anim_wait 12
-	anim_sound 0, 0, SFX_ZAP_CANNON
-	anim_obj ANIM_OBJ_THUNDER_WAVE, 48, 92, $0
-	anim_wait 24
-	anim_setobj $9, $3
-	anim_wait 8
-	anim_bgeffect ANIM_BG_BATTLEROBJ_2ROW, $0, $0, $0
-	anim_bgeffect ANIM_BG_TACKLE, $0, $1, $0
-	anim_sound 0, 0, SFX_SPARK
-	anim_wait 6
-	anim_sound 0, 0, SFX_SPARK
-	anim_wait 6
-	anim_bgeffect ANIM_BG_SHOW_MON, $0, $0, $0
-	anim_wait 4
-	anim_clearobjs
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $6, $50
-	anim_bgeffect ANIM_BG_SHOW_MON, $0, $1, $0
-	anim_wait 1
+	anim_3gfx ANIM_GFX_LIGHTNING, ANIM_GFX_EXPLOSION, ANIM_GFX_SPEED
 	anim_sound 0, 1, SFX_THUNDERSHOCK
-	anim_obj ANIM_OBJ_THUNDERBOLT_BALL, 136, 56, $2
-	anim_obj ANIM_OBJ_SPARKS_CIRCLE_BIG, 136, 56, $0
-	anim_wait 32
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_obj ANIM_OBJ_THUNDER_WAVE, 48, 92, $0
+	anim_bgp $1b
+	anim_incobj 1
+	anim_wait 48
+	anim_clearobjs
+	anim_call BattleAnimSub_SpeedLines
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_ICE
+.loop
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_obj ANIM_OBJ_VOLT_TACKLE, 48, 88, $0
+	anim_wait 1
+	anim_loop 8, .loop
+	anim_wait 2
+.loop2
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_obj ANIM_OBJ_VOLT_TACKLE, 158, 72, $20
+	anim_wait 1
+	anim_loop 8, .loop2
+	anim_wait 2
+.loop3
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_obj ANIM_OBJ_VOLT_TACKLE, 0, 56, $0
+	anim_wait 1
+	anim_loop 8, .loop3
+	anim_wait 2
+	anim_sound 0, 1, SFX_EGG_BOMB
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $10
+	anim_obp0 $30
+	anim_sound 0, 1, SFX_THUNDER
+	anim_call BattleAnim_ZapCannon.thunderball
+	anim_wait 64
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $1, $0
 	anim_ret
 
 BattleAnim_BugBite:

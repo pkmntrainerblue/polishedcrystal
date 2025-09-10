@@ -246,6 +246,7 @@ BattleAnimFrameData:
 	dw .Frameset_GrowingHeart            ; BATTLEANIMFRAMESET_GROWING_HEART
 	dw .Frameset_WaterBall               ; BATTLEANIMFRAMESET_WATER_BALL
 	dw .Frameset_GrowingBall             ; BATTLEANIMFRAMESET_GROWING_BALL
+
 ; VAR3 animations start here -------
 	dw .Frameset_BugBuzz                 ; BATTLEANIMFRAMESET_BUG_BUZZ
 	dw .Frameset_PoisonJab               ; BATTLEANIMFRAMESET_POISON_JAB
@@ -1753,4 +1754,4 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_1B,  2
 	battleoamframe BATTLEANIMOAMSET_7F,  2
 	battleoamframe BATTLEANIMOAMSET_01,  2 ; HIT
-    battleoamrestart
+	battleoamrestart

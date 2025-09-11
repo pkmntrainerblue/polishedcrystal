@@ -10,12 +10,12 @@ NPCTrades:
 	rawchar "Mike@@@@", $00
 ; NPC_TRADE_KYLE in Violet City
 	db TRADE_DIALOGSET_COLLECTOR
-	dp POLIWAG, NO_FORM ; wants
-	dp VOLTORB, MALE    ; gives
-	rawchar "Mimic@@@@@@"
-	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_DEF_DOWN,   PREMIER_BALL, PERSIM_BERRY
+	dp BELLSPROUT, NO_FORM ; wants
+	dp PIKACHU, MALE    ; gives
+	rawchar "Pikachu@@@@"
+	db $FF, $FF, $FF, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,   PREMIER_BALL, LIGHT_BALL
 	dw 48926
-	rawchar "Kyle@@@@", $00
+	rawchar "Red@@@@@", $00
 ; NPC_TRADE_TIM in Olivine City
 	db TRADE_DIALOGSET_HAPPY
 	dp STEELIX, NO_FORM ; wants

@@ -11,7 +11,7 @@ NPCTrades:
 ; NPC_TRADE_KYLE in Violet City
 	db TRADE_DIALOGSET_COLLECTOR
 	dp BELLSPROUT, NO_FORM ; wants
-	dp PIKACHU, MALE    ; gives
+	dp PIKACHU, PIKACHU_SURF_FORM | MALE    ; gives
 	rawchar "Pikachu@@@@"
 	db $FF, $FF, $FF, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,   PREMIER_BALL, LIGHT_BALL
 	dw 48926

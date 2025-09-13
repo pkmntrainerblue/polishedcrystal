@@ -918,6 +918,6 @@ MindsEyeDescription:
 	done
 
 StormCrownDescription:
-	text "Removes recoil and"
+	text "Negates recoil and"
 	next "boosts power."
 	done

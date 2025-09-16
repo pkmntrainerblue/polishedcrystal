@@ -5,7 +5,7 @@ SECTION "ChrisBikeSpriteGFX", ROMX
 ChrisBikeSpriteGFX:: INCBIN "gfx/sprites/chris_bike.2bpp.lz"
 
 SECTION "ChrisSurfSpriteGFX", ROMX
-ChrisSurfSpriteGFX:: INCBIN "gfx/sprites/chris_surf.2bpp.lz"
+ChrisSurfSpriteGFX:: INCBIN "gfx/sprites/lapras.2bpp.lz"
 
 SECTION "KrisSpriteGFX", ROMX
 KrisSpriteGFX:: INCBIN "gfx/sprites/kris.2bpp.lz"

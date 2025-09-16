@@ -9,7 +9,7 @@ SpriteHeaders:
 	table_width SPRITEDATA_LENGTH
 	overworld_sprite ChrisSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite ChrisBikeSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite ChrisSurfSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite ChrisSurfSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite KrisSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite KrisBikeSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite KrisSurfSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE

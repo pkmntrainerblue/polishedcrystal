@@ -1639,6 +1639,7 @@ OffensiveDamageAbilities:
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
+    dbw STORM_CROWN, StormCrownAbility
 	dbw -1, -1
 
 DefensiveDamageAbilities:
@@ -1689,6 +1690,8 @@ PinchAbility:
 
 SteelySpiritAbility:
 	ld b, STEEL
+StormCrownAbility:
+    ld b, ELECTRIC
 TypeDependentAbility:
 ; 150% damage if move type matches given type in b
 	ld a, BATTLE_VARS_MOVE_TYPE

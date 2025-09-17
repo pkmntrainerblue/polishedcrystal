@@ -918,6 +918,6 @@ MindsEyeDescription:
 	done
 
 StormCrownDescription:
-	text "Boosts Electric"
-	next "type moves."
+	text "Boosts Electric-"
+    next "type moves."
 	done

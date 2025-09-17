@@ -1,7 +1,7 @@
 	db  91, 134,  95,  80, 100, 100 ; 600 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DRAGON, FLYING ; type
+	db DRAGON, WATER ; type
 	db 45 ; catch rate
 	db 218 ; base exp
 	db NO_ITEM, DRAGON_SCALE ; held items
@@ -10,7 +10,7 @@
 if DEF(FAITHFUL)
 	abilities_for DRAGONITE, INNER_FOCUS, INNER_FOCUS, MULTISCALE
 else
-	abilities_for DRAGONITE, INNER_FOCUS, MARVEL_SCALE, MULTISCALE
+	abilities_for DRAGONITE, INNER_FOCUS, MULTISCALE, STORM_CROWN
 endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_DRAGON ; egg groups

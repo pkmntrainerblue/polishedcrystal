@@ -7209,7 +7209,7 @@ RileyGroup:
 	def_trainer_class RILEY
 	def_trainer 1, "Riley"
 	tr_mon 58, MACHAMP
-	tr_mon 57, DRAGONITE
+	tr_mon 57, GYARADOS
 	tr_mon 56, RHYPERIOR
 	tr_mon 55, NIDOKING
 	tr_mon 56, ELECTIVIRE
@@ -7218,7 +7218,7 @@ RileyGroup:
 
 	def_trainer 2, "Riley"
 	tr_mon 75, MACHAMP
-	tr_mon 74, DRAGONITE
+	tr_mon 74, GYARADOS
 	tr_mon 73, RHYPERIOR
 	tr_mon 72, NIDOKING
 	tr_mon 73, ELECTIVIRE
@@ -7378,7 +7378,7 @@ CandelaGroup:
 	tr_mon 63, FLAREON
 	tr_mon 62, MAGMAR
 	tr_mon 63, CHARIZARD
-	tr_mon 61, DRAGONITE
+	tr_mon 61, TYPHLOSION
 	tr_mon 62, ARCANINE
 	tr_mon 65, MOLTRES @ CHARCOAL
 	end_trainer
@@ -7812,7 +7812,7 @@ if DEF(FAITHFUL)
 else
 		tr_moves SWORDS_DANCE, FLARE_BLITZ, SLASH, DRAGON_CLAW
 endc
-	tr_mon 68, DRAGONITE @ LEFTOVERS, MALE
+	tr_mon 68, GYARADOS @ LEFTOVERS, MALE
 		tr_moves DRAGON_DANCE, OUTRAGE, AQUA_TAIL, EARTHQUAKE
 	tr_mon 67, TYRANITAR @ KINGS_ROCK, MALE
 		tr_moves EARTHQUAKE, STONE_EDGE, CRUNCH, SCARY_FACE
@@ -7832,7 +7832,7 @@ if DEF(FAITHFUL)
 else
 		tr_moves SWORDS_DANCE, FLARE_BLITZ, SLASH, DRAGON_CLAW
 endc
-	tr_mon 73, DRAGONITE @ LEFTOVERS, MALE
+	tr_mon 73, GYARADOS @ LEFTOVERS, MALE
 		tr_moves DRAGON_DANCE, OUTRAGE, AQUA_TAIL, EARTHQUAKE
 	tr_mon 72, TYRANITAR @ KINGS_ROCK, MALE
 		tr_moves EARTHQUAKE, STONE_EDGE, CRUNCH, SCARY_FACE

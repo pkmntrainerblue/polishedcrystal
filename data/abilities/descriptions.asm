@@ -155,7 +155,7 @@ AbilityDescriptions:
 	dw SharpnessDescription
 	dw ArmorTailDescription
 	dw MindsEyeDescription
-    da StormCrownDescription
+    dw StormCrownDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:

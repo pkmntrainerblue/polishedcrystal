@@ -1639,7 +1639,7 @@ OffensiveDamageAbilities:
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
-    dbw STORM_CROWN, StormCrownAbility
+    dbw TRANSISTOR, TransistorAbility
 	dbw -1, -1
 
 DefensiveDamageAbilities:
@@ -1690,6 +1690,8 @@ PinchAbility:
 
 SteelySpiritAbility:
 	ld b, STEEL
+TransistorAbility:
+    ld b, ELECTRIC
 TypeDependentAbility:
 ; 150% damage if move type matches given type in b
 	ld a, BATTLE_VARS_MOVE_TYPE
@@ -1813,7 +1815,6 @@ SandForceAbility:
 	jmp MultiplyAndDivide
 
 RecklessAbility:
-StormCrownAbility:
 ; 120% damage for (Hi) Jump Kick and recoil moves except for Struggle
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar

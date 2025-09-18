@@ -155,7 +155,7 @@ AbilityDescriptions:
 	dw SharpnessDescription
 	dw ArmorTailDescription
 	dw MindsEyeDescription
-    dw StormCrownDescription
+    dw TransistorDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -917,7 +917,7 @@ MindsEyeDescription:
 	next "Ghost immunity."
 	done
 
-StormCrownDescription:
-	text "Negates recoil and"
-	next "boosts power."
+TransistorDescription:
+	text "Powers up Electric"
+	next "-type moves."
 	done

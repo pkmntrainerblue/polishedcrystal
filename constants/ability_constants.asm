@@ -158,5 +158,5 @@
 	const SHARPNESS
 	const ARMOR_TAIL
 	const MINDS_EYE
-    const STORM_CROWN
+    const TRANSISTOR
 DEF NUM_ABILITIES EQU const_value

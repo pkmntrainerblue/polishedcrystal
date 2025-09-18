@@ -151,7 +151,7 @@ endc
 	move MINIMIZE,        EFFECT_MINIMIZE,            0, NORMAL,     -1, 10,   0, STATUS
 	move SMOKESCREEN,     EFFECT_ACCURACY_DOWN,       0, NORMAL,    100, 20,   0, STATUS
 	move CONFUSE_RAY,     EFFECT_CONFUSE,             0, GHOST,     100, 10,   0, STATUS
-	move AQUA_TAIL,       EFFECT_NORMAL_HIT,         90, WATER,      90, 10,   0, PHYSICAL
+	move AQUA_TAIL,       EFFECT_NORMAL_HIT,         90, WATER,     100, 10,   0, PHYSICAL
 	move DEFENSE_CURL,    EFFECT_DEFENSE_CURL,        0, NORMAL,     -1, 40,   0, STATUS
 	move BARRIER,         EFFECT_DEFENSE_UP_2,        0, PSYCHIC,    -1, 20,   0, STATUS
 	move LIGHT_SCREEN,    EFFECT_LIGHT_SCREEN,        0, PSYCHIC,    -1, 30,   0, STATUS

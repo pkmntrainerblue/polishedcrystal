@@ -1640,6 +1640,7 @@ OffensiveDamageAbilities:
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
     dbw TRANSISTOR, TransistorAbility
+    dbw LIQUID_VOICE, LiquidVoiceAbility
 	dbw -1, -1
 
 DefensiveDamageAbilities:
@@ -1884,6 +1885,7 @@ LiquidVoiceAbility:
 	ln a, 6, 5  ; x1.2
 	jmp MultiplyAndDivide
 
+INCLUDE "data/moves/sound_moves.asm"
 
 EnemyMultiscaleAbility:
 ; 50% damage if user is at full HP

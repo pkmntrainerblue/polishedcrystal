@@ -1,4 +1,4 @@
-SoundMoves:
+SoundMoves::
 	db BUG_BUZZ
 	db DISARM_VOICE
 	db GROWL

@@ -2862,7 +2862,7 @@ endc
 
 	evos_attacks Lapras
 	learnset 1, ANCIENTPOWER ; HGSS tutor move
-	learnset 1, DRAGON_RAGE ; RBY TM move
+	learnset 1, SHELL_SMASH ; Why not
 	learnset 1, DRAGONBREATH ; GSC TM move
 	learnset 1, SING
 	learnset 1, GROWL

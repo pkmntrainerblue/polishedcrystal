@@ -1885,8 +1885,6 @@ LiquidVoiceAbility:
 	ln a, 6, 5  ; x1.2
 	jmp MultiplyAndDivide
 
-INCLUDE "data/moves/sound_moves.asm"
-
 EnemyMultiscaleAbility:
 ; 50% damage if user is at full HP
 	farcall CheckOpponentFullHP

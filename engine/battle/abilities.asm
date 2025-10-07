@@ -1867,6 +1867,26 @@ AteAbilities:
 	ln a, 6, 5 ; x1.2
 	jmp MultiplyAndDivide
 
+LiquidVoiceAbility:
+	; Check if the move is a sound-based move
+	ld a, BATTLE_VARS_MOVE
+	call GetBattleVar
+	ld hl, SoundMoves
+	call IsInByteArray
+	ret nc  ; Return if not a sound-based move
+
+	; Change move type to Water
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVarAddr
+	ld [hl], WATER
+
+	; Apply 1.2x damage multiplier
+	ln a, 6, 5  ; x1.2
+	jmp MultiplyAndDivide
+
+INCLUDE "data/moves/sound_moves.asm"
+
+
 EnemyMultiscaleAbility:
 ; 50% damage if user is at full HP
 	farcall CheckOpponentFullHP

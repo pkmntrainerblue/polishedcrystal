@@ -156,6 +156,7 @@ AbilityNames:
 	dw ArmorTail
 	dw MindsEye
     dw Transistor
+    dw LiquidVoice
 	assert_table_length NUM_ABILITIES
 
 NoAbility:       rawchar "---@"
@@ -314,3 +315,4 @@ Sharpness:       rawchar "Sharpness@"
 ArmorTail:       rawchar "Armor Tail@"
 MindsEye:        rawchar "Mind's Eye@"
 Transistor:      rawchar "Transistor@"
+LiquidVoice:     rawchat "Liquid Voice@"

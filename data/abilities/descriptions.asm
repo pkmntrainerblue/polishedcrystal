@@ -925,5 +925,5 @@ TransistorDescription:
 
 LiquidVoiceDescription:
     text "Sound-based moves"
-    next "become Water-type"
+    next "become Water-type."
     done

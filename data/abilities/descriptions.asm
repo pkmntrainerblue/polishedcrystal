@@ -156,6 +156,7 @@ AbilityDescriptions:
 	dw ArmorTailDescription
 	dw MindsEyeDescription
     dw TransistorDescription
+    dw LiquidVoiceDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -921,3 +922,8 @@ TransistorDescription:
 	text "Powers up Electric"
 	next "-type moves."
 	done
+
+LiquidVoiceDescription:
+    text "Sound-based moves"
+    next "become Water-type"
+    done

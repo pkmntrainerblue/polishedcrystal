@@ -2,11 +2,11 @@ if DEF(FAITHFUL)
 	db  60,  90,  55, 110,  90,  80 ; 485 BST
 	;   hp  atk  def  spe  sat  sdf
 else
-	db  70, 100,  60, 125, 100,  80 ; 535 BST
+	db  70, 100,  60, 121, 100,  80 ; 531 BST
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, NORMAL ; type
 	db 75 ; catch rate
 if DEF(FAITHFUL)
 	db 122 ; base exp

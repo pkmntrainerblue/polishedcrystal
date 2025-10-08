@@ -1,4 +1,4 @@
-    BattleCommand_FreezeDry:
+    BattleCommand_thunderaccuracy:
 	call BattleCheckTypeMatchup
 	ld a, [wTypeMatchup]
 	ld b, a

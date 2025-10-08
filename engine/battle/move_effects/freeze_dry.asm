@@ -1,4 +1,4 @@
-BattleCommand_FreezeDry:
+    BattleCommand_FreezeDry:
 	call BattleCheckTypeMatchup
 	ld a, [wTypeMatchup]
 	ld b, a
@@ -18,20 +18,9 @@ BattleCommand_FreezeDry:
 .check_type2
 	cp WATER
 	jr z, .make_super_effective
-	jr .check_freeze
+	ret
 .make_super_effective
 	ld a, SUPER_EFFECTIVE
 	ld [wTypeMatchup], a
-.check_freeze
-	ld a, 100
-	call BattleRandomRange
-	cp 10
-	ret nc
-	call CheckFreezeTarget
-	ret nz
-	call BeginMoveEffect
-	call BattleCommand_freezetarget
-	ld hl, WasFrozenText
-	call StdBattleTextbox
-	call EndMoveEffect
-	ret
+    ret
+   

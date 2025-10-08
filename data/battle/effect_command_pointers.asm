@@ -144,7 +144,6 @@ BattleCommandPointers:
 	command lowkick
 	command brickbreak
 	command trickroom
-    command FreezeDry
 
 	; The following commands have an argument
 	; Argument: check if possible (false) vs perform the action (true)

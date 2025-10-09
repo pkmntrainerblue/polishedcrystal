@@ -253,7 +253,7 @@ else
 	move OCTAZOOKA,       EFFECT_ACCURACY_DOWN_HIT,  75, WATER,      95, 10,  30, SPECIAL
 endc
 	move SPIKES,          EFFECT_SPIKES,              0, GROUND,     -1, 20,   0, STATUS
-	move ZAP_CANNON,       EFFECT_ALWAYS_CRIT,        50, ELECTRIC,  100, 15,   0, PHYSICAL
+	move ZIPPY_ZAP,      EFFECT_ALWAYS_CRIT,        50, ELECTRIC,  100, 15,   0, PHYSICAL
 	move FORESIGHT,       EFFECT_FORESIGHT,           0, NORMAL,     -1, 40,   0, STATUS
 	move DESTINY_BOND,    EFFECT_DESTINY_BOND,        0, GHOST,      -1,  5,   0, STATUS
 	move PERISH_SONG,     EFFECT_PERISH_SONG,         0, NORMAL,     -1,  5,   0, STATUS

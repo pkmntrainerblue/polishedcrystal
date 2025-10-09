@@ -191,7 +191,7 @@ MoveNames::
 	li "Mud-Slap"
 	li "Octazooka"
 	li "Spikes"
-	li "Zap Cannon"
+	li "Zippy Zap"
 	li "Foresight"
 	li "Destiny Bond"
 	li "Perish Song"

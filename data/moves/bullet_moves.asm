@@ -8,5 +8,4 @@ BulletMoves:
 	db SEED_BOMB
 	db SHADOW_BALL
 	db SLUDGE_BOMB
-	db ZAP_CANNON
 	db -1

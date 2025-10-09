@@ -3,7 +3,8 @@ MovePriorities:
 	db NO_MOVE,       10
 	db ENDURE,        4
 	db PROTECT,       4
-	db EXTREMESPEED,  2
+	db ZIPPY_ZAP,     2
+    db EXTREMESPEED,  2
 	db AQUA_JET,      1
 	db BULLET_PUNCH,  1
 	db ICE_SHARD,     1

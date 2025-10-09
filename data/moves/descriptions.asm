@@ -387,7 +387,7 @@ SparkDescription:
 	next "cause paralysis."
 	done
 
-ZapCannonDescription:
+ZippyZapDescription:
 	text "Fast attack that's"
 	next "always a critical."
 	done

@@ -227,7 +227,6 @@ EvosAttacks::
 	evos_attacks Blastoise
 	learnset 1, FLASH_CANNON ; evolution move
 	learnset 1, AURA_SPHERE ; new move
-	learnset 1, ZAP_CANNON ; event move
 	learnset 1, OUTRAGE ; HGSS tutor move
 	learnset 1, TACKLE
 	learnset 4, LEER ; Tail Whip → similar move
@@ -1760,7 +1759,6 @@ endc
 	learnset 41, AGILITY ; Lock-On → event move
 	learnset 43, GYRO_BALL ; Magnet Rise → Gyro Ball
 	learnset 47, THUNDER ; Gyro Ball → TM move
-	learnset 49, ZAP_CANNON
 
 	evos_attacks Magneton
 	evo_data EVOLVE_ITEM, THUNDERSTONE, MAGNEZONE
@@ -1784,7 +1782,6 @@ endc
 	learnset 49, AGILITY ; Lock-On → event move
 	learnset 53, GYRO_BALL ; Magnet Rise → Gyro Ball
 	learnset 59, THUNDER ; Gyro Ball → TM move
-	learnset 63, ZAP_CANNON
 
 	evos_attacks FarfetchDPlain
 	learnset 1, POISON_JAB
@@ -2980,7 +2977,6 @@ endc
 	learnset 45, THUNDERBOLT ; Lock-On → TM move
 	learnset 50, TRI_ATTACK
 	learnset 56, MIRROR_COAT ; Magic Coat → new move
-	learnset 62, ZAP_CANNON
 
 	evos_attacks Omanyte
 	evo_data EVOLVE_LEVEL, 40, OMASTAR
@@ -3144,7 +3140,6 @@ endc
 	learnset 78, BRAVE_BIRD ; Thunder → new move
 	learnset 85, ROOST
 	learnset 92, HURRICANE ; Zap Cannon → new move
-	learnset 99, ZAP_CANNON
 
 	evos_attacks ZapdosGalarian
 	learnset 1, PECK
@@ -4329,7 +4324,6 @@ endc
 	learnset 42, REFLECT ; Iron Defense → egg move
 	learnset 46, GYRO_BALL
 	learnset 50, DOUBLE_EDGE
-	learnset 56, ZAP_CANNON
 	learnset 60, IRON_HEAD ; Heavy Slam → new move
 
 	evos_attacks Dunsparce
@@ -4931,7 +4925,6 @@ endc
 	learnset 45, THUNDERBOLT ; Lock-On → TM move
 	learnset 50, TRI_ATTACK
 	learnset 56, MIRROR_COAT ; Magic Coat → new move
-	learnset 62, ZAP_CANNON
 	learnset 67, HYPER_BEAM
 
 	evos_attacks Stantler
@@ -5440,7 +5433,6 @@ endc
 	learnset 49, AGILITY ; Lock-On → event move
 	learnset 53, GYRO_BALL ; Magnet Rise → Gyro Ball
 	learnset 59, THUNDER ; Gyro Ball → TM move
-	learnset 63, ZAP_CANNON
 
 	evos_attacks Lickilicky
 	learnset 1, LICK
@@ -5643,7 +5635,6 @@ endc
 	learnset 45, THUNDERBOLT ; Lock-On → TM move
 	learnset 50, TRI_ATTACK
 	learnset 56, MIRROR_COAT ; Magic Coat → new move
-	learnset 62, ZAP_CANNON
 	learnset 67, HYPER_BEAM
 
 	evos_attacks Sylveon

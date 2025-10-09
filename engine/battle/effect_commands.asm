@@ -1178,6 +1178,11 @@ BattleCommand_critical:
 	and a
 	ret z
 
+    ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_ALWAYS_CRIT
+	jr z, .guranteed_crit
+
 	call GetOpponentAbilityAfterMoldBreaker
 	cp BATTLE_ARMOR
 	ret z

@@ -192,7 +192,7 @@ MoveDescriptions::
 	dw MudSlapDescription
 	dw OctazookaDescription
 	dw SpikesDescription
-	dw ZapCannonDescription
+	dw ZippyZapDescription
 	dw ForesightDescription
 	dw DestinyBondDescription
 	dw PerishSongDescription
@@ -388,8 +388,8 @@ SparkDescription:
 	done
 
 ZapCannonDescription:
-	text "An attack that"
-	next "always paralyzes."
+	text "Fast attack that's"
+	next "always a critical."
 	done
 
 IceBeamDescription:

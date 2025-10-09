@@ -151,7 +151,7 @@ ENDM
 	add_mt THUNDERPUNCH ; $6b
 	add_mt TRICK        ; $6c
 	add_mt TRICK_ROOM   ; $6d
-	add_mt ZAP_CANNON   ; $6e
+	add_mt ZIPPY_ZAP    ; $6e
 	add_mt ZEN_HEADBUTT ; $6f
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 

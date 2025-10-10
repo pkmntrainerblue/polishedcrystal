@@ -11,7 +11,6 @@ AbnormalContactMoves:
 	db EXPLOSION
 	db GUNK_SHOT
 	db ICE_SHARD
-	db ICICLE_CRASH
 	db ICICLE_SPEAR
 	db MAGNITUDE
 	db PAY_DAY

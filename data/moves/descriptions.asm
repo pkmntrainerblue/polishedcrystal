@@ -128,7 +128,7 @@ MoveDescriptions::
 	dw EarthPowerDescription
 	dw FireBlastDescription
 	dw WaterfallDescription
-	dw IcicleCrashDescription
+	dw FreezeDryDescription
 	dw SwiftDescription
 	dw IronHeadDescription
 	dw IcicleSpearDescription
@@ -355,7 +355,6 @@ ZenHeadbuttDescription:
 ExtrasensoryDescription:
 DarkPulseDescription:
 AstonishDescription:
-IcicleCrashDescription:
 	text "An attack that may"
 	next "cause flinching."
 	done
@@ -391,6 +390,11 @@ ZippyZapDescription:
 	text "Fast attack that's"
 	next "always a critical."
 	done
+
+FreezeDryDescription:
+    text "Super effective to"
+    next "Water-types."
+    done
 
 IceBeamDescription:
 BlizzardDescription:

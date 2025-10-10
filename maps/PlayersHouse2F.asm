@@ -251,7 +251,7 @@ endr
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	loadmem wPartyMon3PokerusStatus, POKERUS_CURED
 	; ext species test
-	givepoke URSALUNA, URSALUNA_BLOODMOON_FORM, 50
+	givepoke PIKACHU, 50
 	givepoke LAPRAS, 50
 	; evolve during battle
 	givepoke PUPITAR, 54

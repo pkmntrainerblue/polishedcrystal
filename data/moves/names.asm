@@ -127,7 +127,7 @@ MoveNames::
 	li "Earth Power"
 	li "Fire Blast"
 	li "Waterfall"
-	li "Icicle Crash"
+	li "Freeze-Dry"
 	li "Swift"
 	li "Iron Head"
 	li "Icicle Spear"

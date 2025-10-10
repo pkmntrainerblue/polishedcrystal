@@ -2870,7 +2870,7 @@ endc
 	learnset 22, RAIN_DANCE
 	learnset 27, PERISH_SONG
 	learnset 32, ICE_BEAM
-	learnset 37, FUTURE_SIGHT ; Brine → event move
+	learnset 37, FREEZE_DRY ; Brine → egg move
 	learnset 43, SAFEGUARD
 	learnset 47, HYDRO_PUMP
 	learnset 50, OUTRAGE ; Sheer Cold → HGSS tutor move

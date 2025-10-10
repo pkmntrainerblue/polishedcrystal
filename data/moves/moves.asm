@@ -177,7 +177,7 @@ endc
 	move EARTH_POWER,     EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,    100, 10,  10, SPECIAL
 	move FIRE_BLAST,      EFFECT_BURN_HIT,          110, FIRE,       85,  5,  10, SPECIAL
 	move WATERFALL,       EFFECT_FLINCH_HIT,         80, WATER,     100, 15,  20, PHYSICAL
-	move ICICLE_CRASH,    EFFECT_FLINCH_HIT,         85, ICE,        90, 10,  30, PHYSICAL
+	move FREEZE_DRY,      EFFECT_FREEZE_DRY,         70, ICE,       100, 20,  10, SPECIAL
 	move SWIFT,           EFFECT_ALWAYS_HIT,         60, NORMAL,     -1, 20,   0, SPECIAL
 	move IRON_HEAD,       EFFECT_FLINCH_HIT,         80, STEEL,     100, 15,  30, PHYSICAL
 	move ICICLE_SPEAR,    EFFECT_MULTI_HIT,          25, ICE,       100, 30,   0, PHYSICAL

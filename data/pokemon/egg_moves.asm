@@ -106,7 +106,6 @@ SandshrewAlolanEggSpeciesMoves:
 	db RAPID_SPIN
 	db SAFEGUARD
 	db REVERSAL ; Flail → similar move
-	db ICICLE_CRASH
 	db ICICLE_SPEAR
 	db NIGHT_SLASH
 	db $ff
@@ -990,7 +989,6 @@ SneaselEggSpeciesMoves:
 	db PURSUIT
 	db COUNTER
 	db REFLECT
-	db ICICLE_CRASH
 	db ICE_SHARD
 	db $ff
 
@@ -1028,7 +1026,6 @@ SwinubEggSpeciesMoves:
 	db BODY_SLAM
 	db ROCK_SLIDE
 	db ANCIENTPOWER
-	db ICICLE_CRASH
 	db ICICLE_SPEAR
 	db $ff
 

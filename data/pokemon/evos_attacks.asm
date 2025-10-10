@@ -574,7 +574,6 @@ endc
 	learnset 1, ICICLE_SPEAR ; evolution move
 	learnset 1, COUNTER ; Metal Burst → similar move
 	learnset 1, MIRROR_COAT ; Metal Burst → similar move
-	learnset 1, ICICLE_CRASH ; evolution move
 	learnset 1, SLASH
 	learnset 1, DEFENSE_CURL
 	learnset 1, ROLLOUT ; Ice Ball → TM move
@@ -2013,7 +2012,6 @@ endc
 	learnset 1, SPIKES ; evolution move
 	learnset 28, ICICLE_SPEAR ; Spikes → Icicle Spear
 	learnset 32, PIN_MISSILE ; Sw/Sh TM move
-	learnset 50, ICICLE_CRASH
 
 	evos_attacks Gastly
 	evo_data EVOLVE_LEVEL, 25, HAUNTER

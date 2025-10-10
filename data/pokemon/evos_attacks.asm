@@ -4550,7 +4550,6 @@ endc
 	learnset 20, AGILITY
 	learnset 22, METAL_CLAW
 	learnset 25, HONE_CLAWS
-	learnset 28, ICICLE_CRASH ; Beat Up → egg move
 	learnset 32, SCREECH
 	learnset 35, SLASH
 	learnset 40, HEALINGLIGHT ; Snatch → event move (Moonlight)
@@ -4664,7 +4663,6 @@ endc
 	learnset 14, ENDURE
 	learnset 18, MAGNITUDE ; Mud Bomb → new move
 	learnset 21, ICY_WIND
-	learnset 24, ICICLE_CRASH ; Ice Shard → egg move
 	learnset 28, TAKE_DOWN
 	learnset 35, BULLDOZE ; Mist → TM move
 	learnset 37, REVERSAL ; Earthquake → similar move
@@ -4684,7 +4682,6 @@ endc
 	learnset 14, ENDURE
 	learnset 18, MAGNITUDE ; Mud Bomb → new move
 	learnset 21, ICY_WIND
-	learnset 24, ICICLE_CRASH ; Ice Fang → egg move
 	learnset 28, TAKE_DOWN
 	learnset 37, BULLDOZE ; Mist → TM move
 	learnset 41, THRASH
@@ -5403,7 +5400,6 @@ endc
 	learnset 20, NASTY_PLOT
 	learnset 22, METAL_CLAW
 	learnset 25, HONE_CLAWS
-	learnset 28, ICICLE_CRASH ; Fling → egg move
 	learnset 32, SCREECH
 	learnset 35, NIGHT_SLASH
 	learnset 40, HEALINGLIGHT ; Snatch → event move (Moonlight)

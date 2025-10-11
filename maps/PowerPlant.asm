@@ -259,8 +259,8 @@ PowerPlantManagerWhoWouldRuinMyGeneratorText:
 	para "If I catch him,"
 	line "he's going to get"
 
-	para "a taste of my Zap"
-	line "Cannon!"
+	para "a taste of my"
+	line "Zippy Zap!"
 	done
 
 PowerPlantManagerIWontForgiveCulpritText:
@@ -296,13 +296,13 @@ Text_PowerPlantTutorZapCannon:
 	line "teach your"
 
 	para "#mon to use"
-	line "my Zap Cannon!"
+	line "Zippy Zap!"
 
-	para "It's not what any-"
-	line "one would consider"
+	para "It's a lightning"
+	line "fast attack that"
 
-	para "accurate, but it"
-	line "packs a wallop!"
+	para "is always a"
+	line "critical hit!"
 
 	para "I'll just need one"
 	line "Silver Leaf."
@@ -310,14 +310,14 @@ Text_PowerPlantTutorZapCannon:
 
 Text_PowerPlantTutorNoSilverLeaf:
 	text "Sorry, but I can't"
-	line "teach Zap Cannon"
+	line "teach Zippy Zap"
 	cont "without that Leaf!"
 	done
 
 Text_PowerPlantTutorQuestion:
 	text "Should I teach"
 	line "your #mon"
-	cont "Zap Cannon?"
+	cont "Zippy Zap?"
 	done
 
 Text_PowerPlantTutorRefused:
@@ -326,7 +326,7 @@ Text_PowerPlantTutorRefused:
 
 Text_PowerPlantTutorTaught:
 	text "Now your #mon"
-	line "knows Zap Cannon!"
+	line "knows Zippy Zap!"
 
 	para "Wahahah!"
 	done

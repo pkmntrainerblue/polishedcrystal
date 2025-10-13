@@ -280,6 +280,7 @@ PikachuFlyAnimationExtra:    INCLUDE "gfx/pokemon/pikachu_fly/anim_idle.asm"
 PikachuSurfAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_surf/anim_idle.asm"
 PikachuPikaAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_pika/anim_idle.asm"
 PikachuChuchuAnimationExtra: INCLUDE "gfx/pokemon/pikachu_chuchu/anim_idle.asm"
+PikachuPartnerAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_partner/anim_idle.asm"
 
 ArbokJohtoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_johto/anim_idle.asm"
 ArbokKantoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_kanto/anim_idle.asm"

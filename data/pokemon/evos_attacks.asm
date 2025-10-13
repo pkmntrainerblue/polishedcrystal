@@ -495,6 +495,26 @@ endc
 	learnset 53, LIGHT_SCREEN
 	learnset 58, THUNDER
 
+evos_attacks PikachuPartner
+	learnset 1, THUNDERSHOCK
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 5, GROWL
+	learnset 7, CHARM ; Play Nice → Pichu move
+	learnset 10, QUICK_ATTACK
+	learnset 13, DOUBLE_KICK ; Electro Ball → LGPE move
+	learnset 18, THUNDER_WAVE
+	learnset 21, MUD_SLAP ; Feint → GSC TM move
+	learnset 23, DOUBLE_TEAM
+	learnset 26, SPARK
+	learnset 29, IRON_TAIL ; Nuzzle → TM move
+	learnset 34, EXTREMESPEED ; Discharge → event move
+	learnset 37, BODY_SLAM ; Slam → TM move
+	learnset 42, THUNDERBOLT
+	learnset 45, AGILITY
+	learnset 50, WILD_CHARGE
+	learnset 53, LIGHT_SCREEN
+	learnset 58, THUNDER
+
 	evos_attacks RaichuPlain
 	learnset 1, THUNDERSHOCK
 	learnset 1, LEER ; Tail Whip → similar move

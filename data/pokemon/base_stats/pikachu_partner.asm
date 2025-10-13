@@ -7,7 +7,7 @@
 	db ORAN_BERRY, LIGHT_BALL ; held items
 	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for PIKACHU, STATIC, LIGHTNING_ROD, PARTNER_BOND
+	abilities_for PIKACHU, PARTNER_BOND, PARTNER_BOND, PARTNER_BOND
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_FAIRY ; egg groups
 

@@ -347,4 +347,6 @@ FootprintPointers::
 
 	dw UrsalunaFootprint
 
+    dw PikachuFootprint
+
 	assert_table_length NUM_EXT_POKEMON

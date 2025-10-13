@@ -160,4 +160,5 @@
 	const MINDS_EYE
     const TRANSISTOR
     const LIQUID_VOICE
+    const PARTNER_BOND
 DEF NUM_ABILITIES EQU const_value

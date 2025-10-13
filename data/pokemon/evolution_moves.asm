@@ -351,4 +351,7 @@ endc
 
 	db NO_MOVE      ; URSALUNA, URSALUNA_BLOODMOON_FORM
 
+	db NO_MOVE      ; PIKACHU, PIKACHU_PARTNER_FORM
+
+
 	assert_table_length NUM_EXT_POKEMON

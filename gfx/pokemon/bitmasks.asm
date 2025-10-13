@@ -280,6 +280,7 @@ PikachuSurfBitmasks:   INCLUDE "gfx/pokemon/pikachu_surf/bitmask.asm"
 PikachuPikaBitmasks:   INCLUDE "gfx/pokemon/pikachu_pika/bitmask.asm"
 PikachuChuchuBitmasks: INCLUDE "gfx/pokemon/pikachu_chuchu/bitmask.asm"
 PikachuSparkBitmasks:  INCLUDE "gfx/pokemon/pikachu_spark/bitmask.asm"
+PikachuPartnerBitmasks:   INCLUDE "gfx/pokemon/pikachu_partner/bitmask.asm"
 
 ArbokJohtoBitmasks:  INCLUDE "gfx/pokemon/arbok_johto/bitmask.asm"
 ArbokKantoBitmasks:  INCLUDE "gfx/pokemon/arbok_kanto/bitmask.asm"

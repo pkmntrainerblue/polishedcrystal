@@ -157,6 +157,7 @@ AbilityDescriptions:
 	dw MindsEyeDescription
     dw TransistorDescription
     dw LiquidVoiceDescription
+    dw PartnerBondDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -927,3 +928,8 @@ LiquidVoiceDescription:
     text "Sound-based moves"
     next "become Water-type."
     done
+
+PartnerBondDescription
+   text "A powerful bond"
+   next "enables miracles."
+   done

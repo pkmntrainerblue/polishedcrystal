@@ -354,4 +354,6 @@ PokemonBodyData:
 
 	body_data  27, 3330, BIPEDAL_TAIL, BROWN  ; URSALUNA (URSALUNA_BLOODMOON_FORM)
 
+    body_data   4,   60, QUADRUPED,    YELLOW ; PIKACHU (PARTNER_FORM)
+
 	assert_table_length NUM_EXT_POKEMON

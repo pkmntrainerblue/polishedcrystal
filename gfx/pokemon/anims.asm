@@ -280,6 +280,7 @@ PikachuSurfAnimation:   INCLUDE "gfx/pokemon/pikachu_surf/anim.asm"
 PikachuPikaAnimation:   INCLUDE "gfx/pokemon/pikachu_pika/anim.asm"
 PikachuChuchuAnimation: INCLUDE "gfx/pokemon/pikachu_chuchu/anim.asm"
 PikachuSparkAnimation:  INCLUDE "gfx/pokemon/pikachu_spark/anim.asm"
+PikachuPartnerAnimation:  INCLUDE "gfx/pokemon/pikachu_partner/anim.asm"
 
 ArbokJohtoAnimation:  INCLUDE "gfx/pokemon/arbok_johto/anim.asm"
 ArbokKantoAnimation:  INCLUDE "gfx/pokemon/arbok_kanto/anim.asm"

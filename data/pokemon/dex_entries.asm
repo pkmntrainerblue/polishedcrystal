@@ -3346,3 +3346,13 @@ UrsalunaBloodmoonPokedexEntry::
 	page "itself with mud"
 	next "that is as hard as"
 	next "iron.@"
+
+SECTION "PikachuPartnerPokedexEntry", ROMX
+PikachuPartnerPokedexEntry::
+	db "Mouse@"
+	db   "It keeps its tail"
+	next "raised to monitor"
+	next "its surroundings."
+	page "If you yank its"
+	next "tail, it will try"
+	next "to bite you.@"

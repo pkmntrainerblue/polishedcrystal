@@ -428,6 +428,8 @@ INCLUDE "gfx/pokemon/tauros_paldean_water/front.dimensions"
 
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/front.dimensions"
 
+INCLUDE "gfx/pokemon/pikachu_partner/front.dimensions"
+
 	if list_index % 2
 		db size_value << 4
 	endc

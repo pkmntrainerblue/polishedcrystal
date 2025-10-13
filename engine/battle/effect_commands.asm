@@ -628,8 +628,10 @@ CheckAffection:
 ; Returns an Affection level between 0-3.
 ; If affection level is 0, also return z.
 	; Affection has to be enabled.
-	ld a, [wInitialOptions]
-	bit AFFECTION_OPT, a
+	; ld a, [wInitialOptions]
+	; bit AFFECTION_OPT, a
+    ld a, [wBattleMonAbility]
+    cp PARTNER_BOND
 	jr z, .no_affection
 
 	; Affection doesn't function in Link or Battle Tower battles.

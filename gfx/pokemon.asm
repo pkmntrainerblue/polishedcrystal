@@ -1346,6 +1346,10 @@ PikachuChuchuFrontpic: INCBIN "gfx/pokemon/pikachu_chuchu/front.animated.2bpp.lz
 PikachuChuchuBackpic:  INCBIN "gfx/pokemon/pikachu_chuchu/back.2bpp.lz"
 PikachuChuchuFrames:   INCLUDE "gfx/pokemon/pikachu_chuchu/frames.asm"
 
+SECTION "PikachuPartner Pics", ROMX
+PikachuPartnerFrontpic: INCBIN "gfx/pokemon/pikachu_partner/front.animated.2bpp.lz"
+PikachuPartnerBackpic:  INCBIN "gfx/pokemon/pikachu_partner/back.2bpp.lz"
+PikachuPartnerFrames:   INCLUDE "gfx/pokemon/pikachu_partner/frames.asm"
 SECTION "PichuPlain Pics", ROMX
 PichuPlainFrontpic: INCBIN "gfx/pokemon/pichu_plain/front.animated.2bpp.lz"
 PichuPlainBackpic:  INCBIN "gfx/pokemon/pichu_plain/back.2bpp.lz"

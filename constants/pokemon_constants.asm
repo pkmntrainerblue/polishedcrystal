@@ -499,6 +499,11 @@ DEF PALDEAN_FORM EQU 5
 	ext_const_def 2
 	ext_const URSALUNA_BLOODMOON_FORM ; 189 (2)
 
+; partner pokemon
+DEF PARTNER_FORM EQU 6
+    ext_const_def 7 
+    ext_const PIKACHU_PARTNER_FORM ; 18a
+
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
 
 ; these constants include EGG and a dummy entry as species

@@ -929,7 +929,7 @@ LiquidVoiceDescription:
     next "become Water-type."
     done
 
-PartnerBondDescription
+PartnerBondDescription:
    text "A powerful bond"
    next "enables miracles."
    done

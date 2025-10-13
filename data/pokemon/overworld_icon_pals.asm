@@ -371,4 +371,7 @@ endr
 
 	iconpal RED, RED ; URSALUNA, URSALUNA_BLOODMOON_FORM
 
+    iconpal RED, AZURE ; PIKACHU, PIKACHU_PARTNER_FORM
+
+
 	assert_table_length NUM_UNIQUE_POKEMON

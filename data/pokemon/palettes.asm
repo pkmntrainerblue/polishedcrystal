@@ -695,6 +695,9 @@ INCLUDE "gfx/pokemon/tauros_paldean_water/shiny.pal"
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/normal.pal"
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/shiny.pal"
 
+INCLUDE "gfx/pokemon/pikachu_partner/normal.pal"
+INCLUDE "gfx/pokemon/pikachu_partner/shiny.pal"
+
 	assert_table_length NUM_EXT_POKEMON + 1
 
 endc

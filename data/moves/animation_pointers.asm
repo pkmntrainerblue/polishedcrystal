@@ -194,7 +194,7 @@ BattleAnimations::
 	fardw BattleAnim_MudSlap
 	fardw BattleAnim_Fly
 	fardw BattleAnim_Spikes
-	fardw BattleAnim_Charge
+	fardw BattleAnim_Spark
 	fardw BattleAnim_Foresight
 	fardw BattleAnim_DestinyBond
 	fardw BattleAnim_PerishSong

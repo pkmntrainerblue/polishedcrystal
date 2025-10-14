@@ -128,7 +128,7 @@ MoveDescriptions::
 	dw EarthPowerDescription
 	dw FireBlastDescription
 	dw WaterfallDescription
-	dw FreezeDryDescription
+	dw SplashySurfDescription
 	dw SwiftDescription
 	dw IronHeadDescription
 	dw IcicleSpearDescription
@@ -391,9 +391,9 @@ ZippyZapDescription:
 	next "always a critical."
 	done
 
-FreezeDryDescription:
-    text "Super effective to"
-    next "Water-types."
+SplashySurfDescription:
+    text "Electrified wave"
+    next "that may paralyze."
     done
 
 IceBeamDescription:

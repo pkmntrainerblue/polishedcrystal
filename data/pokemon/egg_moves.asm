@@ -585,7 +585,6 @@ HorseaEggSpeciesMoves:
 	db DISABLE
 	db DRAGON_RAGE
 	db DRAGONBREATH
-	db OCTAZOOKA
 	db SPLASH
 	db HAZE
 	db WATER_PULSE
@@ -1061,7 +1060,6 @@ RemoraidEggSpeciesMoves:
 	dp REMORAID, PLAIN_FORM
 	db SPLASH
 	db HAZE
-	db OCTAZOOKA
 	db ROCK_BLAST
 	db SCREECH
 	db SUPERSONIC

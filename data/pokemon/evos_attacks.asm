@@ -4764,7 +4764,6 @@ endc
 	learnset 54, HYPER_BEAM
 
 	evos_attacks Octillery
-	learnset 1, OCTAZOOKA ; evolution move
 	learnset 1, ROCK_BLAST
 	learnset 1, POWER_WHIP ; new move
 	learnset 1, WATER_GUN

@@ -510,7 +510,7 @@ evos_attacks PikachuPartner
 	learnset 34, EXTREMESPEED ; Discharge → event move
 	learnset 37, BODY_SLAM ; Slam → TM move
 	learnset 42, THUNDERBOLT
-	learnset 45, AGILITY
+	learnset 45, SPLASHY_SURF
 	learnset 50, WILD_CHARGE
 	learnset 53, LIGHT_SCREEN
 	learnset 58, THUNDER
@@ -2890,7 +2890,7 @@ endc
 	learnset 22, RAIN_DANCE
 	learnset 27, PERISH_SONG
 	learnset 32, ICE_BEAM
-	learnset 37, FREEZE_DRY ; Brine → egg move
+	learnset 37, SURF ; Brine → egg move
 	learnset 43, SAFEGUARD
 	learnset 47, HYDRO_PUMP
 	learnset 50, OUTRAGE ; Sheer Cold → HGSS tutor move

@@ -130,7 +130,7 @@ BattleAnimations::
 	fardw BattleAnim_EarthPower
 	fardw BattleAnim_FireBlast
 	fardw BattleAnim_Waterfall
-	fardw BattleAnim_IceBeam
+	fardw BattleAnim_Surf
 	fardw BattleAnim_Swift
 	fardw BattleAnim_IronHead
 	fardw BattleAnim_IcicleSpear

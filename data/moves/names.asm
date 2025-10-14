@@ -127,7 +127,7 @@ MoveNames::
 	li "Earth Power"
 	li "Fire Blast"
 	li "Waterfall"
-	li "Freeze-Dry"
+	li "Splashy Surf"
 	li "Swift"
 	li "Iron Head"
 	li "Icicle Spear"

@@ -508,8 +508,8 @@ evos_attacks PikachuPartner
 	learnset 26, SPARK
 	learnset 29, IRON_TAIL ; Nuzzle → TM move
 	learnset 34, EXTREMESPEED ; Discharge → event move
-	learnset 37, BODY_SLAM ; Slam → TM move
-	learnset 42, THUNDERBOLT
+	learnset 37, FLOATY_FALL ; Slam → TM move
+	learnset 42, ZIPPY_ZAP
 	learnset 45, SPLASHY_SURF
 	learnset 50, WILD_CHARGE
 	learnset 53, LIGHT_SCREEN

@@ -190,7 +190,7 @@ MoveDescriptions::
 	dw BellyDrumDescription
 	dw SludgeBombDescription
 	dw MudSlapDescription
-	dw OctazookaDescription
+	dw FloatyFallDescription
 	dw SpikesDescription
 	dw ZippyZapDescription
 	dw ForesightDescription
@@ -390,6 +390,11 @@ ZippyZapDescription:
 	text "Fast attack that's"
 	next "always a critical."
 	done
+
+FloatyFallDescription:
+    text "Air dive that may"
+    next "flinch the target."
+    done
 
 SplashySurfDescription:
     text "Electrified wave"

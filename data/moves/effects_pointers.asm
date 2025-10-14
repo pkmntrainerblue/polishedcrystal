@@ -154,5 +154,5 @@ MoveEffectsPointers:
 	dw BrickBreak
 	dw TrickRoom
     dw NormalHit
-    dw FreezeHit
+    dw ParalyzeHit
 	assert_table_length NUM_MOVE_EFECTS

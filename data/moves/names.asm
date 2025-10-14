@@ -189,7 +189,7 @@ MoveNames::
 	li "Belly Drum"
 	li "Sludge Bomb"
 	li "Mud-Slap"
-	li "Octazooka"
+	li "Floaty Fall"
 	li "Spikes"
 	li "Zippy Zap"
 	li "Foresight"

@@ -195,7 +195,7 @@
 	const BELLY_DRUM    ; $bb
 	const SLUDGE_BOMB   ; $bc
 	const MUD_SLAP      ; $bd
-	const OCTAZOOKA     ; $be
+	const FLOATY_FALL   ; $be
 	const SPIKES        ; $bf
 	const ZIPPY_ZAP     ; $c0
 	const FORESIGHT     ; $c1

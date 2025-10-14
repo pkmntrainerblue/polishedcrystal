@@ -192,9 +192,9 @@ BattleAnimations::
 	fardw BattleAnim_BellyDrum
 	fardw BattleAnim_SludgeBomb
 	fardw BattleAnim_MudSlap
-	fardw BattleAnim_Octazooka
+	fardw BattleAnim_Fly
 	fardw BattleAnim_Spikes
-	fardw BattleAnim_ZapCannon
+	fardw BattleAnim_Charge
 	fardw BattleAnim_Foresight
 	fardw BattleAnim_DestinyBond
 	fardw BattleAnim_PerishSong

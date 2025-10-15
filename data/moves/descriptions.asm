@@ -152,7 +152,7 @@ MoveDescriptions::
 	dw ExtrasensoryDescription
 	dw SplashDescription
 	dw DragonDanceDescription
-	dw CrabhammerDescription
+	dw PikaPapowDescription
 	dw ExplosionDescription
 	dw FuryStrikesDescription
 	dw BonemerangDescription
@@ -271,7 +271,6 @@ LowKickDescription:
 
 KarateChopDescription:
 RazorLeafDescription:
-CrabhammerDescription:
 SlashDescription:
 AeroblastDescription:
 CrossChopDescription:
@@ -399,6 +398,11 @@ FloatyFallDescription:
 SplashySurfDescription:
     text "Electrified wave"
     next "that may paralyze."
+    done
+
+PikaPapowDescription:
+    text "As strong as your"
+    next "bond with Pikachu."
     done
 
 IceBeamDescription:

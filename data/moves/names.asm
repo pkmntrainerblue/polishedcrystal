@@ -151,7 +151,7 @@ MoveNames::
 	li "Extrasensory"
 	li "Splash"
 	li "Dragon Dance"
-	li "Crabhammer"
+	li "Pika Papow"
 	li "Explosion"
 	li "Fury Strikes"
 	li "Bonemerang"

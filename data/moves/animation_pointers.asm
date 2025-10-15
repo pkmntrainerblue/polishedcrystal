@@ -154,7 +154,7 @@ BattleAnimations::
 	fardw BattleAnim_Extrasensory
 	fardw BattleAnim_Splash
 	fardw BattleAnim_DragonDance
-	fardw BattleAnim_Crabhammer
+	fardw BattleAnim_Thunder
 	fardw BattleAnim_Explosion
 	fardw BattleAnim_FuryStrikes
 	fardw BattleAnim_Bonemerang

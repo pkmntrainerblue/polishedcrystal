@@ -212,7 +212,7 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke PIKACHU, PARTNER_FORM, 5, ORAN_BERRY
+	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 5, ORAN_BERRY
     loadmem wPartyMon1DVs+0, $ff
 	loadmem wPartyMon1DVs+1, $ff
 	loadmem wPartyMon1DVs+2, $ff

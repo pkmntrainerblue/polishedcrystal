@@ -192,7 +192,7 @@ BattleAnimations::
 	fardw BattleAnim_BellyDrum
 	fardw BattleAnim_SludgeBomb
 	fardw BattleAnim_MudSlap
-	fardw BattleAnim_Fly
+	fardw BattleAnim_Acrobatics
 	fardw BattleAnim_Spikes
 	fardw BattleAnim_Spark
 	fardw BattleAnim_Foresight

@@ -511,7 +511,7 @@ evos_attacks PikachuPartner
 	learnset 37, FLOATY_FALL ; Slam → TM move
 	learnset 42, ZIPPY_ZAP
 	learnset 45, SPLASHY_SURF
-	learnset 50, WILD_CHARGE
+	learnset 50, PIKA_PAPOW
 	learnset 53, LIGHT_SCREEN
 	learnset 58, THUNDER
 
@@ -2163,7 +2163,6 @@ endc
 	learnset 29, PROTECT
 	learnset 31, X_SCISSOR ; Guillotine → TM move
 	learnset 35, CLOSE_COMBAT ; Slam → new move
-	learnset 39, CRABHAMMER ; Brine → Crabhammer
 	learnset 41, ANCIENTPOWER ; Crabhammer → HGSS tutor move
 	learnset 45, REVERSAL ; Flail → similar move
 
@@ -2179,7 +2178,6 @@ endc
 	learnset 32, PROTECT
 	learnset 37, X_SCISSOR ; Guillotine → TM move
 	learnset 44, CLOSE_COMBAT ; Slam → new move
-	learnset 51, CRABHAMMER ; Brine → Crabhammer
 	learnset 56, ANCIENTPOWER ; Crabhammer → HGSS tutor move
 	learnset 63, REVERSAL ; Flail → new move
 

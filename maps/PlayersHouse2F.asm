@@ -251,9 +251,9 @@ endr
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	loadmem wPartyMon3PokerusStatus, POKERUS_CURED
 	; ext species test
-	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 50, LIGHT_BALL
+	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 5, LIGHT_BALL
     loadmem wPartyMon4Happiness, 255
-	givepoke LAPRAS, 50
+	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 5
 	; evolve during battle
 	givepoke PUPITAR, 54
 	loadmem wPartyMon6Exp+2, LOW(207967)

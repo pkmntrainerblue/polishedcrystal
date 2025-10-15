@@ -930,6 +930,6 @@ LiquidVoiceDescription:
     done
 
 PartnerBondDescription:
-   text "A powerful bond"
-   next "enables miracles."
+   text "Their trust in you"
+   next "enables new feats."
    done

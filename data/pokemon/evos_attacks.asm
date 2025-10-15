@@ -497,23 +497,25 @@ endc
 
 evos_attacks PikachuPartner
 	learnset 1, THUNDERSHOCK
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 5, GROWL
-	learnset 7, CHARM ; Play Nice → Pichu move
-	learnset 10, QUICK_ATTACK
-	learnset 13, DOUBLE_KICK ; Electro Ball → LGPE move
-	learnset 18, THUNDER_WAVE
-	learnset 21, MUD_SLAP ; Feint → GSC TM move
-	learnset 23, DOUBLE_TEAM
-	learnset 26, SPARK
-	learnset 29, IRON_TAIL ; Nuzzle → TM move
-	learnset 34, EXTREMESPEED ; Discharge → event move
-	learnset 37, FLOATY_FALL ; Slam → TM move
-	learnset 42, ZIPPY_ZAP
-	learnset 45, SPLASHY_SURF
-	learnset 50, PIKA_PAPOW
-	learnset 53, LIGHT_SCREEN
-	learnset 58, THUNDER
+	learnset 1, LEER
+	learnset 3, GROWL
+    learnset 5, PIKA_PAPOW
+	learnset 6, QUICK_ATTACK
+	learnset 9, DOUBLE_KICK 
+	learnset 12, THUNDER_WAVE
+    learnset 15, MUD_SLAP
+    learnset 18, DOUBLE_TEAM
+	learnset 21, ZIPPY_ZAP
+	learnset 24, BODY_SLAM
+    learnset 27, SPLASHY_SURF
+	learnset 29, IRON_TAIL
+    learnset 32, FLOATY_FALL
+	learnset 34, EXTREMESPEED
+	learnset 36, THUNDERBOLT
+	learnset 39, AGILITY
+	learnset 45, WILD_CHARGE
+    learnset 47, LIGHT_SCREEN
+	learnset 50, THUNDER
 
 	evos_attacks RaichuPlain
 	learnset 1, THUNDERSHOCK

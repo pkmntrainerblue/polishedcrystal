@@ -157,7 +157,7 @@
 	const EXTRASENSORY  ; $95
 	const SPLASH        ; $96
 	const DRAGON_DANCE  ; $97
-	const CRABHAMMER    ; $98
+	const PIKA_PAPOW    ; $98
 	const EXPLOSION     ; $99
 	const FURY_STRIKES  ; $9a
 	const BONEMERANG    ; $9b

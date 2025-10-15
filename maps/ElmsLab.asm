@@ -199,8 +199,8 @@ CyndaquilPokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CYNDAQUIL
-	cry CYNDAQUIL
+	pokepic PIKACHU
+	cry PIKACHU
 	waitbutton
 	closepokepic
 	opentext
@@ -212,7 +212,10 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CYNDAQUIL, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke PIKACHU, PARTNER_FORM, 5, ORAN_BERRY
+    loadmem wPartyMon1DVs+0, $ff
+	loadmem wPartyMon1DVs+1, $ff
+	loadmem wPartyMon1DVs+2, $ff
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext

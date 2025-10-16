@@ -1198,7 +1198,7 @@ GiftBulbasaurScript:
     faceplayer
     opentext
     checkevent EVENT_GOT_ERIKA_BULBASAUR
-    iftruefwd .GotPokeText
+    iftruefwd .GotPoke
 	checkevent EVENT_LISTENED_TO_ERIKA_INTRO
 	iftruefwd .heardintro
 	writetext .IntroText
@@ -1213,11 +1213,17 @@ GiftBulbasaurScript:
 	waitsfx
 	readvar VAR_PARTYCOUNT
 	ifequalfwd PARTY_LENGTH, .NoRoom
-	givepoke BULBASAUR, PLAIN_FORM, 10
+	givepoke BULBASAUR, PLAIN_FORM, 10, NO_ITEM, POKE_BALL, GIGA_DRAIN
 	setevent EVENT_GOT_ERIKA_BULBASAUR
 	writetext .GoodbyeText
 	waitbutton
 	closetext
+    end
+
+.GotPoke:
+    writetext .GotPokeText
+    waitbutton
+    closetext
     end
 
 .NoRoom:
@@ -1227,3 +1233,87 @@ GiftBulbasaurScript:
 	line "you can't carry"
 	cont "any more #mon."
 	done
+
+.IntroText:
+    text "................"
+    line ".........Hmm...?"
+
+    para "...Oh...I must"
+    line "have dozed off."
+
+    para "Thank you for"
+    line "waking me up."
+
+    para "You must be the"
+    line "young trainer I"
+    cont "saw earlier."
+
+    para "Watching you chase"
+    line "that FarFetch'd"
+
+    para "around in circles"
+    line "was quite amusing."
+    done
+
+.QuestionText
+     text "You must care a"
+     line "great deal about"
+
+     para "#mon to go that"
+     line "far for them..."
+
+     para "I'm particularly"
+     line "fond of the grass"
+     cont "type."
+
+     para "How would you like"
+     line "to raise one such"
+     cont "#mon yourself?"
+     done
+
+.YesText:
+     text "I am delighted to"
+     line "hear that. I hope"
+
+     para "the two of you get"
+     line "along well."
+     done
+
+.NoText:
+     text "Oh...I will remain"
+     line "here for a while"
+
+     para "longer in case you"
+     line "change your mind."
+     done
+
+.GoodbyeText:
+     text "I heard rumors of"
+     line "a grass #mon"
+
+     para "that serves as the"
+     line "guardian of this"
+     cont "forest."
+
+     para "It appears it will"
+     line "not be blessing me"
+
+     para "with its presence"
+     line "here today..."
+
+     para "I should return to"
+     line "my hometown now."
+
+     para "Perhaps we will"
+     line "meet again one"
+     const "day."
+
+     para "I hope my flowers"
+     line "are being cared"
+     cont "for properly..."
+     done
+
+.GotPokeText:
+     text "Please take good"
+     line "care of Bulbasaur."
+     done

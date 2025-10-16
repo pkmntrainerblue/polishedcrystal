@@ -1306,7 +1306,7 @@ GiftBulbasaurScript:
 
      para "Perhaps we will"
      line "meet again one"
-     const "day."
+     cons "day."
 
      para "I hope my flowers"
      line "are being cared"

@@ -1023,8 +1023,8 @@ LabWhereGoingText:
 
 TakeCyndaquilText:
 	text "Elm: You'll take"
-	line "Cyndaquil, the"
-	cont "fire #mon?"
+	line "Pikachu, the"
+	cont "electric #mon?"
 	done
 
 TakeTotodileText:
@@ -1636,7 +1636,7 @@ LyraNicknamedChikoritaText:
 LyraNicknamedCyndaquilText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Cinder!"
+	cont "name it Pika!"
 	done
 
 LyraNicknamedTotodileText:

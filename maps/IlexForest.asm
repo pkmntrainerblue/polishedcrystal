@@ -1213,7 +1213,7 @@ GiftBulbasaurScript:
 	waitsfx
 	readvar VAR_PARTYCOUNT
 	ifequalfwd PARTY_LENGTH, .NoRoom
-	givepoke BULBASAUR, PLAIN_FORM, 10, NO_ITEM, POKE_BALL, GIGA_DRAIN
+	givepoke BULBASAUR, PLAIN_FORM, 5, NO_ITEM, POKE_BALL, GIGA_DRAIN
 	setevent EVENT_GOT_ERIKA_BULBASAUR
 	writetext .GoodbyeText
 	waitbutton

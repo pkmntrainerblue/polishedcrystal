@@ -199,7 +199,7 @@ CyndaquilPokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic PIKACHU
+	pokepic PIKACHU, PIKACHU_PARTNER_FORM
 	cry PIKACHU
 	waitbutton
 	closepokepic

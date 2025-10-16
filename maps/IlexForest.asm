@@ -27,9 +27,10 @@ IlexForest_MapScriptHeader:
 	bg_event 19,  8, BGEVENT_ITEM + SILVER_LEAF, EVENT_ILEX_FOREST_HIDDEN_SILVER_LEAF_2
 	bg_event 25, 23, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ILEX_FOREST
 	bg_event 26, 23, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ILEX_FOREST
-
-	def_object_events
-	object_event 16, 33, SPRITE_FARFETCH_D, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestFarfetchdScript, EVENT_ILEX_FOREST_FARFETCHD
+	
+    def_object_events
+	object_event 19,  8, SPRITE_ERIKA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GiftBulbasaurScript, EVENT_GOT_ERIKA_BULBASAUR
+    object_event 16, 33, SPRITE_FARFETCH_D, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestFarfetchdScript, EVENT_ILEX_FOREST_FARFETCHD
 	object_event  7, 30, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalMasterScript, EVENT_ILEX_FOREST_CHARCOAL_MASTER
 	object_event 10, 31, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ILEX_FOREST_KURT
 	object_event  5, 26, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_IlexForestLass, EVENT_ILEX_FOREST_LASS
@@ -1191,4 +1192,38 @@ endc
 	para "same level as my"
 	line "own, so they're"
 	cont "a fair fight."
+	done
+
+GiftBulbasaurScript:
+    faceplayer
+    opentext
+    checkevent EVENT_GOT_ERIKA_BULBASAUR
+    iftruefwd .GotPokeText
+	checkevent EVENT_LISTENED_TO_ERIKA_INTRO
+	iftruefwd .heardintro
+	writetext .IntroText
+	waitbutton
+	setevent EVENT_LISTENED_TO_ERIKA_INTRO
+.heardintro
+	writetext .QuestionText
+	yesorno
+	iffalse_jumpopenedtext .NoText
+	writetext .YesText
+	promptbutton
+	waitsfx
+	readvar VAR_PARTYCOUNT
+	ifequalfwd PARTY_LENGTH, .NoRoom
+	givepoke BULBASAUR, PLAIN_FORM, 10
+	setevent EVENT_GOT_ERIKA_BULBASAUR
+	writetext .GoodbyeText
+	waitbutton
+	closetext
+    end
+
+.NoRoom:
+	jumpthisopenedtext
+
+	text "...Oh. It seems"
+	line "you can't carry"
+	cont "any more #mon."
 	done

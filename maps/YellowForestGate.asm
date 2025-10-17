@@ -71,9 +71,10 @@ GiftLightBallScript:
 	writetext .Text1
 	promptbutton
 	verbosegiveitem LIGHT_BALL
-	iffalse_endtext
 	setevent EVENT_GOT_SURGE_LIGHT_BALL
-	jumpthisopenedtext
+	waitbutton
+    closetext
+    end
 
 .Text1:
     text "Hey kid! What was"
@@ -106,11 +107,11 @@ GiftLightBallScript:
     done
 
 .Text2:
-    text "I heard some of the"
-    line "Pikachu living in"
+    text "I heard some of"
+    line "the Pikachu living"
 
-    para "this forest have"
-    line "learned some"
+    para "in this forest"
+    line "have learned some"
     cont "rather unusual"
     cont "techniques..."
 

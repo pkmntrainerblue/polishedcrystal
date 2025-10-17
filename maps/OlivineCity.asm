@@ -482,7 +482,7 @@ GiftSquirtleScript:
     cont "well?"
     done
 
-.QuestionText
+.QuestionText:
     text "I see. You are"
     line "taking on the"
     cont "gym challenge."
@@ -492,7 +492,7 @@ GiftSquirtleScript:
     cont "challenge the"
     cont "Elite Four..."
 
-    para "It will be no
+    para "It will be no"
     line "easy task!"
 
     para "If you go in"
@@ -520,12 +520,12 @@ GiftSquirtleScript:
     done
 
 .NoText:
-    text "Huh?
+    text "Huh?"
     line "You're turning"
     cont "down my gift!?"
     done
 
-.GoodbyeText
+.GoodbyeText:
     text "My stay here may"
     line "be brief but it"
 
@@ -550,7 +550,7 @@ GiftSquirtleScript:
     cont "hard to find."
     done
 
-.GotPokeText
+.GotPokeText:
     text "You and Squirtle"
     line "can stay here and"
 

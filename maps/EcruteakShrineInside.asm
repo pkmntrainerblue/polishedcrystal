@@ -289,32 +289,32 @@ GiftCharmanderScript:
     done
 
 .NoText:
-   text "Wha? Are you"
-   line "afraid of fire"
-   cont "or something?"
-   done
+    text "Wha? Are you"
+    line "afraid of fire"
+    cont "or something?"
+    done
 
 .GoodbyeText
-   text "There is a tower"
-   line "nearby that was"
+    text "There is a tower"
+    line "nearby that was"
 
-   para "burned down by a"
-   line "lightning strike"
-   cont "many years ago."
+    para "burned down by a"
+    line "lightning strike"
+    cont "many years ago."
 
-   para "Nature can be"
-   line "cruel like that."
+    para "Nature can be"
+    line "cruel like that."
 
-   para "I lost my home"
-   line "in a similar"
-   cont "incident."
+    para "I lost my home"
+    line "in a similar"
+    cont "incident."
 
-   para "But! Just like"
-   line "the people here"
+    para "But! Just like"
+    line "the people here"
 
-   para "I will not let"
-   line "that extinguish"
-   cont "my fire!"
+    para "I will not let"
+    line "that extinguish"
+    cont "my fire!"
 
    para "I will go back"
    line "home and rebuilt!"
@@ -330,8 +330,8 @@ GiftCharmanderScript:
    text "That Charmander is"
    line "a fiery one!"
 
-  para "You better have"
-  line "Burn Heal! Wahah!"
-  done
+   para "You better have"
+   line "Burn Heal! Wahah!"
+   done
 
    

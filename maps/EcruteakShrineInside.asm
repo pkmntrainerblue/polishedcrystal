@@ -14,7 +14,7 @@ EcruteakShrineInside_MapScriptHeader:
 	bg_event  6,  6, BGEVENT_JUMPTEXT, EcruteakShrineInsideAltarText
 
 	def_object_events
-    object_event 19,  8, SPRITE_BLAINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GiftCharmanderScript, EVENT_GOT_BLAINE_CHARMANDER
+    object_event 10,  8, SPRITE_BLAINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GiftCharmanderScript, EVENT_GOT_BLAINE_CHARMANDER
 	object_event  7,  6, SPRITE_SABRINA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakShrineInsideReiScript, -1
 	object_event  3,  8, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakShrineInsideGrampsText, -1
 	object_event 10,  5, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakShrineInsideSageText, -1

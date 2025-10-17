@@ -537,7 +537,7 @@ GiftSquirtleScript:
     cont "#mon trainers!"
 
     para "I'm glad to have"
-    line "met you, 
+    line "met you, <PLAYER>."
 
     para "If you ever find"
     line "yourself in Kanto,"

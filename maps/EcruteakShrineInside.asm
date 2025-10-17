@@ -328,7 +328,7 @@ GiftCharmanderScript:
 
 .GotPokeText
    text "That Charmander is"
-   line "a fiery one!
+   line "a fiery one!"
 
   para "You better have"
   line "Burn Heal! Wahah!"

@@ -31,7 +31,7 @@ OlivineCity_MapScriptHeader:
 	bg_event 36, 14, BGEVENT_ITEM + RARE_CANDY, EVENT_OLIVINE_CITY_HIDDEN_RARE_CANDY
 
 	def_object_events
-	object_event  5,  3, SPRITE_MISTY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GiftSquirtleScript, EVENT_GOT_MISTY_SQUIRTLE
+	object_event 38, 25, SPRITE_MISTY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GiftSquirtleScript, EVENT_GOT_MISTY_SQUIRTLE
 	object_event 10,  7, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_OLIVINE_CITY
 	object_event 20,  8, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineCityYoungster1Script, -1
 	object_event 21, 25, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, (1 << MORN) | (1 << NITE), PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, OlivineCityPokefanMScript, -1
@@ -453,103 +453,107 @@ GiftSquirtleScript:
 .NoRoom:
     jumpthisopenedtext
 
-    text "Hey! Make some"
-    line "room for this"
-    cont "#mon!"
+    text "Looks like you"
+    line "have too many"
+    cont "#mon already."
     done
 
 .IntroText:
-    text "Waaah... I am all"
-    line "burned out."
+    text "Oh. Hello there."
+    line "I'm a passenger"
 
-    para "Out of a home and"
-    line "out of a job..."
+    para "on the S.S. Aqua."
+    line "It's making a"
+    cont "brief stop here"
 
-    para "Hah, what am I"
-    line "to do now?"
+    para "and I decided to"
+    line "come out and try"
 
-    para "What! How long"
-    line "have you been"
-    cont "standing there?"
+    para "to catch the"
+    line "sunset from"
+    cont "over here."
 
-    para "Look at me,"
-    line "acting all sad"
-    cont "in front of a"
-    cont "kid like you."
+    para "What about you?"
+    line "Are you from"
+    cont "around here?"
+   
+    para "Ah, you are a"
+    line "#mon trainer as"
+    cont "well?"
     done
 
 .QuestionText
-    text "I apologize for"
-    line "that display"
-    cont "earlier."
+    text "I see. You are"
+    line "taking on the"
+    cont "gym challenge."
 
-    para "I should be"
-    line "setting an"
+    para "That means you"
+    line "are planning to"
+    cont "challenge the"
+    cont "Elite Four..."
 
-    para "example for the"
-    line "next generation."
+    para "It will be no
+    line "easy task!"
 
-    para "Not whining like"
-    line "an old fool."
+    para "If you go in"
+    line "unprepared, you"
+    cont "will regret it."
 
-    para "Let me make it up"
-    line "to you! I have"
+    para "Tell you what!"
+    line "It's a good thing"
+    cont "you met me here."
 
-    para "been training fire"
-    line "type #mon for"
-    cont "many years."
+    para "Water-type #mon"
+    line "happen to be my"
+    cont "specialty."
 
-    para "Here, I'll give"
-    line "you a rare one!"
+    para "If you think you"
+    line "can handle it, I"
+
+    para "will give you one"
+    line "to help you on"
+    cont "your journey."
     done
-
+    
 .YesText:
-    text "Hah! I knew you"
-    line "would accept!"
+    text "Good answer!"
     done
 
 .NoText:
-    text "Wha? Are you"
-    line "afraid of fire"
-    cont "or something?"
+    text "Huh?
+    line "You're turning"
+    cont "down my gift!?"
     done
 
 .GoodbyeText
-    text "There is a tower"
-    line "nearby that was"
+    text "My stay here may"
+    line "be brief but it"
 
-    para "burned down by a"
-    line "lightning strike"
-    cont "many years ago."
+    para "is my dream to"
+    line "travel the world"
 
-    para "Nature can be"
-    line "cruel like that."
+    para "and battle against"
+    line "all sorts of"
+    cont "#mon trainers!"
 
-    para "I lost my home"
-    line "in a similar"
-    cont "incident."
+    para "I'm glad to have"
+    line "met you, 
 
-    para "But! Just like"
-    line "the people here"
+    para "If you ever find"
+    line "yourself in Kanto,"
 
-    para "I will not let"
-    line "that extinguish"
-    cont "my fire!"
+    para "look me up in"
+    line "Cerulean city!"
 
-    para "I will go back"
-    line "home and rebuilt!"
- 
-    para "Next time we meet"
-    line "I will show you"
-
-    para "the full strength"
-    line "of the fire type!"
+    para "I promise you I"
+    line "will not be"
+    cont "hard to find."
     done
 
 .GotPokeText
-    text "That Charmander is"
-    line "a fiery one!"
+    text "You and Squirtle"
+    line "can stay here and"
 
-    para "You better have"
-    line "Burn Heal! Wahah!"
+    para "watch the sunset"
+    line "with me."
     done

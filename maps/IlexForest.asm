@@ -1249,7 +1249,7 @@ GiftBulbasaurScript:
     cont "saw earlier."
 
     para "Watching you chase"
-    line "that FarFetch'd"
+    line "that Farfetch'd"
 
     para "around in circles"
     line "was quite amusing."

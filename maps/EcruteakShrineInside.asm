@@ -14,6 +14,7 @@ EcruteakShrineInside_MapScriptHeader:
 	bg_event  6,  6, BGEVENT_JUMPTEXT, EcruteakShrineInsideAltarText
 
 	def_object_events
+    object_event 19,  8, SPRITE_BLAINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GiftCharmanderScript, EVENT_GOT_BLAINE_CHARMANDER
 	object_event  7,  6, SPRITE_SABRINA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakShrineInsideReiScript, -1
 	object_event  3,  8, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakShrineInsideGrampsText, -1
 	object_event 10,  5, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakShrineInsideSageText, -1
@@ -196,3 +197,141 @@ EcruteakShrineInsideAltarText:
 	line "and respect while"
 	cont "visiting."
 	done
+
+GiftCharmanderScript:
+    faceplayer
+    opentext
+    checkevent EVENT_GOT_BLAINE_CHARMANDER
+    iftruefwd .GotPoke
+	checkevent EVENT_LISTENED_TO_BLAINE_INTRO
+	iftruefwd .heardintro
+	writetext .IntroText
+	waitbutton
+	setevent EVENT_LISTENED_TO_BLAINE_INTRO
+.heardintro
+	writetext .QuestionText
+	yesorno
+	iffalse_jumpopenedtext .NoText
+	writetext .YesText
+	promptbutton
+	waitsfx
+	readvar VAR_PARTYCOUNT
+	ifequalfwd PARTY_LENGTH, .NoRoom
+	givepoke CHARMANDER, PLAIN_FORM, 5, NO_ITEM, POKE_BALL, WILL_O_WISP
+	setevent EVENT_GOT_BLAINE_CHARMANDER
+	writetext .GoodbyeText
+	waitbutton
+	closetext
+    end
+
+.GotPoke:
+    writetext .GotPokeText
+    waitbutton
+    closetext
+    end
+
+.NoRoom:
+    jumpthisopenedtext
+
+    text "Hey! Make some"
+    line "room for this"
+    cont "#mon!"
+    done
+
+.IntroText:
+    text "Waaah... I am all"
+    line "burned out."
+
+    para "Out of a home and"
+    line "out of a job..."
+
+    para "Hah, what am I"
+    line "to do now?"
+
+    para "What! How long"
+    line "have you been"
+    cont "standing there?"
+
+    para "Look at me,"
+    line "acting all sad"
+    cont "in front of a"
+    cont "kid like you."
+    done
+
+.QuestionText
+    text "I apologize for"
+    line "that display"
+    cont "earlier."
+
+    para "I should be"
+    line "setting an"
+
+    para "example for the"
+    line "next generation."
+
+    para "Not whining like"
+    line "an old fool."
+
+    para "Let me make it up"
+    line "to you! I have"
+
+    para "been training fire"
+    line "type #mon for"
+    cont "many years."
+
+    para "Here, I'll give"
+    line "you a rare one!"
+    done
+
+.YesText:
+    text "Hah! I knew you"
+    line "would accept!"
+    done
+
+.NoText:
+   text "Wha? Are you"
+   line "afraid of fire"
+   cont "or something?"
+   done
+
+.GoodbyeText
+   text "There is a tower"
+   line "nearby that was"
+
+   para "burned down by a"
+   line "lightning strike"
+   cont "many years ago."
+
+   para "Nature can be"
+   line "cruel like that."
+
+   para "I lost my home"
+   line "in a similar"
+   cont "incident."
+
+   para "But! Just like"
+   line "the people here"
+
+   para "I will not let"
+   line "that extinguish"
+   cont "my fire!"
+
+   para "I will go back"
+   line "home and rebuilt!"
+
+   para "Next time we meet"
+   line "I will show you"
+
+   para "the full strength"
+   line "of the fire type!"
+   done
+
+.GotPokeText
+   text "That Charmander is"
+   line "a fiery one!
+
+  para "You better have"
+  line "Burn Heal! Wahah!"
+  done
+
+   

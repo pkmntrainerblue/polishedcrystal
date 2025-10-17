@@ -111,7 +111,7 @@ GiftLightBallScript:
     line "the Pikachu living"
 
     para "in this forest"
-    line "have learned some"
+    line "have adopted some"
     cont "rather unusual"
     cont "techniques..."
 

@@ -316,22 +316,22 @@ GiftCharmanderScript:
     line "that extinguish"
     cont "my fire!"
 
-   para "I will go back"
-   line "home and rebuilt!"
+    para "I will go back"
+    line "home and rebuilt!"
+ 
+    para "Next time we meet"
+    line "I will show you"
 
-   para "Next time we meet"
-   line "I will show you"
-
-   para "the full strength"
-   line "of the fire type!"
-   done
+    para "the full strength"
+    line "of the fire type!"
+    done
 
 .GotPokeText
-   text "That Charmander is"
-   line "a fiery one!"
+    text "That Charmander is"
+    line "a fiery one!"
 
-   para "You better have"
-   line "Burn Heal! Wahah!"
-   done
+    para "You better have"
+    line "Burn Heal! Wahah!"
+    done
 
    

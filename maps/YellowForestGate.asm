@@ -118,6 +118,6 @@ GiftLightBallScript:
     line "the way from Kanto"
 
     para "to see if I can"
-    line "have my Raichu"
-    cont "adopt some of 'em."
+    line "get my Raichu to"
+    cont "learn from them."
     done

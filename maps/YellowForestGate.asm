@@ -14,6 +14,7 @@ YellowForestGate_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
+    object_event  8,  6, SPRITE_SURGE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GiftLightBallScript, EVENT_GOT_SURGE_LIGHT_BALL
 	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, YellowForestGateOfficerText, -1
 	object_event  9,  3, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, YellowForestGateNurseScript, -1
 	pokemon_event  9,  4, CHANSEY, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_PINK, YellowForestGateChanseyText, -1
@@ -60,3 +61,63 @@ YellowForestGateNurseHealedText:
 YellowForestGateChanseyText:
 	text "Chansey: Sii!"
 	done
+
+
+GiftLightBallScript:
+	checkevent EVENT_GOT_SURGE_LIGHT_BALL
+	iftrue_jumptextfaceplayer .Text2
+	faceplayer
+	opentext
+	writetext .Text1
+	promptbutton
+	verbosegiveitem LIGHT_BALL
+	iffalse_endtext
+	setevent EVENT_GOT_SURGE_LIGHT_BALL
+	jumpthisopenedtext
+
+.Text1:
+    text "Hey kid! What was"
+    line "all that commotion"
+    cont "outside?"
+
+    para "Team Rocket was"
+    line "causing trouble?"
+    cont "And you beat them"
+    cont "all by yourself?"
+
+    para "Hahahaha! I like"
+    line "your style, kid."
+
+    para "I'm guessing that"
+    line "Pikachu that you"
+    cont "got following you"
+    cont "around helped too."
+
+    para "It doesn't look"
+    line "like it has any"
+
+    para "interest in"
+    line "evolving huh."
+
+    para "Tell you what,"
+    line "I'm going to give"
+    cont "you something nice"
+    cont "for your Pikachu!"
+    done
+
+.Text2:
+    text "I heard some of the"
+    line "Pikachu living in"
+
+    para "this forest have"
+    line "learned some"
+    cont "rather unusual"
+    cont "techniques..."
+
+    para "I traveled all"
+    line "the way from Kanto"
+
+    para "to see if I can"
+    line "have my Raichu"
+    cont "adopt some of 'em."
+    done

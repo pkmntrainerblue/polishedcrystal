@@ -153,6 +153,8 @@ ENDM
 	add_mt TRICK_ROOM   ; $6d
 	add_mt ZIPPY_ZAP    ; $6e
 	add_mt ZEN_HEADBUTT ; $6f
+    add_mt SPLASHY_SURF ; $70
+    add_mt FLOATY_FALL  ; $71
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS

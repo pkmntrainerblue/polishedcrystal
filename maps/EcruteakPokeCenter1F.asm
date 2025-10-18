@@ -14,6 +14,7 @@ EcruteakPokeCenter1F_MapScriptHeader:
 	bg_event 10,  1, BGEVENT_READ, PokemonJournalMortyScript
 
 	def_object_events
+    object_event  8,  4, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SplashyTutor, -1
 	object_event  6,  3, SPRITE_BILL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakPokeCenter1FBillScript, EVENT_ECRUTEAK_POKE_CENTER_BILL
 	pc_nurse_event  5, 1
 	object_event 11,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, EcruteakPokeCenter1FPokefanMScript, -1
@@ -284,3 +285,52 @@ EcruteakPokeCenter1FGymGuyText:
 	para "I smell a conspir-"
 	line "acy. I know it!"
 	done
+
+SplashyTutor:
+    faceplayer
+	opentext
+	writetext TutorText1
+	waitbutton
+	yesorno
+	iffalsefwd .TutorNo
+	setval SPLASHY_SURF
+	writetext ClearText
+	special Special_MoveTutor
+	ifequalfwd $0, .TeachMove
+
+.TutorNo
+	jumpopenedtext TutorText2
+
+.TeachMove
+    jumpopenedtext TutorText3
+
+
+TutorText1:
+    text "Oh! It seems like"
+    line "you've been having"
+    cont "quite a marvelous"
+    cont "adventure."
+
+    para "That means I"
+    line "should increase"
+
+    para "the moves I can"
+    line "teach your"
+    cont "#mon. So..."
+
+    para "Do you want me"
+    line "to teach another"
+    cont "marvelous move"
+    cont "to your Pikachu?"
+    done
+
+TutorText2:
+    text "Come back if you"
+    line "change your mind."
+    done
+
+TutorText3:
+    text "Build a marvelous"
+    line "relationship with"
+    cont "your #mon, ok?"
+    done

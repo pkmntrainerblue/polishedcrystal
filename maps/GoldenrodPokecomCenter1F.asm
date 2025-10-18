@@ -33,6 +33,7 @@ GoldenrodPokecomCenter1F_MapScriptHeader:
 	bg_event 24,  3, BGEVENT_ITEM + RARE_CANDY, EVENT_GOLDENROD_POKECOM_CENTER_1F_HIDDEN_RARE_CANDY
 
 	def_object_events
+    object_event 10,  6, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ZippyTutor, -1
 	object_event 23, 10, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, JudgeMachineEngineerScript, EVENT_JUDGE_MACHINE_ENGINEER
 	object_event  7,  7, SPRITE_BOWING_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodPokecenter1FNurseScript, -1
 	object_event  0, 12, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FGameboyKidText, -1
@@ -474,3 +475,25 @@ GoldenrodPokecenter1FGrampsText:
 	para "here makes me feel"
 	line "younger!"
 	done
+
+ZippyTutor:
+    faceplayer
+	opentext
+	writetext TutorText1
+	waitbutton
+	yesorno
+	iffalsefwd .TutorNo
+	setval ZIPPY_ZAP
+	writetext ClearText
+	special Special_MoveTutor
+	ifequalfwd $0, .TeachMove
+
+.TutorNo
+	jumpopenedtext TutorText2
+
+.TeachMove
+    jumpopenedtext TutorText3
+
+
+TutorText1:
+    text "

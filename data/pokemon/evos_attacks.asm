@@ -505,11 +505,9 @@ evos_attacks PikachuPartner
 	learnset 12, THUNDER_WAVE
     learnset 15, MUD_SLAP
     learnset 18, DOUBLE_TEAM
-	learnset 21, ZIPPY_ZAP
+	learnset 21, SPARK
 	learnset 24, BODY_SLAM
-    learnset 27, SPLASHY_SURF
 	learnset 29, IRON_TAIL
-    learnset 32, FLOATY_FALL
 	learnset 34, EXTREMESPEED
 	learnset 36, THUNDERBOLT
 	learnset 39, AGILITY

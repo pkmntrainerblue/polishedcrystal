@@ -289,7 +289,7 @@ EcruteakPokeCenter1FGymGuyText:
 SplashyTutor:
     faceplayer
 	opentext
-	writetext TutorText1
+	writetext SplashyTutorText1
 	waitbutton
 	yesorno
 	iffalsefwd .TutorNo
@@ -299,13 +299,13 @@ SplashyTutor:
 	ifequalfwd $0, .TeachMove
 
 .TutorNo
-	jumpopenedtext TutorText2
+	jumpopenedtext SplashyTutorText2
 
 .TeachMove
-    jumpopenedtext TutorText3
+    jumpopenedtext SplashyTutorText3
 
 
-TutorText1:
+SplashyTutorText1:
     text "Oh! It seems like"
     line "you've been having"
     cont "quite a marvelous"
@@ -324,12 +324,12 @@ TutorText1:
     cont "to your Pikachu?"
     done
 
-TutorText2:
+SplashyTutorText2:
     text "Come back if you"
     line "change your mind."
     done
 
-TutorText3:
+SplashyTutorText3:
     text "Build a marvelous"
     line "relationship with"
     cont "your #mon, ok?"

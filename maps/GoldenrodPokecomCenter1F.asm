@@ -496,4 +496,21 @@ ZippyTutor:
 
 
 TutorText1:
-    text "
+    text "Hey, you!"
+
+    para "Do you want me"
+    line "to teach a"
+    cont "marvelous move"
+    cont "to your Pikachu?"
+    done
+
+TutorText2:
+    text "Come back if you"
+    line "change your mind."
+    done
+
+TutorText3:
+    text "Build a marvelous"
+    line "relationship with"
+    cont "your #mon, ok?"
+    done

@@ -479,7 +479,7 @@ GoldenrodPokecenter1FGrampsText:
 ZippyTutor:
     faceplayer
 	opentext
-	writetext TutorText1
+	writetext ZippyTutorText1
 	waitbutton
 	yesorno
 	iffalsefwd .TutorNo
@@ -489,13 +489,13 @@ ZippyTutor:
 	ifequalfwd $0, .TeachMove
 
 .TutorNo
-	jumpopenedtext TutorText2
+	jumpopenedtext ZippyTutorText2
 
 .TeachMove
-    jumpopenedtext TutorText3
+    jumpopenedtext ZippyTutorText3
 
 
-TutorText1:
+ZippyTutorText1:
     text "Hey, you!"
 
     para "Do you want me"
@@ -504,12 +504,12 @@ TutorText1:
     cont "to your Pikachu?"
     done
 
-TutorText2:
+ZippyTutorText2:
     text "Come back if you"
     line "change your mind."
     done
 
-TutorText3:
+ZippyTutorText3:
     text "Build a marvelous"
     line "relationship with"
     cont "your #mon, ok?"

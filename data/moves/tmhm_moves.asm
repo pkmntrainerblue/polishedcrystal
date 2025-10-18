@@ -115,5 +115,7 @@ TMHMMoves:
 	db TRICK_ROOM   ; MT29 (Route 16 South Gate)
 	db ZIPPY_ZAP    ; MT30 (Power Plant)
 	db ZEN_HEADBUTT ; MT31 (Saffron City)
+    db SPLASHY_SURF ; MT32
+    db FLOATY_FALL  ; MT33
 	assert_table_length NUM_TM_HM_TUTOR
 	db 0 ; end

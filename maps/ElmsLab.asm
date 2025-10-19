@@ -196,53 +196,6 @@ LabTryToLeaveScript:
 	applyonemovement PLAYER, step_up
 	end
 
-PikachuPokeBallScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue_jumptext ElmPokeBallText
-	turnobject ELMSLAB_ELM, DOWN
-	reanchormap
-	pokepic PIKACHU, PIKACHU_PARTNER_FORM
-	cry PIKACHU
-	waitbutton
-	closepokepic
-	opentext
-	writetext TakeCyndaquilText
-	yesorno
-	iffalse_jumpopenedtext DidntChooseStarterText
-	disappear ELMSLAB_POKE_BALL4
-	setevent EVENT_GOT_PIKACHU_FROM_ELM
-	writetext ChoseStarterText
-	promptbutton
-	waitsfx
-	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 5, ORAN_BERRY
-	writetext LyraChoosesStarterText
-	waitbutton
-	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksTotodileMovement
-	pause 15
-	disappear ELMSLAB_POKE_BALL3
-	opentext
-	getmonname CHIKORITA, STRING_BUFFER_3
-	writetext LyraReceivedStarterText
-	playsound SFX_CAUGHT_MON
-	waitsfx
-	promptbutton
-	writetext LyraNicknamedChikoritaText
-	waitbutton
-	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterTotodileMovement
-	readvar VAR_FACING
-	ifequalfwd RIGHT, .pikaright
-	ifequalfwd DOWN, .pikadown
-
-.pikaright:
-    applymovement PLAYER, AfterPikachuMovement1
-    farsjump ElmDirectionsScript
-
-.pikadown:
-    applymovement PLAYER, AfterPikachuMovement2
-    farsjump ElmDirectionsScript
-
 CyndaquilPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
@@ -320,6 +273,53 @@ TotodilePokeBallScript:
 	applymovement ELMSLAB_LYRA, LyraAfterCyndaquilMovement
 	applymovement PLAYER, AfterTotodileMovement
 	sjumpfwd ElmDirectionsScript
+
+PikachuPokeBallScript:
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	iftrue_jumptext ElmPokeBallText
+	turnobject ELMSLAB_ELM, DOWN
+	reanchormap
+	pokepic PIKACHU, PIKACHU_PARTNER_FORM
+	cry PIKACHU
+	waitbutton
+	closepokepic
+	opentext
+	writetext TakeCyndaquilText
+	yesorno
+	iffalse_jumpopenedtext DidntChooseStarterText
+	disappear ELMSLAB_POKE_BALL4
+	setevent EVENT_GOT_PIKACHU_FROM_ELM
+	writetext ChoseStarterText
+	promptbutton
+	waitsfx
+	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 5, ORAN_BERRY
+	writetext LyraChoosesStarterText
+	waitbutton
+	closetext
+	applymovement ELMSLAB_LYRA, LyraPicksTotodileMovement
+	pause 15
+	disappear ELMSLAB_POKE_BALL3
+	opentext
+	getmonname CHIKORITA, STRING_BUFFER_3
+	writetext LyraReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	writetext LyraNicknamedChikoritaText
+	waitbutton
+	closetext
+	applymovement ELMSLAB_LYRA, LyraAfterTotodileMovement
+	readvar VAR_FACING
+	ifequalfwd RIGHT, .pikaright
+	ifequalfwd DOWN, .pikadown
+
+.pikaright:
+    applymovement PLAYER, AfterPikachuMovement1
+    farsjump ElmDirectionsScript
+
+.pikadown:
+    applymovement PLAYER, AfterPikachuMovement2
+    farsjump ElmDirectionsScript
 
 ChikoritaPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

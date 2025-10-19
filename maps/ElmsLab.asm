@@ -236,11 +236,11 @@ PikachuPokeBallScript:
 	ifequalfwd DOWN, pikadown
     sjumpfwd ElmDirectionsScript
 
-.pikaright:
+pikaright:
     applymovement PLAYER, AfterPikachuMovement1
    ; sjumpfwd ElmDirectionsScript
 
-.pikadown
+pikadown
     applymovement PLAYER, AfterPikachuMovement2
    ; sjumpfwd ElmDirectionsScript
 

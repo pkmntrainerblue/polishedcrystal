@@ -235,13 +235,6 @@ PikachuPokeBallScript:
 	ifequalfwd RIGHT, .pikaright
 	ifequalfwd DOWN,  .pikadown
 
-.pikaright:
-    applymovement PLAYER, AfterPikachuMovement1
-    sjumpfwd ElmDirectionsScript
-.pikadown:
-    applymovement PLAYER, AfterPikachuMovement2
-    sjumpfwd ElmDirectionsScript
-
 CyndaquilPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
@@ -319,6 +312,13 @@ TotodilePokeBallScript:
 	applymovement ELMSLAB_LYRA, LyraAfterCyndaquilMovement
 	applymovement PLAYER, AfterTotodileMovement
 	sjumpfwd ElmDirectionsScript
+
+.pikaright:
+    applymovement PLAYER, AfterPikachuMovement1
+    sjumpfwd ElmDirectionsScript
+.pikadown:
+    applymovement PLAYER, AfterPikachuMovement2
+    sjumpfwd ElmDirectionsScript
 
 ChikoritaPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

@@ -354,7 +354,6 @@ ChikoritaPokeBallScript:
 	applymovement ELMSLAB_LYRA, LyraAfterTotodileMovement
 	applymovement PLAYER, AfterChikoritaMovement
 	; fallthrough
-
 ElmDirectionsScript:
 	turnobject PLAYER, UP
 if !DEF(DEBUG)

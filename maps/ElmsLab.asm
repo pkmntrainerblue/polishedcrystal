@@ -52,6 +52,7 @@ ElmsLab_MapScriptHeader:
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB
 	object_event  5, 11, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ElmsLabLyraScript, EVENT_LYRA_IN_ELMS_LAB
     object_event  2,  5, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, PikachuPokeBallScript, EVENT_PIKACHU_POKEBALL_IN_ELMS_LAB
+    object_event  1,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, EEVEE, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptext, EeveeDollText, -1
 
 	object_const_def
 	const ELMSLAB_ELM
@@ -1828,3 +1829,12 @@ ElmsLabPCText:
 	para "…It says on the"
 	line "screen…"
 	done
+
+EeveeDollText:
+    text "You thought it"
+    line "might be a real"
+    cont "#mon."
+
+    para "But it's only"
+    line "a doll."
+    done

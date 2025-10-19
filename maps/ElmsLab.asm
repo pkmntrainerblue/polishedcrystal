@@ -233,11 +233,15 @@ PikachuPokeBallScript:
 	applymovement ELMSLAB_LYRA, LyraAfterTotodileMovement
 	readvar VAR_FACING
 	ifequalfwd RIGHT, .pikaright
-	applymovement PLAYER, AfterPikachuMovement2
-    sjumpfwd ElmDirectionsScript
+	ifequalfwd DOWN, .pikadown
+
 .pikaright:
     applymovement PLAYER, AfterPikachuMovement1
-    sjumpfwd ElmDirectionsScript
+    farsjump ElmDirectionsScript
+
+.pikadown:
+    applymovement PLAYER, AfterPikachuMovement2
+    farsjump ElmDirectionsScript
 
 CyndaquilPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

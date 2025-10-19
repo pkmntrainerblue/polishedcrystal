@@ -232,8 +232,8 @@ PikachuPokeBallScript:
 	closetext
 	applymovement ELMSLAB_LYRA, LyraAfterTotodileMovement
 	readvar VAR_FACING
-	ifequalfwd RIGHT, .pikaright
-	ifequalfwd DOWN, .pikadown
+	ifequalfwd RIGHT, pikaright
+	ifequalfwd DOWN, pikadown
     sjumpfwd ElmDirectionsScript
 
 .pikaright:

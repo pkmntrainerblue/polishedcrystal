@@ -1080,10 +1080,10 @@ TakePikachuText:
     para "It hasn't been"
     line "tamed yet."
 
-    para "Elm: What? You're"
-    line "telling me you"
+    para "What? <PLAYER>,"
+    line "you're telling me"
 
-    para "want to raise"
+    para "you want to raise"
     line "that Pikachu"
     cont "yourself?"
     done

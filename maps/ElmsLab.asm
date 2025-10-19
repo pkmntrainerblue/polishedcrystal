@@ -207,12 +207,12 @@ PikachuPokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeCyndaquilText
+	writetext TakePikachuText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL4
 	setevent EVENT_GOT_PIKACHU_FROM_ELM
-	writetext ChoseStarterText
+	writetext ChosePikachuText
 	promptbutton
 	waitsfx
 	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 5, ORAN_BERRY
@@ -1068,6 +1068,31 @@ LabWhereGoingText:
 	text "Elm: Wait! Where"
 	line "are you going?"
 	done
+
+TakePikachuText:
+    text "Elm: Ahh wait!"
+    line "That one is a"
+
+    para "wild #mon that"
+    line "was only caught"
+    cont "recently."
+
+    para "It hasn't been"
+    line "tamed yet."
+
+    para "Elm: What? You're"
+    line "telling me you"
+
+    para "want to raise"
+    line "that Pikachu"
+    cont "yourself?"
+    done
+
+ChosePikachuText:
+    text "Elm: Well, I'm"
+    line "sure it will be"
+    cont "alright."
+    done
 
 TakeCyndaquilText:
 	text "Elm: You'll take"

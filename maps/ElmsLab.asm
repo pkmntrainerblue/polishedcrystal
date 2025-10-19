@@ -237,10 +237,10 @@ PikachuPokeBallScript:
 
 .pikaright:
     applymovement PLAYER, AfterPikachuMovement1
-    farsjump ElmDirectionsScript
+    sjumpfwd ElmDirectionsScript
 .pikadown:
     applymovement PLAYER, AfterPikachuMovement2
-    farsjump ElmDirectionsScript
+    sjumpfwd ElmDirectionsScript
 
 CyndaquilPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

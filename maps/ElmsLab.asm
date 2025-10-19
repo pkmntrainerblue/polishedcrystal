@@ -234,7 +234,6 @@ PikachuPokeBallScript:
 	readvar VAR_FACING
 	ifequalfwd RIGHT, .pikaright
 	ifequalfwd DOWN,  .pikadown
-
 .pikaright:
     applymovement PLAYER, AfterPikachuMovement1
     sjumpfwd ElmDirectionsScript

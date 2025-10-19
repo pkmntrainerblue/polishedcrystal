@@ -234,14 +234,15 @@ PikachuPokeBallScript:
 	readvar VAR_FACING
 	ifequalfwd RIGHT, .pikaright
 	ifequalfwd DOWN, .pikadown
+    sjumpfwd ElmDirectionsScript
 
 .pikaright:
     applymovement PLAYER, AfterPikachuMovement1
-    sjumpfwd ElmDirectionsScript
+   ; sjumpfwd ElmDirectionsScript
 
 .pikadown
     applymovement PLAYER, AfterPikachuMovement2
-    sjumpfwd ElmDirectionsScript
+   ; sjumpfwd ElmDirectionsScript
 
 CyndaquilPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

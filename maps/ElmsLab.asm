@@ -218,7 +218,7 @@ PikachuPokeBallScript:
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksChikoritaMovement
+	applymovement ELMSLAB_LYRA, LyraPicksTotodileMovement
 	pause 15
 	disappear ELMSLAB_POKE_BALL3
 	opentext
@@ -230,7 +230,7 @@ PikachuPokeBallScript:
 	writetext LyraNicknamedChikoritaText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterChikoritaMovement
+	applymovement ELMSLAB_LYRA, LyraAfterTotodileMovement
 	readvar VAR_FACING
 	ifequalfwd RIGHT, .pikaright
 	ifequalfwd DOWN, .pikadown

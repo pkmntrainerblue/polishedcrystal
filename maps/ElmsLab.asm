@@ -240,7 +240,7 @@ pikaright:
     applymovement PLAYER, AfterPikachuMovement1
    ; sjumpfwd ElmDirectionsScript
 
-pikadown
+pikadown:
     applymovement PLAYER, AfterPikachuMovement2
    ; sjumpfwd ElmDirectionsScript
 

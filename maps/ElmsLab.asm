@@ -232,10 +232,16 @@ PikachuPokeBallScript:
 	closetext
 	applymovement ELMSLAB_LYRA, LyraAfterChikoritaMovement
 	readvar VAR_FACING
-	ifequalfwd RIGHT, ElmDirectionsScript
-	applymovement PLAYER, AfterCyndaquilMovement
+	ifequalfwd RIGHT, .pikaright
+	ifequalfwd DOWN, .pikadown
+
+.pikaright:
+    applymovement PLAYER, AfterPikachuMovement1
 	sjumpfwd ElmDirectionsScript
 
+.pikadown:
+    applymovement PLAYER, AfterPikachuMovement2
+	sjumpfwd ElmDirectionsScript
 
 CyndaquilPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
@@ -910,6 +916,28 @@ ElmsLab_ElmToDefaultPositionMovement:
 	step_up
 	turn_head_down
 	step_end
+
+AfterPikachuMovement1:
+    turn_head_up
+    step_up
+    step_up
+    turn_head_right
+    step_right
+    step_right
+    step_right
+    step_right
+    turn_head_up
+    step_end
+
+AfterPikachuMovement2:
+    turn_head_up
+    step_up
+    turn_head_right
+    step_right
+    step_right
+    step_right
+    turn_head_up
+    step_end
 
 AfterCyndaquilMovement:
 	step_left

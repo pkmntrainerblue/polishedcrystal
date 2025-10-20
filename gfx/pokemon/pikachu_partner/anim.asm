@@ -1,9 +1,9 @@
-	frame 1, 10
-    frame 2, 10
-    frame 1, 10
-    frame 2, 10
-    frame 1, 10
-    frame 2, 10
-    frame 1, 10
-    frame 2, 10
+	frame 0, 15
+    frame 1, 15
+    frame 0, 15
+    frame 1, 15
+    frame 0, 15
+    frame 1, 15
+    frame 0, 15
+    frame 1, 15
     endanim

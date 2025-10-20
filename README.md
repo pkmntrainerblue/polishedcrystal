@@ -8,23 +8,23 @@ New Starters:
 Partner Pikachu (Increased BST, exclusive ability, exclusive tutor moves)
 
 New Abilities:
-Partner Bond (Friendship battle mechanics)
-Liquid Voice
-Transistor
-Surge Surfer
+Partner Bond (Friendship battle mechanics), 
+Liquid Voice, 
+Transistor, 
+Surge Surfer.
 
 New Tutor Moves:
-Zippy Zap
-Splashy Surf
-Floaty Fall
-Pika Papow
+Zippy Zap, 
+Splashy Surf, 
+Floaty Fall, 
+Pika Papow.
 
 Exclusive to Partner Pikachu, you can find the new tutor NPC in the pokemon centers of Goldenrod, Ecruteak and Cianwood. 
 
 New Gift Pokemon:
-Bulbasaur
-Charmander
-Squirtle
+Bulbasaur, 
+Charmander, 
+Squirtle. 
 
 All 3 will be available earlier than normal through NPCs. Look for them in Ilex Forest, Ecruteak Shrine and Olivine docks.
 
@@ -44,3 +44,5 @@ Known Issues:
 The Zap Cannon tutor now teaches Zippy Zap instead. This is a placeholder until a new move has been implemented. 
 
 Some of the new dialog presumes you picked Pikachu as your starter and have them in your party. This may be revised in the future if more starters are added. 
+
+Friendship Option in the game settings does nothing, regardless of whether you enable or disable it. This is by design. 

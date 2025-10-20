@@ -19,7 +19,7 @@ Splashy Surf,
 Floaty Fall, 
 Pika Papow.
 
-Exclusive to Partner Pikachu, you can find the new tutor NPC in the pokemon centers of Goldenrod, Ecruteak and Cianwood. 
+Exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon centers of Goldenrod, Ecruteak and Cianwood. 
 
 New Gift Pokemon:
 Bulbasaur, 
@@ -45,4 +45,4 @@ The Zap Cannon tutor now teaches Zippy Zap instead. This is a placeholder until 
 
 Some of the new dialog presumes you picked Pikachu as your starter and have them in your party. This may be revised in the future if more starters are added. 
 
-Friendship Option in the game settings does nothing, regardless of whether you enable or disable it. This is by design. 
+Affection Bonus in the game settings does nothing, regardless of whether you enable or disable it. This is by design. 

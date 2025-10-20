@@ -158,6 +158,7 @@ AbilityDescriptions:
     dw TransistorDescription
     dw LiquidVoiceDescription
     dw PartnerBondDescription
+    dw SurgeSurferDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -315,6 +316,7 @@ SereneGraceDescription:
 	done
 
 SwiftSwimDescription:
+SurgeSurferDescription:
 	text "Boosts its Speed"
 	next "in rain."
 	done

@@ -1145,6 +1145,7 @@ SpeedAbilities:
 	dbw SAND_RUSH, SandRushAbility
 	dbw SLUSH_RUSH, SlushRushAbility
 	dbw QUICK_FEET, QuickFeetAbility
+    dbw SURGE_SURFER, SurgeSurferAbility
 	dbw -1, -1
 
 UnburdenAbility:
@@ -1216,6 +1217,7 @@ WonderSkinAbility:
 	ret
 
 SwiftSwimAbility:
+SurgeSurferAbility:
 	ld b, WEATHER_RAIN
 	jr WeatherSpeedAbility
 ChlorophyllAbility:
@@ -1692,6 +1694,7 @@ PinchAbility:
 
 SteelySpiritAbility:
 	ld b, STEEL
+    jr TypeDependentAbility
 TransistorAbility:
     ld b, ELECTRIC
 TypeDependentAbility:

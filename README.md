@@ -7,21 +7,29 @@ Some of the changes include:
 ## New Starters:
 
 **Partner Pikachu**
+
 (Increased BST, exclusive ability, exclusive tutor moves)
 
 ## New Abilities:
 
 **Partner Bond**
+
 (Friendship battle mechanics)
+
 **Liquid Voice**
+
 **Transistor**
+
 **Surge Surfer**
 
 ## New Tutor Moves:
 
 **Zippy Zap**
+
 **Splashy Surf**
+
 **Floaty Fall**
+
 **Pika Papow**
 
 Exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon centers of Goldenrod, Ecruteak and Cianwood. 
@@ -29,7 +37,9 @@ Exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon cent
 ## New Gift Pokemon:
 
 **Bulbasaur**
+
 **Charmander**
+
 **Squirtle**
 
 All 3 will be available earlier than normal through NPCs. Look for them in Ilex Forest, Ecruteak Shrine and Olivine docks.

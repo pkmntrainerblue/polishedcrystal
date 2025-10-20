@@ -5,5 +5,19 @@
     frame 0, 15
     frame 1, 15
     frame 0, 15
-    frame 1, 15
+    frame 2, 10
+    frame 3, 05
+    frame 4, 05
+    frame 3, 05
+    frame 4, 05
+    frame 3, 05
+    frame 4, 05
+    frame 3, 05
+    frame 4, 05
+    frame 2, 10
+    frame 0, 07
+    frame 5, 07
+    frame 0, 07
+    frame 5, 07
+    frame 0, 07
     endanim

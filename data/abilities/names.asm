@@ -158,6 +158,7 @@ AbilityNames:
     dw Transistor
     dw LiquidVoice
     dw PartnerBond
+    dw SurgeSurfer
 	assert_table_length NUM_ABILITIES
 
 NoAbility:       rawchar "---@"
@@ -318,3 +319,4 @@ MindsEye:        rawchar "Mind's Eye@"
 Transistor:      rawchar "Transistor@"
 LiquidVoice:     rawchar "Liquid Voice@"
 PartnerBond:     rawchar "Partner Bond@"
+SurgeSurfer:     rawchar "Surge Surfer@"

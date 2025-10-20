@@ -5,39 +5,50 @@ This is a fork of [Pokémon Polished Crystal](https://github.com/Rangi42/polishe
 Some of the changes include:
 
 ## New Starters:
-** Partner Pikachu (Increased BST, exclusive ability, exclusive tutor moves)
+
+**Partner Pikachu**
+(Increased BST, exclusive ability, exclusive tutor moves)
 
 ## New Abilities:
-** Partner Bond (Friendship battle mechanics)
-** Liquid Voice
-** Transistor
-** Surge Surfer
+
+**Partner Bond**
+(Friendship battle mechanics)
+**Liquid Voice**
+**Transistor**
+**Surge Surfer**
 
 ## New Tutor Moves:
-** Zippy Zap
-** Splashy Surf
-** Floaty Fall
-** Pika Papow
+
+**Zippy Zap**
+**Splashy Surf**
+**Floaty Fall**
+**Pika Papow**
 
 Exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon centers of Goldenrod, Ecruteak and Cianwood. 
 
 ## New Gift Pokemon:
-** Bulbasaur
-** Charmander
-** Squirtle
+
+**Bulbasaur**
+**Charmander**
+**Squirtle**
 
 All 3 will be available earlier than normal through NPCs. Look for them in Ilex Forest, Ecruteak Shrine and Olivine docks.
 
 ## Changes to existing Pokemon:
-** Raichu had his BST increased slightly.
-Type changed to Electric/Normal. New hidden ability, Transistor. 
 
-** Alolan Raichu has new hidden ability, Surge Surfer. 
+**Raichu:**
+Had its BST increased slightly.
+Type changed to Electric/Normal. New hidden ability, Transistor.
 
-** Lapras has new hidden ability, Liquid Voice. 
+**Alolan Raichu:**
+Has new hidden ability, Surge Surfer (Doubles speed in rain).
+
+**Lapras:**
+Has new hidden ability, Liquid Voice. 
+Shell Smash is now included in the Move Reminder's list. 
 
 
-Removed moves:
+**Removed moves:**
 Icicle Crash, Octazooka, Crabhammer, Zap Cannon. 
 
 ## Known Issues:

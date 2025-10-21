@@ -1,10 +1,16 @@
 BattleCommand_sleeptalk:
 	call ClearLastMove
+	; Check if the user has Comatose
+	ld a, BATTLE_VARS_ABILITY
+	call GetBattleVar
+	cp COMATOSE
+	jr z, .bypass_status_check
+	; Check if the user is asleep
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVar
 	and SLP_MASK
 	jr z, .fail
-
+.bypass_status_check:
 	ld a, [wAttackMissed]
 	and a
 	jr nz, .fail
@@ -12,7 +18,7 @@ BattleCommand_sleeptalk:
 	ldh a, [hBattleTurn]
 	and a
 	ld hl, wBattleMonMoves
-	jr z,  .got_moves
+	jr z, .got_moves
 	ld hl, wEnemyMonMoves
 .got_moves
 	farcall GetDisableEncoreMoves

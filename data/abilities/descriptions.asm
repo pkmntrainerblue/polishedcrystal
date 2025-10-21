@@ -159,6 +159,7 @@ AbilityDescriptions:
     dw LiquidVoiceDescription
     dw PartnerBondDescription
     dw SurgeSurferDescription
+    dw ComatoseDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -934,4 +935,9 @@ LiquidVoiceDescription:
 PartnerBondDescription:
    text "Their trust in you"
    next "enables new feats."
+   done
+
+ComatoseDescription:
+   text "Always asleep but"
+   next "can still attack."
    done

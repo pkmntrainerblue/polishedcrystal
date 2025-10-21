@@ -162,4 +162,5 @@
     const LIQUID_VOICE
     const PARTNER_BOND
     const SURGE_SURFER
+    const COMATOSE
 DEF NUM_ABILITIES EQU const_value

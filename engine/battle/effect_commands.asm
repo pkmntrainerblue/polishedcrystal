@@ -4845,9 +4845,17 @@ IsOpponentLeafGuardActive:
 	; fallthrough
 DoLeafGuardCheck:
 	cp LEAF_GUARD
-	ret nz
+	jr z, .checkLeafGuardWeather
+	cp COMATOSE
+	ret z
+	jr .notLeafGuardOrComatose
+.checkLeafGuardWeather:
 	call GetWeatherAfterOpponentUmbrella
 	cp WEATHER_SUN
+	ret
+.notLeafGuardOrComatose:
+	ld a, 0
+	cp 1
 	ret
 
 PostStatusWithSynchronize:

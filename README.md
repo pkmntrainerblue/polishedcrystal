@@ -7,30 +7,38 @@ Some of the changes include:
 ## New Starters:
 
 **Partner Pikachu**
-
-(Increased BST, exclusive ability, exclusive tutor moves)
+(Increased BST, exclusive ability, exclusive tutor moves.)
 
 ## New Abilities:
 
 **Partner Bond**
-
-(Friendship battle mechanics)
+(Friendship battle mechanics.)
 
 **Liquid Voice**
+(Sound based moves become Water-type.)
 
 **Transistor**
+(Powers up Electric type moves by a great deal.)
 
 **Surge Surfer**
+(Doubles Speed stat in rain.)
+
+**Comatose**
+(User is permanently asleep. Can attack. Immune to non volatile status conditions.)
 
 ## New Tutor Moves:
 
 **Zippy Zap**
+(Priority Electric attack that is always a critical hit.)
 
 **Splashy Surf**
+(Strong Water attack that has the chance to paralyze the foe.)
 
 **Floaty Fall**
+(Strong Flying attack that has the chance to flinch the foe.)
 
 **Pika Papow**
+(Electric attack that never misses.  Power is based on friendship.)
 
 Exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon centers of Goldenrod, Ecruteak and Cianwood. 
 
@@ -42,7 +50,9 @@ Exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon cent
 
 **Squirtle**
 
-All 3 will be available earlier than normal through NPCs. Look for them in Ilex Forest, Ecruteak Shrine and Olivine docks.
+**Munchlax**
+
+All of them will be available earlier than normal through NPCs. Look for them in Ilex Forest, Goldenrod Department Store, Ecruteak Shrine and Olivine docks. 
 
 ## Changes to existing Pokemon:
 
@@ -51,12 +61,14 @@ Had its BST increased slightly.
 Type changed to Electric/Normal. New hidden ability, Transistor.
 
 **Alolan Raichu:**
-Has new hidden ability, Surge Surfer (Doubles speed in rain).
+New regular ability, Surge Surfer. 
 
 **Lapras:**
-Has new hidden ability, Liquid Voice. 
+New hidden ability, Liquid Voice. 
 Shell Smash is now included in the Move Reminder's list. 
 
+**Snorlax:**
+New hidden ability, Comatose. 
 
 **Removed moves:**
 Icicle Crash, Octazooka, Crabhammer, Zap Cannon. 

@@ -16,7 +16,7 @@ endc
 	db ORAN_BERRY, LIGHT_BALL ; held items
 	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for RAICHU_ALOLAN, STATIC, MOTOR_DRIVE, SURGE_SURFER
+	abilities_for RAICHU_ALOLAN, SURGE_SURFER, STATIC, MOTOR_DRIVE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_FAIRY ; egg groups
 

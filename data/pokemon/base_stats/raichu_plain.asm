@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db ELECTRIC, NORMAL ; type
+	db ELECTRIC, ELECTRIC ; type
 	db 75 ; catch rate
 if DEF(FAITHFUL)
 	db 122 ; base exp

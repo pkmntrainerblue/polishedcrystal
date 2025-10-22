@@ -40,6 +40,8 @@ CheckUniqueWildMove:
 
 	; always teach moves for certain Pokémon
 	ld a, c
+    cp ROUTE_39
+    jr z, .TeachMove ; assume this is Snorlax on Route39
 	cp MAHOGANY_TOWN
 	jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F
 	cp UNION_CAVE

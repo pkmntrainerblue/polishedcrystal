@@ -509,7 +509,7 @@ Route39SnorlaxScript:
 	.Fight:
 	writetext .CandyQuestionText
     yesorno
-    iffalse endtext
+    iffalse_endtext
     closetext
     SnorlaxFightScript::
     showtext CandyYesText

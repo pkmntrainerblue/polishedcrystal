@@ -15,16 +15,16 @@ Some of the changes include:
 (Friendship battle mechanics.)
 
 **Liquid Voice**
-(Sound based moves become Water-type.)
+(Sound based moves become Water-type and receive a small boost.)
 
 **Transistor**
-(Powers up Electric type moves by a great deal.)
+(Powers up Electric type moves by a great amount.)
 
 **Surge Surfer**
 (Doubles Speed stat in rain.)
 
 **Comatose**
-(User is permanently asleep. Can attack. Immune to non volatile status conditions.)
+(User is permanently asleep. Can still attack. Immune to non volatile status conditions.)
 
 ## New Tutor Moves:
 
@@ -50,15 +50,12 @@ Exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon cent
 
 **Squirtle**
 
-**Munchlax**
-
-All of them will be available earlier than normal through NPCs. Look for them in Ilex Forest, Goldenrod Department Store, Ecruteak Shrine and Olivine docks. 
+All 3 of the Kanto starters will be available earlier than normal through NPCs. Look for them in Ilex Forest, Ecruteak Shrine and Olivine docks. 
 
 ## Changes to existing Pokemon:
 
 **Raichu:**
-Had its BST increased slightly.
-Type changed to Electric/Normal. New hidden ability, Transistor.
+Had its BST increased slightly. New hidden ability, Transistor.
 
 **Alolan Raichu:**
 New regular ability, Surge Surfer. 

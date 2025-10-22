@@ -499,15 +499,15 @@ Route39TrainerTipsText:
 
 Route39SnorlaxScript:
     opentext
-    writetext .SnorlaxIntroText
-	checkkeyitem candy_jar
+    writetext SnorlaxIntroText
+	checkkeyitem CANDY_JAR
 	iftruefwd .Fight
-	writetext .IgnoreText
+	writetext IgnoreText
     closetext
     end
 
 	.Fight:
-	writetext .CandyQuestionText
+	writetext CandyQuestionText
     yesorno
     iffalse_endtext
     closetext
@@ -524,24 +524,24 @@ Route39SnorlaxScript:
 	reloadmapafterbattle
 	end
 
-.SnorlaxIntroText:
+SnorlaxIntroText:
     text "You see a Snorlax"
     line "somehow gorging on"
     cont "food while asleep."
     done
 
-.IgnoreText:
+IgnoreText:
 	text "Snorlax continues"
 	line "to eat in his"
     cont "sleep..."
 	done
 
-.CandyQuestionText:
+CandyQuestionText:
     text "Use the Candy Jar"
     line "on Snorlax?"
     done
 
-.CandyYesText:
+CandyYesText:
 	text "The smell of candy"
 	line "seems to stir the"
 	cont "sleeping Snorlax."

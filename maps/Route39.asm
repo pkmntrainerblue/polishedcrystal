@@ -20,7 +20,7 @@ Route39_MapScriptHeader:
 	bg_event  5, 27, BGEVENT_ITEM + NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
 	def_object_events
-	object_event  2, 29, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_SNORLAX, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, Route39SnorlaxScript, EVENT_ROUTE39_SNORLAX
+	object_event  2, 28, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_SNORLAX, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, Route39SnorlaxScript, EVENT_ROUTE39_SNORLAX
 	object_event  7, 28, SPRITE_COWGIRL, SPRITEMOVEDATA_WANDER, 1, 2, -1, 0, OBJECTTYPE_SCRIPT, 0, Route39CowgirlAnnieScript, -1
 	object_event 13, 43, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerSailorEugene, -1
 	object_event 10, 36, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_TRAINER, 4, TrainerPokefanmDerek1, -1
@@ -498,10 +498,55 @@ Route39TrainerTipsText:
 	done
 
 Route39SnorlaxScript:
+    opentext
+    writetext .SnorlaxIntroText
+	checkkeyitem candy_jar
+	iftruefwd .Fight
+	writetext .IgnoreText
+    closetext
+    end
+
+	.Fight:
+	writetext .CandyQuestionText
+    yesorno
+    iffalse endtext
+    closetext
+    SnorlaxFightScript::
+    showtext CandyYesText
+	pause 15
 	cry SNORLAX
-	loadwildmon SNORLAX, 25
+	closetext
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
+	loadwildmon SNORLAX, 30
 	startbattle
 	disappear ROUTE39_SNORLAX
 	setflag EVENT_ROUTE39_SNORLAX
 	reloadmapafterbattle
 	end
+
+.SnorlaxIntroText:
+    text "You see a Snorlax"
+    line "somehow gorging on"
+    cont "food while asleep."
+    done
+
+.IgnoreText:
+	text "Snorlax continues"
+	line "to eat in his"
+    cont "sleep..."
+	done
+
+.CandyQuestionText:
+    text "Use the Candy Jar"
+    line "on Snorlax?"
+    done
+
+.CandyYesText:
+	text "The smell of candy"
+	line "seems to stir the"
+	cont "sleeping Snorlax."
+
+	para "…"
+
+	para "Snorlax woke up!"
+	done

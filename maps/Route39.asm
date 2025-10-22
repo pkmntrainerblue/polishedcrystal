@@ -20,7 +20,7 @@ Route39_MapScriptHeader:
 	bg_event  5, 27, BGEVENT_ITEM + NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
 	def_object_events
-	object_event  2, 29, MUNCHLAX, SPRITEMOVEDATA_POKEMON, 1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, 0, Route39Munchlax, EVENT_ROUTE39_MUNCHLAX
+	object_event  2, 29, MUNCHLAX, SPRITEMOVEDATA_POKEMON, 1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, 0, Route39MunchlaxScript, EVENT_ROUTE39_MUNCHLAX
 	object_event  7, 28, SPRITE_COWGIRL, SPRITEMOVEDATA_WANDER, 1, 2, -1, 0, OBJECTTYPE_SCRIPT, 0, Route39CowgirlAnnieScript, -1
 	object_event 13, 43, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerSailorEugene, -1
 	object_event 10, 36, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_TRAINER, 4, TrainerPokefanmDerek1, -1
@@ -497,7 +497,7 @@ Route39TrainerTipsText:
 	line "any tree you see!"
 	done
 
-Route39Munchlax:
+Route39MunchlaxScript:
     faceplayer
 	cry MUNCHLAX
 	loadwildmon MUNCHLAX, 10

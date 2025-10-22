@@ -500,6 +500,7 @@ Route39TrainerTipsText:
 Route39SnorlaxScript:
     opentext
     writetext SnorlaxIntroText
+    waitbutton
 	checkkeyitem CANDY_JAR
 	iftruefwd .Fight
 	writetext IgnoreText

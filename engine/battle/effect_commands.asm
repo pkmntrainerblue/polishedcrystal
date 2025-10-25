@@ -6363,10 +6363,10 @@ DoPursuit:
 
 BattleCommand_risingvoltdamage:
     ; Check if the move is Rising Volt or another move that should trigger this effect
-    ld a, BATTLE_VARS_MOVE_ANIM
-    call GetBattleVar
-    cp RISING_VOLT ; Ensure the move is Rising Volt (replace with actual move ID constant)
-    ret nz         ; Exit if not the correct move
+    ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_RISING_VOLT
+	ret nz
 
     ; Check for rain weather
     call GetWeatherAfterOpponentUmbrella

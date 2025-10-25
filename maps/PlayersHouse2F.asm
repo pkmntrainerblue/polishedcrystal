@@ -253,12 +253,7 @@ endr
 	; ext species test
 	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 5, LIGHT_BALL
     loadmem wPartyMon4Happiness, 255
-	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 5
-	; evolve during battle
-	givepoke PUPITAR, 54
-	loadmem wPartyMon6Exp+2, LOW(207967)
-	loadmem wPartyMon6Exp+1, HIGH(207967)
-	loadmem wPartyMon6Exp+0, 207967 >> 16
+	givepoke RAICHU, PLAIN_FORM, 50
 	; fill pokedex
 	callasm FillPokedex
 ;	; new bark events

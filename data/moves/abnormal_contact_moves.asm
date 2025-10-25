@@ -5,7 +5,6 @@ AbnormalContactMoves:
 	db DRAINING_KISS
 	db PETAL_DANCE
 	; Physical moves that don't make contact
-	db BONEMERANG
 	db BULLDOZE
 	db EARTHQUAKE
 	db EXPLOSION

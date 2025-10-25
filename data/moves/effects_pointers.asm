@@ -154,5 +154,4 @@ MoveEffectsPointers:
 	dw BrickBreak
 	dw TrickRoom
     dw NormalHit
-    dw RisingVolt
 	assert_table_length NUM_MOVE_EFECTS

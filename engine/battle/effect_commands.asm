@@ -6371,14 +6371,7 @@ BattleCommand_risingvoltdamage:
     ; Check for rain weather
     call GetWeatherAfterOpponentUmbrella
     cp WEATHER_RAIN
-    jr nz, .no_rain
-
-    ; Double damage if rain is active
-    call DoubleDamage
-    ret
-
-.no_rain:
-    ret
+    jr DoubleDamageIfNZ
 
 BattleCommand_doubleflyingdamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP

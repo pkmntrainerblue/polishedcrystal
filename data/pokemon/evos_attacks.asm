@@ -2309,7 +2309,6 @@ endc
 	learnset 11, HEADBUTT
 	learnset 13, LEER
 	learnset 17, FOCUS_ENERGY
-	learnset 21, BONEMERANG
 	learnset 23, RAGE
 	learnset 27, LOW_KICK ; False Swipe → HGSS tutor move
 	learnset 31, FALSE_SWIPE ; Thrash → False Swipe
@@ -2328,8 +2327,7 @@ endc
 	learnset 11, HEADBUTT
 	learnset 13, LEER
 	learnset 17, FOCUS_ENERGY
-	learnset 21, BONEMERANG
-	learnset 23, RAGE
+    learnset 23, RAGE
 	learnset 27, LOW_KICK ; False Swipe → HGSS tutor move
 	learnset 33, THRASH
 	learnset 37, KNOCK_OFF ; Fling → TM move
@@ -2347,7 +2345,6 @@ endc
 	learnset 11, FIRE_SPIN ; Flame Wheel → LGPE move
 	learnset 13, LEER
 	learnset 17, HEX
-	learnset 21, BONEMERANG
 	learnset 23, WILL_O_WISP
 	learnset 27, SHADOW_CLAW ; Shadow Bone → similar move
 	learnset 33, THRASH

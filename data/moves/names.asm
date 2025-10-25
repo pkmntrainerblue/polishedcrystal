@@ -154,7 +154,7 @@ MoveNames::
 	li "Pika Papow"
 	li "Explosion"
 	li "Fury Strikes"
-	li "Rising Voltage"
+	li "Rising Volt"
 	li "Rest"
 	li "Rock Slide"
 	li "Hyper Fang"

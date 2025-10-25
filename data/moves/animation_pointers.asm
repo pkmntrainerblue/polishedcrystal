@@ -157,7 +157,7 @@ BattleAnimations::
 	fardw BattleAnim_Thunder
 	fardw BattleAnim_Explosion
 	fardw BattleAnim_FuryStrikes
-	fardw BattleAnim_Bonemerang
+	fardw BattleAnim_ZapCannon
 	fardw BattleAnim_Rest
 	fardw BattleAnim_RockSlide
 	fardw BattleAnim_HyperFang

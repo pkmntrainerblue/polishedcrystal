@@ -6362,9 +6362,23 @@ DoPursuit:
 	jr DoubleDamageIfNZ
 
 BattleCommand_risingvoltdamage:
-	call GetWeatherAfterOpponentUmbrella
-	cp WEATHER_RAIN
-    jr DoubleDamageIfNZ
+    ; Check if the move is Rising Volt or another move that should trigger this effect
+    ld a, BATTLE_VARS_MOVE_ANIM
+    call GetBattleVar
+    cp RISING_VOLT ; Ensure the move is Rising Volt (replace with actual move ID constant)
+    ret nz         ; Exit if not the correct move
+
+    ; Check for rain weather
+    call GetWeatherAfterOpponentUmbrella
+    cp WEATHER_RAIN
+    jr nz, .no_rain
+
+    ; Double damage if rain is active
+    call DoubleDamage
+    ret
+
+.no_rain:
+    ret
 
 BattleCommand_doubleflyingdamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP

@@ -6371,7 +6371,14 @@ BattleCommand_doubleundergrounddamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
 	bit SUBSTATUS_UNDERGROUND, a
-	; fallthrough
+	jr DoubleDamageIfNZ
+
+BattleCommand_risingvoltdamage:
+    ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVarAddr
+	call GetWeatherAfterOpponentUmbrella
+	cp WEATHER_RAIN, a
+; fallthrough
 DoubleDamageIfNZ:
 	ret z
 	; fallthrough

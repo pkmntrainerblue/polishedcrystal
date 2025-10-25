@@ -2115,7 +2115,7 @@ RisingVolt:
 	damagecalc
 	stab
 	damagevariation
-	RisingVoltDamage
+	risingvoltdamage
 	moveanim
 	failuretext
 	applydamage

@@ -521,6 +521,7 @@ evos_attacks PikachuPartner
 	learnset 1, QUICK_ATTACK
 	learnset 1, THUNDERBOLT ; evolution move
 	learnset 1, REVERSAL ; Sw/Sh move
+    learnset 50, RISING_VOLT
 
 	evos_attacks RaichuAlolan
 	learnset 1, THUNDERSHOCK

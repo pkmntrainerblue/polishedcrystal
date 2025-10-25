@@ -160,7 +160,7 @@
 	const PIKA_PAPOW    ; $98
 	const EXPLOSION     ; $99
 	const FURY_STRIKES  ; $9a
-	const BONEMERANG    ; $9b
+	const RISING_VOLT   ; $9b
 	const REST          ; $9c
 	const ROCK_SLIDE    ; $9d
 	const HYPER_FANG    ; $9e

@@ -2102,3 +2102,25 @@ FlareBlitz:
 	burntarget
 	posthiteffects
 	endmove
+
+RisingVolt:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	RisingVoltDamage
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
+	posthiteffects
+	endmove

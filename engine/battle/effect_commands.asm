@@ -6359,21 +6359,7 @@ DoVenoshock:
 DoPursuit:
 	ld a, [wDeferredSwitch]
 	and a
-	jr DoubleDamageIfNZ
-
-BattleCommand_risingvoltdamage:
-    ; Check if the move is Rising Volt or another move that should trigger this effect
-    ld a, BATTLE_VARS_MOVE_EFFECT
-	call GetBattleVar
-	cp EFFECT_RISING_VOLT
-    jr DoubleDamage
-	;jr z, .rain
-
-    ; Check for rain weather
-    ;.rain
-    ;call GetWeatherAfterOpponentUmbrella
-    ;cp WEATHER_RAIN
-    ; jr DoubleDamageIfNZ
+	jr DoubleDamageIfNZ 
 
 BattleCommand_doubleflyingdamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP

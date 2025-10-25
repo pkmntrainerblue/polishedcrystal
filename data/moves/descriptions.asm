@@ -155,7 +155,7 @@ MoveDescriptions::
 	dw PikaPapowDescription
 	dw ExplosionDescription
 	dw FuryStrikesDescription
-	dw BonemerangDescription
+	dw RisingVoltDescription
 	dw RestDescription
 	dw RockSlideDescription
 	dw HyperFangDescription
@@ -1043,9 +1043,9 @@ SplashDescription:
 	next "whatsoever."
 	done
 
-BonemerangDescription:
-	text "An attack that"
-	next "strikes twice."
+RisingVoltDescription:
+	text "Its power doubles"
+	next "in rain."
 	done
 
 RestDescription:

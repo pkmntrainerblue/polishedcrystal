@@ -6366,13 +6366,14 @@ BattleCommand_risingvoltdamage:
     ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
 	cp EFFECT_RISING_VOLT
-	jr z, .rain
+    jr DoubleDamageIfNZ
+	;jr z, .rain
 
     ; Check for rain weather
-    .rain
-    call GetWeatherAfterOpponentUmbrella
-    cp WEATHER_RAIN
-    jr DoubleDamageIfNZ
+    ;.rain
+    ;call GetWeatherAfterOpponentUmbrella
+    ;cp WEATHER_RAIN
+    ; jr DoubleDamageIfNZ
 
 BattleCommand_doubleflyingdamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP

@@ -6366,7 +6366,7 @@ BattleCommand_risingvoltdamage:
     ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
 	cp EFFECT_RISING_VOLT
-    jr DoubleDamageIfNZ
+    jr DoubleDamage
 	;jr z, .rain
 
     ; Check for rain weather

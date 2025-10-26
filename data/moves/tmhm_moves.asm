@@ -113,9 +113,10 @@ TMHMMoves:
 	db THUNDERPUNCH ; MT27 (Goldenrod City)
 	db TRICK        ; MT28 (Battle Tower)
 	db TRICK_ROOM   ; MT29 (Route 16 South Gate)
-	db ZIPPY_ZAP    ; MT30 (Power Plant)
+	db ZIPPY_ZAP    ; MT30 
 	db ZEN_HEADBUTT ; MT31 (Saffron City)
     db SPLASHY_SURF ; MT32
     db FLOATY_FALL  ; MT33
+    db RISING_VOLT  ; MT34 (Power Plant)
 	assert_table_length NUM_TM_HM_TUTOR
 	db 0 ; end

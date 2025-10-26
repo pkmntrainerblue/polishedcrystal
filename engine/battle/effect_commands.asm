@@ -6306,7 +6306,8 @@ CheckUserMove:
 	ret
 
 BoostJumptable:
-	dbw AVALANCHE,  DoAvalanche
+	dbw RISING_VOLT, DoRisingVolt
+    dbw AVALANCHE,  DoAvalanche
 	dbw ACROBATICS, DoAcrobatics
 	dbw FACADE,     DoFacade
 	dbw HEX,        DoHex
@@ -6320,6 +6321,12 @@ BattleCommand_conditionalboost:
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
 	jmp BattleJumptable
+
+DoRisingVolt:
+	call GetWeatherAfterOpponentUmbrella
+	cp WEATHER_RAIN
+	jr z, DoubleDamage
+	ret
 
 DoAvalanche:
 	ld a, 1 << PHYSICAL | 1 << SPECIAL

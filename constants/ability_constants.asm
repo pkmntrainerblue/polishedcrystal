@@ -158,7 +158,7 @@
 	const SHARPNESS
 	const ARMOR_TAIL
 	const MINDS_EYE
-    const TRANSISTOR
+    const ELECTRIC_SURGE
     const LIQUID_VOICE
     const PARTNER_BOND
     const SURGE_SURFER

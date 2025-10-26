@@ -111,7 +111,7 @@ PowerPlantTutorZapCannonScript:
 	writetext Text_PowerPlantTutorQuestion
 	yesorno
 	iffalsefwd .TutorRefused
-	setval ZIPPY_ZAP
+	setval RISING_VOLT
 	writetext ClearText
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove
@@ -260,7 +260,7 @@ PowerPlantManagerWhoWouldRuinMyGeneratorText:
 	line "he's going to get"
 
 	para "a taste of my"
-	line "Zippy Zap!"
+	line "Rising Volt!"
 	done
 
 PowerPlantManagerIWontForgiveCulpritText:
@@ -296,13 +296,13 @@ Text_PowerPlantTutorZapCannon:
 	line "teach your"
 
 	para "#mon to use"
-	line "Zippy Zap!"
+	line "Rising Volt!"
 
-	para "It's a lightning"
-	line "fast attack that"
+	para "It's a powerful"
+	line "electric attack"
 
-	para "is always a"
-	line "critical hit!"
+	para "that gets even"
+	line "stronger in rain!"
 
 	para "I'll just need one"
 	line "Silver Leaf."
@@ -310,14 +310,14 @@ Text_PowerPlantTutorZapCannon:
 
 Text_PowerPlantTutorNoSilverLeaf:
 	text "Sorry, but I can't"
-	line "teach Zippy Zap"
+	line "teach Rising Volt"
 	cont "without that Leaf!"
 	done
 
 Text_PowerPlantTutorQuestion:
 	text "Should I teach"
 	line "your #mon"
-	cont "Zippy Zap?"
+	cont "Rising Volt?"
 	done
 
 Text_PowerPlantTutorRefused:
@@ -326,7 +326,7 @@ Text_PowerPlantTutorRefused:
 
 Text_PowerPlantTutorTaught:
 	text "Now your #mon"
-	line "knows Zippy Zap!"
+	line "knows Rising Volt!"
 
 	para "Wahahah!"
 	done

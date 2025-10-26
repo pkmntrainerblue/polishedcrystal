@@ -155,6 +155,7 @@ ENDM
 	add_mt ZEN_HEADBUTT ; $6f
     add_mt SPLASHY_SURF ; $70
     add_mt FLOATY_FALL  ; $71
+    add_mt RISING_VOLT  ; $72
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS

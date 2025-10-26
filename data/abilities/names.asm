@@ -155,7 +155,7 @@ AbilityNames:
 	dw Sharpness
 	dw ArmorTail
 	dw MindsEye
-    dw Transistor
+    dw ElectricSurge
     dw LiquidVoice
     dw PartnerBond
     dw SurgeSurfer
@@ -317,7 +317,7 @@ CudChew:         rawchar "Cud Chew@"
 Sharpness:       rawchar "Sharpness@"
 ArmorTail:       rawchar "Armor Tail@"
 MindsEye:        rawchar "Mind's Eye@"
-Transistor:      rawchar "Transistor@"
+ElectricSurge:   rawchar "Electric Surge@"
 LiquidVoice:     rawchar "Liquid Voice@"
 PartnerBond:     rawchar "Partner Bond@"
 SurgeSurfer:     rawchar "Surge Surfer@"

@@ -770,8 +770,8 @@ LtSurgeGroup:
 		tr_moves WILD_CHARGE, THUNDER_WAVE, AGILITY, THUNDER
 	tr_mon 60, RAICHU @ AIR_BALLOON, MALE
 		tr_evs 252 Atk, 36 Spe
-		tr_extra TRANSISTOR, ATK_UP_DEF_DOWN
-        tr_moves THUNDER_WAVE, EXTREMESPEED, WILD_CHARGE, SURF
+		tr_extra ELECTRIC_SURGE, ATK_UP_DEF_DOWN
+        tr_moves THUNDER, EXTREMESPEED, WILD_CHARGE, SURF
 	end_trainer
 
 	def_trainer 2, "Lt.Surge"

@@ -1642,7 +1642,6 @@ OffensiveDamageAbilities:
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
-    dbw TRANSISTOR, TransistorAbility
     dbw LIQUID_VOICE, LiquidVoiceAbility
 	dbw -1, -1
 
@@ -1694,9 +1693,6 @@ PinchAbility:
 
 SteelySpiritAbility:
 	ld b, STEEL
-    jr TypeDependentAbility
-TransistorAbility:
-    ld b, ELECTRIC
 TypeDependentAbility:
 ; 150% damage if move type matches given type in b
 	ld a, BATTLE_VARS_MOVE_TYPE

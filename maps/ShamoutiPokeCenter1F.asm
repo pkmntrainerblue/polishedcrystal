@@ -65,7 +65,7 @@ ShamoutiPokeCenter1FIvyScript:
 	writetext .ChoseKantoStarterText
 	promptbutton
 	waitsfx
-	givepoke BULBASAUR, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke BULBASAUR, PLAIN_FORM, 5, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
 	getmonname BULBASAUR, STRING_BUFFER_3
 	setevent EVENT_GOT_BULBASAUR_FROM_IVY
@@ -75,7 +75,7 @@ ShamoutiPokeCenter1FIvyScript:
 	writetext .ChoseKantoStarterText
 	promptbutton
 	waitsfx
-	givepoke CHARMANDER, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke CHARMANDER, PLAIN_FORM, 5, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
 	getmonname CHARMANDER, STRING_BUFFER_3
 	setevent EVENT_GOT_CHARMANDER_FROM_IVY
@@ -85,7 +85,7 @@ ShamoutiPokeCenter1FIvyScript:
 	writetext .ChoseKantoStarterText
 	promptbutton
 	waitsfx
-	givepoke SQUIRTLE, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke SQUIRTLE, PLAIN_FORM, 5, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
 	getmonname SQUIRTLE, STRING_BUFFER_3
 	setevent EVENT_GOT_SQUIRTLE_FROM_IVY
@@ -117,9 +117,8 @@ ShamoutiPokeCenter1FIvyScript:
 	done
 
 .GreetingText:
-	text "Ivy: Oh! You're"
-	line "<PLAYER>, the new"
-	cont "Champion!"
+	text "Ivy: Oh, you"
+	line "must be <PLAYER>."
 
 	para "Pleased to meet"
 	line "you!"
@@ -157,8 +156,10 @@ ShamoutiPokeCenter1FIvyScript:
 	line "a new region…"
 
 	para "Aha! Why don't I"
-	line "give you a new"
-	cont "#mon too?"
+	line "give you a rare"
+	
+    para "#mon to help you"
+    line "on your journey?"
 
 	para "Which one do you"
 	line "want?"
@@ -171,14 +172,14 @@ ShamoutiPokeCenter1FIvyScript:
 	done
 
 .GoodbyeText:
-	text "Ivy: Prof.Elm"
-	line "trusted you with"
-	cont "a #mon, and"
+	text "Ivy: I know you're"
+	line "leaving for New"
+	cont "Bark Town today."
 
-	para "Prof.Oak gave you"
-	line "a #dex, so I"
+	para "You have a long"
+	line "trip ahead of you."
 
-	para "know you'll take"
+	para "I want you to take"
 	line "good care of that"
 	cont ""
 	text_ram wStringBuffer3
@@ -190,7 +191,7 @@ ShamoutiPokeCenter1FIvyScript:
 	para "to my lab on"
 	line "Valencia Island."
 
-	para "Say hi to Prof.Oak"
+	para "Say hi to Prof.Elm"
 	line "for me!"
 	done
 

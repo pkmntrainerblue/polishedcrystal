@@ -155,7 +155,7 @@ AbilityDescriptions:
 	dw SharpnessDescription
 	dw ArmorTailDescription
 	dw MindsEyeDescription
-    dw TransistorDescription
+    dw ElectricSurgeDescription
     dw LiquidVoiceDescription
     dw PartnerBondDescription
     dw SurgeSurferDescription
@@ -922,9 +922,9 @@ MindsEyeDescription:
 	next "Ghost immunity."
 	done
 
-TransistorDescription:
-	text "Powers up Electric"
-	next "-type moves."
+ElectricSurgeDescription:
+	text "A thunderstorm is"
+	next "created on entry."
 	done
 
 LiquidVoiceDescription:

@@ -1227,8 +1227,10 @@ WonderSkinAbility:
 	ld [hl], 50
 	ret
 
-SwiftSwimAbility:
 SurgeSurferAbility:
+    ld b, WEATHER_THUNDERSTORM
+    jr WeatherSpeedAbility
+SwiftSwimAbility:
 	ld b, WEATHER_RAIN
 	jr WeatherSpeedAbility
 ChlorophyllAbility:

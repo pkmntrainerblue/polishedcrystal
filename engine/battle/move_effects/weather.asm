@@ -13,6 +13,10 @@ BattleCommand_startsandstorm:
 BattleCommand_starthail:
 	lb bc, WEATHER_HAIL, HELD_PROLONG_HAIL
 	ld hl, HailStartedText
+    jr StartWeather
+BattleCommand_startthunderstorm:
+    lb bc, WEATHER_THUNDERSTORM, HELD_PROLONG_RAIN
+    ld hl, ThunderstormStartedText
 StartWeather:
 	ld a, [wBattleWeather]
 	cp b

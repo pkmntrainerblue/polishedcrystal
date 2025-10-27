@@ -6324,7 +6324,7 @@ BattleCommand_conditionalboost:
 
 DoRisingVolt:
 	call GetWeatherAfterOpponentUmbrella
-	cp WEATHER_RAIN
+	cp WEATHER_THUNDERSTORM
 	jr z, DoubleDamage
 	ret
 

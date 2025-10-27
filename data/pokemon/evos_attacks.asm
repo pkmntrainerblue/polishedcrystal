@@ -1819,7 +1819,6 @@ evos_attacks PikachuPartner
 	learnset 31, AGILITY
 	learnset 33, NIGHT_SLASH
 	learnset 37, ACROBATICS
-	learnset 43, HI_JUMP_KICK ; Feint → new move
 	learnset 45, FALSE_SWIPE
 	learnset 49, AIR_SLASH
 	learnset 55, BRAVE_BIRD
@@ -1864,7 +1863,6 @@ endc
 	learnset 29, DOUBLE_TEAM ; Uproar → TM move
 	learnset 33, TRI_ATTACK ; Acupressure → Crystal move
 	learnset 36, SWORDS_DANCE
-	learnset 40, HI_JUMP_KICK ; Jump Kick → similar move
 	learnset 43, DRILL_PECK
 	learnset 47, REVERSAL ; Endeavor → new move
 	learnset 50, THRASH
@@ -1883,7 +1881,6 @@ endc
 	learnset 29, DOUBLE_TEAM ; Uproar → TM move
 	learnset 34, BULLDOZE ; Acupressure → TM move
 	learnset 38, SWORDS_DANCE
-	learnset 43, HI_JUMP_KICK ; Jump Kick → similar move
 	learnset 47, DRILL_PECK
 	learnset 52, REVERSAL ; Endeavor → new move
 	learnset 56, THRASH
@@ -2369,7 +2366,6 @@ else
 	learnset 21, ROCK_SMASH ; Focus Energy → "Brick Break"
 endc
 	learnset 25, AERIAL_ACE ; Feint → new move
-	learnset 29, HI_JUMP_KICK
 	learnset 33, DOUBLE_TEAM ; Mind Reader → TM move
 	learnset 37, FORESIGHT
 	learnset 41, FOCUS_ENERGY ; Wide Guard → LGPE move
@@ -3170,7 +3166,6 @@ endc
 	learnset 64, LIGHT_SCREEN
 	learnset 71, CLOSE_COMBAT
 	learnset 78, BRAVE_BIRD ; Counter → TR move
-	learnset 85, HI_JUMP_KICK ; Quick Guard → new move
 	learnset 92, HURRICANE
 	learnset 99, REVERSAL
 
@@ -4954,8 +4949,7 @@ endc
 	learnset 33, TAKE_DOWN ; Role Play → Take Down
 	learnset 38, ZEN_HEADBUTT
 	learnset 43, THRASH ; Jump Kick → egg move
-	learnset 49, SKILL_SWAP ; Imprison → tutor move
-	learnset 50, HI_JUMP_KICK ; Captivate → new move
+	learnset 49, SKILL_SWAP ; Imprison → tutor 
 	learnset 55, MEGAHORN ; Me First → egg move
 	learnset 60, DOUBLE_EDGE ; new move
 
@@ -5767,7 +5761,6 @@ endc
 	learnset 38, ZEN_HEADBUTT
 	learnset 43, THRASH ; Jump Kick → egg move
 	learnset 49, SKILL_SWAP ; Imprison → tutor move
-	learnset 55, HI_JUMP_KICK ; Captivate → new move
 	learnset 60, MEGAHORN ; Me First → egg move
 	learnset 65, DOUBLE_EDGE ; new move
 

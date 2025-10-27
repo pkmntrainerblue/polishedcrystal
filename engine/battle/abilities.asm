@@ -54,6 +54,7 @@ BattleEntryAbilities:
 	dbw MOLD_BREAKER, MoldBreakerAbility
 	dbw NEUTRALIZING_GAS, NeutralizingGasAbility
 	dbw SCREEN_CLEANER, ScreenCleanerAbility
+    dbw ELECTRIC_SURGE, ElectricSurgeAbility
 	; fallthrough
 StatusHealAbilities:
 ; Status immunity abilities that autoproc if the user gets the status or the ability
@@ -190,6 +191,9 @@ SandStreamAbility:
 	jr WeatherAbility
 SnowWarningAbility:
 	ld a, WEATHER_HAIL
+    jr WeatherAbility
+ElectricSurgeAbility:
+    ld a, WEATHER_THUNDERSTORM
 	; fallthrough
 WeatherAbility:
 	ld b, a

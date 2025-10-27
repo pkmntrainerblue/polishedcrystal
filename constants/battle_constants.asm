@@ -264,6 +264,7 @@ DEF GUARD_MIST      EQU %11110000
 	const WEATHER_SUN
 	const WEATHER_SANDSTORM
 	const WEATHER_HAIL
+    const WEATHER_THUNDERSTORM
 
 ; wAttackMissed (higher gives priority)
 	const_def 1

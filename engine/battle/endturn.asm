@@ -367,6 +367,7 @@ WeatherEndedMessages:
 	fardw BattleText_TheSunlightFaded
 	fardw BattleText_TheSandstormSubsided
 	fardw BattleText_TheHailStopped
+    fardw BattleText_TheThunderstormSubsided
 
 HandleAffectionSelfCure:
 	call SetFastestTurn

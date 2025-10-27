@@ -17,14 +17,19 @@ Some of the changes include:
 **Liquid Voice**
 (Sound based moves become Water-type and receive a small boost.)
 
-**Transistor**
-(Powers up Electric type moves by a great amount.)
+**Electric Surge**
+(Summons a thunderstorm on entry.)
 
 **Surge Surfer**
-(Doubles Speed stat in rain.)
+(Doubles Speed stat in a thunderstorm.)
 
 **Comatose**
 (User is permanently asleep. Can still attack. Immune to non volatile status conditions.)
+
+## New Weather:
+
+**Thunderstorm**
+(Electric attacks have their power increased by 50%. Thunder has perfect accuracy. Enables some of the new abilities.)
 
 ## New Tutor Moves:
 
@@ -42,6 +47,9 @@ Some of the changes include:
 
 Exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon centers of Goldenrod, Ecruteak and Cianwood. 
 
+**Rising Volt**
+(Electric attack that does double damage if used in a thunderstorm.)
+
 ## New Gift Pokemon:
 
 **Bulbasaur**
@@ -55,7 +63,7 @@ All 3 of the Kanto starters will be available earlier than normal through NPCs. 
 ## Changes to existing Pokemon:
 
 **Raichu:**
-Had its BST increased slightly. New hidden ability, Transistor.
+Had its BST increased slightly. New hidden ability, Electric Surge.
 
 **Alolan Raichu:**
 New regular ability, Surge Surfer. 
@@ -68,10 +76,11 @@ Shell Smash is now included in the Move Reminder's list.
 New hidden ability, Comatose. 
 
 **Removed moves:**
-Icicle Crash, Octazooka, Crabhammer, Zap Cannon. 
+Icicle Crash, Octazooka, Crabhammer, Zap Cannon, Bonemerang, Hi Jump Kick.
 
 ## Known Issues:
-The Zap Cannon tutor now teaches Zippy Zap instead. This is a placeholder until a new move has been implemented. 
+Thunderstorm weather is currently lacking unique graphics and animation.
+Thunderstorm move has not been distributed yet. 
 
 Some of the new dialog presumes you picked Pikachu as your starter and have them in your party. This may be revised in the future if more starters are added. 
 

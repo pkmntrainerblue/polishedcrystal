@@ -136,7 +136,7 @@ MoveDescriptions::
 	dw AmnesiaDescription
 	dw RoostDescription
 	dw FreshSnackDescription
-	dw HiJumpKickDescription
+	dw ThunderstormDescription
 	dw GlareDescription
 	dw DreamEaterDescription
 	dw PoisonJabDescription
@@ -1023,9 +1023,9 @@ SkillSwapDescription:
 	next "with the foe."
 	done
 
-HiJumpKickDescription:
-	text "May miss and hurt"
-	next "the user."
+ThunderstormDescription:
+	text "Summons a"
+	next "thunderstorm."
 	done
 
 DreamEaterDescription:

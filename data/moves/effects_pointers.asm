@@ -155,4 +155,5 @@ MoveEffectsPointers:
 	dw TrickRoom
     dw NormalHit
     dw ConditionalBoostHit
+    dw Thunderstorm
 	assert_table_length NUM_MOVE_EFECTS

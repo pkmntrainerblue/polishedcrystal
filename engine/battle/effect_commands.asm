@@ -2293,6 +2293,8 @@ BattleCommand_checkhit:
 	jr z, .RainAccCheck
 	cp WEATHER_HAIL
 	jr z, .HailAccCheck
+    cp WEATHER_THUNDERSTORM
+    jr z, .ThunderstormAccCheck
 	ret
 
 .RainAccCheck:
@@ -2309,6 +2311,13 @@ BattleCommand_checkhit:
 	call GetBattleVar
 
 	cp BLIZZARD
+	ret
+
+.ThunderstormAccCheck:
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+
+	cp THUNDER
 	ret
 
 .NoGuardCheck:

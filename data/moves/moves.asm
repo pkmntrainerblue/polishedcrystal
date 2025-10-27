@@ -185,7 +185,7 @@ endc
 	move AMNESIA,         EFFECT_SP_DEF_UP_2,         0, PSYCHIC,    -1, 20,   0, STATUS
 	move ROOST,           EFFECT_ROOST,               0, FLYING,     -1, 5,    0, STATUS
 	move FRESH_SNACK,     EFFECT_HEAL,                0, NORMAL,     -1, 10,   0, STATUS
-	move HI_JUMP_KICK,    EFFECT_JUMP_KICK,         130, FIGHTING,   90, 10,   0, PHYSICAL
+	move THUNDERSTORM,    EFFECT_THUNDERSTORM,        0, ELECTRIC,   -1, 5,    0, STATUS
 	move GLARE,           EFFECT_PARALYZE,            0, NORMAL,    100, 30,   0, STATUS
 	move DREAM_EATER,     EFFECT_DREAM_EATER,       100, PSYCHIC,   100, 15,   0, SPECIAL
 	move POISON_JAB,      EFFECT_POISON_HIT,         80, POISON,    100, 20,  30, PHYSICAL

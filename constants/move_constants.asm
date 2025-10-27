@@ -141,7 +141,7 @@
 	const AMNESIA       ; $85
 	const ROOST         ; $86
 	const FRESH_SNACK   ; $87
-	const HI_JUMP_KICK  ; $88
+	const THUNDERSTORM  ; $88
 	const GLARE         ; $89
 	const DREAM_EATER   ; $8a
 	const POISON_JAB    ; $8b

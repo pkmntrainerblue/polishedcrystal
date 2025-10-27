@@ -5,6 +5,8 @@ BattleCommand_thunderaccuracy:
 	call GetWeatherAfterOpponentUmbrella
 	cp WEATHER_RAIN
 	jr z, .rain
+    cp WEATHER_THUNDERSTORM
+    jr z, .rain
 	cp WEATHER_SUN
 	ret nz
 	ld [hl], 50 percent + 1

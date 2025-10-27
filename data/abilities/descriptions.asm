@@ -317,10 +317,14 @@ SereneGraceDescription:
 	done
 
 SwiftSwimDescription:
-SurgeSurferDescription:
 	text "Boosts its Speed"
 	next "in rain."
 	done
+
+SurgeSurferDescription:
+    text "Boosts its Speed"
+    next "in a thunderstorm."
+    done
 
 ChlorophyllDescription:
 	text "Boosts its Speed"

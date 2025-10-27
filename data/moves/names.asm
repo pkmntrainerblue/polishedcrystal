@@ -135,7 +135,7 @@ MoveNames::
 	li "Amnesia"
 	li "Roost"
 	li "Fresh Snack"
-	li "Hi Jump Kick"
+	li "Thunderstorm"
 	li "Glare"
 	li "Dream Eater"
 	li "Poison Jab"

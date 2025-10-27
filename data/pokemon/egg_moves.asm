@@ -1120,7 +1120,6 @@ StantlerEggSpeciesMoves:
 TyrogueEggSpeciesMoves:
 	dp TYROGUE, PLAIN_FORM
 	db BULLET_PUNCH
-	db HI_JUMP_KICK
 	db MACH_PUNCH
 	db PURSUIT
 	db RAPID_SPIN

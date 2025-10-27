@@ -324,6 +324,11 @@ BattleText_TheHailStopped:
 	text "The hail stopped."
 	prompt
 
+BattleText_TheThunderstormSubsided:
+    text "The thunderstorm"
+    line "subsided."
+    prompt
+
 BattleText_EnemyPkmnFainted:
 	text "The foe "
 	text_ram wEnemyMonNickname
@@ -1339,6 +1344,11 @@ HailStartedText:
 	text "It started to"
 	line "hail!"
 	prompt
+
+ThunderstormStartedText:
+    text "A thunderstorm"
+    line "is coming!"
+    prompt
 
 BracedItselfText:
 	text "<USER>"

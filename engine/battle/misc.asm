@@ -93,12 +93,17 @@ DoWeatherModifiers:
 	jr z, .sun
 	cp WEATHER_RAIN
 	jr z, .rain
+    cp WEATHER_THUNDERSTORM
+    jr z, .thunderstorm
 	ret
 .sun
 	lb de, FIRE, WATER
 	jr .check_movetype
 .rain
 	lb de, WATER, FIRE
+    jr .check_movetype
+.thunderstorm
+    lb de, ELECTRIC, FIRE
 .check_movetype
 	ld a, b ; move type
 	cp e

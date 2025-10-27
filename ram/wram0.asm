@@ -615,9 +615,11 @@ wBattleWeather::
 ; 01 rain
 ; 02 sun
 ; 03 sandstorm
-; 04 rain stopped
-; 05 sunlight faded
-; 06 sandstorm subsided
+; 04 thunderstorm
+; 05 rain stopped
+; 06 sunlight faded
+; 07 sandstorm subsided
+; 08 thunderstorm subsided
 	db
 
 wWeatherCount:: db ; # turns remaining

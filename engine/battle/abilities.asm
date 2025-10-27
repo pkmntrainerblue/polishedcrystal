@@ -212,6 +212,8 @@ WeatherAbility:
 	jr z, .handlesun
 	cp WEATHER_HAIL
 	jr z, .handlehail
+    cp WEATHER_THUNDERSTORM
+    jr z, .handlethunderstorm
 	; is sandstorm
 	ld de, SANDSTORM
 	farcall PlayBattleAnimDE
@@ -231,6 +233,11 @@ WeatherAbility:
 	ld de, HAIL
 	farcall PlayBattleAnimDE
 	farcall BattleCommand_starthail
+	jmp EndAbility
+.handlethunderstorm
+	ld de, THUNDERSTORM
+	farcall PlayBattleAnimDE
+	farcall BattleCommand_startthunderstorm
 	jmp EndAbility
 
 IntimidateAbility:

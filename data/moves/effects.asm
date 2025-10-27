@@ -2103,3 +2103,9 @@ FlareBlitz:
 	posthiteffects
 	endmove
 
+Thunderstorm:
+	checkobedience
+	usedmovetext
+	doturn
+	startthunderstorm
+	endmove

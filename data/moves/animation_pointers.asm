@@ -138,7 +138,7 @@ BattleAnimations::
 	fardw BattleAnim_Amnesia
 	fardw BattleAnim_Roost
 	fardw BattleAnim_FreshSnack
-	fardw BattleAnim_HiJumpKick
+	fardw BattleAnim_RainDance
 	fardw BattleAnim_Glare
 	fardw BattleAnim_DreamEater
 	fardw BattleAnim_PoisonJab

@@ -18,11 +18,11 @@ ShamoutiHouse_MapScriptHeader:
 ShamoutiUncleScript:
     faceplayer
     opentext
-    checkflag SHAMOUTI_UNCLE_INTRO
+    checkflag EVENT_UNCLE_INTRO
     iftruefwd .heardintro
     writetext .IntroText
 	waitbutton
-	setevent SHAMOUTI_UNCLE_INTRO
+	setevent EVENT_UNCLE_INTRO
 .heardintro
     writetext .LeaveShamoutiText
     yesorno
@@ -38,15 +38,16 @@ ShamoutiUncleScript:
 	end
 
 .IntroText
-
+done
 
 
 .LeaveShamoutiText
-
+done
 
 
 .YesText
-
+done
 
 
 .NoText
+done

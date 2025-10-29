@@ -34,7 +34,7 @@ ShamoutiUncleScript:
 	playsound SFX_WARP_TO
 	special FadeOutPalettes
 	waitsfx
-	warp PLAYERS_HOUSE_1F, 3, 3
+	warp PLAYERS_HOUSE_2F, 3, 3
 	end
 
 .IntroText

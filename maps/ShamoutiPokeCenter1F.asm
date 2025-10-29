@@ -158,8 +158,9 @@ ShamoutiPokeCenter1FIvyScript:
 	para "Aha! Why don't I"
 	line "give you a rare"
 	
-    para "#mon to help you"
-    line "on your journey?"
+    para "#mon to help"
+    line "you in your new"
+    cont "journey?"
 
 	para "Which one do you"
 	line "want?"

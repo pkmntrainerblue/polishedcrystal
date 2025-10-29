@@ -12,3 +12,41 @@ ShamoutiHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
+	object_event  2,  3, SPRITE_ARTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiUncleScript, EVENT_LEFT_SHAMOUTI
+
+
+ShamoutiUncleScript:
+    faceplayer
+    opentext
+    checkflag SHAMOUTI_UNCLE_INTRO
+    iftruefwd .heardintro
+    writetext .IntroText
+	waitbutton
+	setevent SHAMOUTI_UNCLE_INTRO
+.heardintro
+    writetext .LeaveShamoutiText
+    yesorno
+    iffalse_jumpopenedtext .NoText
+    writetext .YesText
+	setevent EVENT_LEFT_SHAMOUTI
+    waitbutton
+	closetext
+	playsound SFX_WARP_TO
+	special FadeOutPalettes
+	waitsfx
+	warp PLAYERS_HOUSE_1F, 3, 3
+	end
+
+.IntroText
+
+
+
+.LeaveShamoutiText
+
+
+
+.YesText
+
+
+
+.NoText

@@ -4,7 +4,7 @@ This is a fork of [Pokémon Polished Crystal](https://github.com/Rangi42/polishe
 
 Some of the changes include:
 
-## New Starters:
+## New Starter:
 
 **Partner Pikachu**
 (Increased BST, exclusive ability, exclusive tutor moves.)
@@ -31,7 +31,7 @@ Some of the changes include:
 **Thunderstorm**
 (Electric attacks have their power increased by 50%. Thunder has perfect accuracy. Enables some of the new abilities.)
 
-## New Tutor Moves:
+## New Moves:
 
 **Zippy Zap**
 (Priority Electric attack that is always a critical hit.)
@@ -45,7 +45,7 @@ Some of the changes include:
 **Pika Papow**
 (Electric attack that never misses.  Power is based on friendship.)
 
-Exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon centers of Goldenrod, Ecruteak and Cianwood. 
+The above four are exclusive to Partner Pikachu; You can find the new tutor NPC in the pokemon centers of Goldenrod, Ecruteak and Cianwood. 
 
 **Rising Volt**
 (Electric attack that does double damage if used in a thunderstorm.)

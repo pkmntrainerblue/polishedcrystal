@@ -17,7 +17,20 @@ MenuTextboxWaitButton::
 ExitMenu::
 	push af
 	farcall _ExitMenu
+	call UpdateFollowPalette
 	pop af
+	ret
+
+UpdateFollowPalette:
+	lb de, 0, 0
+	ld a, LOW(PIKACHU)
+	ld [wCurIcon], a
+	ld hl, wCurIconPersonality
+	ld a, d
+	ld [hli], a
+	ld [hl], e
+	farcall GetOverworldMonIconPalette
+	ld [wObject1PalIndex], a
 	ret
 
 GetTileBackupMenuBoxDims::
@@ -267,13 +280,6 @@ VerticalMenu::
 	ret
 .okay
 	and a
-	ret
-
-GetMenu2::
-	call LoadMenuHeader
-	call VerticalMenu
-	call CloseWindow
-	ld a, [wMenuCursorY]
 	ret
 
 GetYesNoBoxPosition:

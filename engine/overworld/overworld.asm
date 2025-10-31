@@ -70,6 +70,9 @@ ReloadSpriteIndex::
 	ld a, [hl]
 	and a
 	jr z, .done
+	inc a
+	jr z, .done
+	dec a
 	bit 7, b
 	jr z, .continue
 	cp b
@@ -101,6 +104,11 @@ LoadOverworldGFX::
 	ld hl, OverworldEffectGFX
 	lb bc, BANK(OverworldEffectGFX), 17
 	ld de, vTiles0 tile $6f
+	call DecompressRequest2bpp
+
+	ld hl, AnimPokeBallSpriteGFX
+	lb bc, BANK(AnimPokeBallSpriteGFX), 12
+	ld de, vTiles0 tile $61
 	jmp DecompressRequest2bpp
 
 SafeGetSprite:
@@ -159,6 +167,8 @@ GetMonSprite:
 	jr z, .BreedMon2
 	cp SPRITE_GROTTO_MON
 	jr z, .GrottoMon
+	cp SPRITE_FOLLOWER
+	jr z, .follower
 
 	cp SPRITE_VARS
 	jr c, .Normal
@@ -248,6 +258,67 @@ GetMonSprite:
 	farcall LoadOverworldMonIcon
 	lb hl, 0, MON_SPRITE
 	scf
+	ret
+
+.follower
+	call GetFirstAliveMon
+;	cp PIKACHU
+;	jr nz, .not_pikachu
+	lb de, 0, 0
+	ld a, LOW(PIKACHU)
+	ld [wCurIcon], a
+	ld hl, wCurIconPersonality
+	ld a, d
+	ld [hli], a
+	ld [hl], e
+	ld a, BANK(FollowingSpritePointers)
+	ld hl, FollowingSpritePointers
+	call GetFarByte
+	ld b, a
+	inc hl
+	ld a, BANK(FollowingSpritePointers)
+	call GetFarWord
+	call SwapHLDE
+	lb hl, 0, WALKING_SPRITE
+	ld c, 12
+	scf
+	ret
+
+.not_pikachu
+	xor a
+	ret
+
+
+GetFirstAliveMon::
+; Returns [wParty#Sprite] in a; party number in d
+	ld a, [wPartyCount]
+	and a
+	ret z
+	inc a
+	ld d, 1
+	ld e, a
+	ld bc, wPartyMon1
+.loop
+	ld hl, MON_HP
+	add hl, bc
+	ld a, [hli]
+	push de
+	ld d, a
+	ld a, [hl]
+	or d
+	pop de
+	jr nz, .got_mon_struct
+	inc d
+	ld a, d
+	cp e
+	ret z
+	ld hl, PARTYMON_STRUCT_LENGTH
+	add hl, bc
+	ld b, h
+	ld c, l
+	jr .loop
+.got_mon_struct
+	ld a, [bc]
 	ret
 
 DoesSpriteHaveFacings::

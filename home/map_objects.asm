@@ -378,3 +378,11 @@ GetSpriteDirection::
 	ld a, [hl]
 	and %00001100
 	ret
+
+CheckActiveFollowerBallAnim::
+	push hl
+	push bc
+	homecall _CheckActiveFollowerBallAnim
+	pop bc
+	pop hl
+	ret

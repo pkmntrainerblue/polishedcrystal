@@ -204,6 +204,7 @@
 	const SPRITE_CRYS_BIKE ; c8
 	const SPRITE_CRYS_SURF ; c9
 	const SPRITE_THORTON ; ca
+	const SPRITE_FOLLOWER ; cb
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

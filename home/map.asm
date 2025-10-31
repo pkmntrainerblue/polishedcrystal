@@ -245,7 +245,9 @@ LoadMapAttributes::
 	res MAPSETUP_CONNECTION_F, [hl]
 	call ClearObjectAssociations
 	pop de
-	ld hl, wMap1Object
+	ld a, -1
+	ld [wMap1Object], a
+	ld hl, wMapObjects + MAPOBJECT_LENGTH * 2
 	ld a, [de]
 	inc de
 	ld [wCurMapObjectEventCount], a
@@ -257,13 +259,13 @@ LoadMapAttributes::
 	ld a, [wCurMapObjectEventCount]
 	call CopyMapObjectHeaders
 
-; get NUM_OBJECTS - 1 - [wCurMapObjectEventCount]
+; get NUM_OBJECTS - 2 - [wCurMapObjectEventCount]
 	ld a, [wCurMapObjectEventCount]
-	cp NUM_OBJECTS - 1
+	cp NUM_OBJECTS - 2
 	jr nc, .skip
-	; a = NUM_OBJECTS - 1 - a
+	; a = NUM_OBJECTS - 2 - a
 	cpl
-	add NUM_OBJECTS - 1 + 1
+	add NUM_OBJECTS - 2 + 1
 	inc hl
 ; Fill the remaining sprite IDs and y coords with 0 and -1, respectively.
 	ld bc, MAPOBJECT_LENGTH
@@ -453,8 +455,8 @@ CopyMapObjectHeaders::
 	ret
 
 ClearObjectStructs::
-	ld hl, wObject1Struct
-	ld bc, OBJECT_LENGTH * (NUM_OBJECT_STRUCTS - 1)
+	ld hl, wObject2Struct
+	ld bc, OBJECT_LENGTH * (NUM_OBJECT_STRUCTS - 2)
 	xor a
 	rst ByteFill
 	ret

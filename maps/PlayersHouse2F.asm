@@ -247,9 +247,9 @@ endr
 	loadmem wPartyMon2PP+3, 10
 	loadmem wPartyMon2PokerusStatus, 1
 	; variant form test
-	givepoke TYPHLOSION, HISUIAN_FORM, 50
-	loadmem wPartyMon3Shiny, SHINY_MASK
-	loadmem wPartyMon3PokerusStatus, POKERUS_CURED
+	givepoke PIKACHU, 50
+;	loadmem wPartyMon3Shiny, SHINY_MASK
+;	loadmem wPartyMon3PokerusStatus, POKERUS_CURED
 	; ext species test
 	givepoke PIKACHU, PIKACHU_PARTNER_FORM, 5, LIGHT_BALL
     loadmem wPartyMon4Happiness, 255

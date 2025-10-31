@@ -45,8 +45,8 @@ FollowerScript::
     done
 
 .NotUsedToYou:
-    jumpthisopenedtext
     applymovement FOLLOWER, .turnback
+
     text "New."
     done
 

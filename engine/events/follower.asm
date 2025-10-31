@@ -5,7 +5,7 @@ FollowerScript::
 	cry PIKACHU
     opentext
     special GetFirstPokemonHappiness
-    writetext PikachuFollower
+    writetext .PikachuFollower
     promptbutton
 	ifgreater $f9, .LovesYouALot
 	ifgreater $c7, .ReallyTrustsYou
@@ -15,46 +15,38 @@ FollowerScript::
 	;applymovement FOLLOWER, .followerturnback
     jumpthisopenedtext
 
-	text "Pikachu refuses to"
-    line "even look at you."
-	done
 
-.followerturnback
-   turn_head_down
-   step_end
-
-
-PikachuFollower:
-text "You look at your"
-line "partner Pikachu."
-done
+.PikachuFollower:
+    text "You look at your"
+    line "partner Pikachu."
+    done
 
 .LovesYouALot:
-jumpthisopenedtext
+    jumpthisopenedtext
 
-text "Love."
-done
+    text "Love."
+    done
 
 .ReallyTrustsYou:
-jumpthisopenedtext
+    jumpthisopenedtext
 
-text "Trust."
-done
+    text "Trust."
+    done
 
 .KindaHappyWithYou:
-jumpthisopenedtext
+    jumpthisopenedtext
 
-text "Like."
-done
+    text "Like."
+    done
 
 .CuriousAboutYou:
-jumpthisopenedtext
+    jumpthisopenedtext
 
-text"Curious."
-done
+    text "Curious."
+    done
 
 .NotUsedToYou:
-jumpthisopenedtext
+    jumpthisopenedtext
 
-text "New."
-done
+    text "New."
+    done

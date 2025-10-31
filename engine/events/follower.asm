@@ -49,6 +49,7 @@ FollowerScript::
     applymovement FOLLOWER, .turnback
     text "New."
     done
-.turnback
+
+.turnback:
     turn_head_down
     step_end

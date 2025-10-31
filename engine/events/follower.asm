@@ -21,7 +21,7 @@ FollowerScript::
     line "even look at you."
 	done
 .followerturnback
-   turn_head DOWN
+   turn_head_down
    step end
 
 

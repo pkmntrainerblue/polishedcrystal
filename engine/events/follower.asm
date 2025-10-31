@@ -12,7 +12,6 @@ FollowerScript::
 	ifgreater $95, .KindaHappyWithYou
 	ifgreater $63, .CuriousAboutYou
 	ifgreater $31, .NotUsedToYou
-	;applymovement FOLLOWER, .followerturnback
     jumpthisopenedtext
 
 
@@ -47,6 +46,9 @@ FollowerScript::
 
 .NotUsedToYou:
     jumpthisopenedtext
-
+    applymovement FOLLOWER, .turnback
     text "New."
     done
+.turnback
+    turn_head_down
+    step_end

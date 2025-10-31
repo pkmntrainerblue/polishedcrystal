@@ -2,15 +2,15 @@ SECTION "Follower Script", ROMX
 
 FollowerScript::
 ; TODO: Implement follower script
-;	callasm StoreFollowerNickInBuffer
+	callasm StoreFollowerNickInBuffer
 	faceplayer
-;	opentext
+	opentext
 	cry PIKACHU
 ;	random 50
 ;	ifequalfwd 1, .give_item
 	applymovement FOLLOWER, .followerjump
-;	writetext .text
-;	closetext
+	writetext .text
+	closetext
 	end
 
 .give_item

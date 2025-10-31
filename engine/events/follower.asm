@@ -22,7 +22,7 @@ FollowerScript::
 	done
 .followerturnback
    turn_head_down
-   step end
+   step_end
 
 
 

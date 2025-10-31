@@ -5,26 +5,29 @@ FollowerScript::
 	cry PIKACHU
     opentext
     special GetFirstPokemonHappiness
+    writetext PikachuFollower
+    promptbutton
 	ifgreater $f9, .LovesYouALot
 	ifgreater $c7, .ReallyTrustsYou
 	ifgreater $95, .KindaHappyWithYou
 	ifgreater $63, .CuriousAboutYou
 	ifgreater $31, .NotUsedToYou
 	;applymovement FOLLOWER, .followerturnback
-    writetext .Angry
-    promptbutton
-	closetext
-	end
+    jumpthisopenedtext
 
-.Angry
 	text "Pikachu refuses to"
     line "even look at you."
 	done
+
 .followerturnback
    turn_head_down
    step_end
 
 
+PikachuFollower:
+text "You look at your"
+line "partner Pikachu."
+done
 
 .LovesYouALot
 done

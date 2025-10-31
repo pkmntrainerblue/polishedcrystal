@@ -58,6 +58,7 @@ FollowerScript::
     text "Pikachu appears to"
     line "be watching you"
     cont "closely."
+    done
 
 .NotUsedToYou:
     applymovement FOLLOWER, .turnback

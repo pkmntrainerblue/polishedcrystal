@@ -29,13 +29,32 @@ text "You look at your"
 line "partner Pikachu."
 done
 
-.LovesYouALot
+.LovesYouALot:
+jumpthisopenedtext
+
+text "Love."
 done
-.ReallyTrustsYou
+
+.ReallyTrustsYou:
+jumpthisopenedtext
+
+text "Trust."
 done
-.KindaHappyWithYou
+
+.KindaHappyWithYou:
+jumpthisopenedtext
+
+text "Like."
 done
-.CuriousAboutYou
+
+.CuriousAboutYou:
+jumpthisopenedtext
+
+text"Curious."
 done
-.NotUsedToYou
+
+.NotUsedToYou:
+jumpthisopenedtext
+
+text "New."
 done

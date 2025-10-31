@@ -3,16 +3,16 @@ SECTION "Follower Script", ROMX
 FollowerScript::
 	faceplayer
 	cry PIKACHU
+    opentext
     special GetFirstPokemonHappiness
 	ifgreater $f9, .LovesYouALot
 	ifgreater $c7, .ReallyTrustsYou
 	ifgreater $95, .KindaHappyWithYou
 	ifgreater $63, .CuriousAboutYou
 	ifgreater $31, .NotUsedToYou
-	applymovement FOLLOWER, .followerturnback
-	opentext
+	;applymovement FOLLOWER, .followerturnback
     writetext .Angry
-    waitbutton
+    promptbutton
 	closetext
 	end
 

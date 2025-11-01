@@ -19,7 +19,7 @@ FollowerScript::
     closetext
     end
 
-.jumping
+.jumping:
     jump_in_place
     jump_in_place
     jump_in_place
@@ -31,12 +31,20 @@ FollowerScript::
     done
     
 .ReallyTrustsYou:
+    applymovement FOLLOWER, .rotate
     showemote EMOTE_HAPPY, FOLLOWER, 30
     opentext
     writetext .ReallyTrustsYouText
     waitbutton
     closetext
     end
+
+.rotate:
+    turn_head_down
+    turn_head_right
+    turn_head_up
+    turn_head_left
+    step_end
 
 .ReallyTrustsYouText:
     text "Pikachu trusts you"

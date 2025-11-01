@@ -10,6 +10,18 @@ FollowerScript::
 	ifgreater $63, .CuriousAboutYou
 	ifgreater $31, .NotUsedToYou
     ifequalfwd $0, .DisgustedByYou
+;fallthrough
+.NotUsedToYou:
+    opentext
+    writetext .NotUsedToYouText
+    waitbutton
+    closetext
+    end
+
+.NotUsedToYouText:
+    text "Pikachu seems"
+    line "wary of you."
+    done
 
 .AdoresYou:
     applymovement FOLLOWER, .jumping
@@ -70,18 +82,6 @@ FollowerScript::
     text "Pikachu appears to"
     line "be watching you"
     cont "closely."
-    done
-
-.NotUsedToYou:
-    opentext
-    writetext .NotUsedToYouText
-    waitbutton
-    closetext
-    end
-
-.NotUsedToYouText:
-    text "Pikachu seems"
-    line "wary of you."
     done
 
 .DisgustedByYou:

@@ -9,6 +9,7 @@ FollowerScript::
 	ifgreater $95, .HappyWithYou
 	ifgreater $63, .CuriousAboutYou
 	ifgreater $31, .NotUsedToYou
+    ifequal    $0, .DisgustedByYou
 
 .AdoresYou:
     applymovement FOLLOWER, .jumping
@@ -72,7 +73,6 @@ FollowerScript::
     done
 
 .NotUsedToYou:
-    applymovement FOLLOWER, .turnback
     opentext
     writetext .NotUsedToYouText
     waitbutton
@@ -84,6 +84,15 @@ FollowerScript::
     line "wary of you."
     done
 
-.turnback:
-    turn_head_down
-    step_end
+.DisgustedByYou:
+    showemote EMOTE_SAD, FOLLOWER, 30
+    opentext
+    writetext .DisgustedByYouText
+    waitbutton
+    closetext
+    end
+
+.DisgustedByYouText:
+    text "Pikachu refuses to"
+    line "even look at you."
+    done

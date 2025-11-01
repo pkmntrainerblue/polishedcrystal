@@ -79,9 +79,12 @@ New hidden ability, Comatose.
 Icicle Crash, Octazooka, Crabhammer, Zap Cannon, Bonemerang, Hi Jump Kick.
 
 ## Known Issues:
+
+*Zippy Crystal is currently designed with the assumption that you picked Pikachu as your starter pokemon and have them in your party, ideally in the first slot.* 
+
+Choosing another starter or not carrying Pikachu with you will result in much of the new dialog not making any sense, especially in the case of the following pokemon. 
+
 Thunderstorm weather is currently lacking unique graphics and animation.
 Thunderstorm move has not been distributed yet. 
-
-Some of the new dialog presumes you picked Pikachu as your starter and have them in your party. This may be revised in the future if more starters are added. 
 
 Affection Bonus in the game settings does nothing, regardless of whether you enable or disable it. This is by design. 

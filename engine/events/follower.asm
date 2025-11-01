@@ -11,6 +11,7 @@ FollowerScript::
 	ifgreater $31, .NotUsedToYou
 
 .AdoresYou:
+    showemote EMOTE_HEART, FOLLOWER, 15
     opentext
     writetext .AdoresYouText
     waitbutton

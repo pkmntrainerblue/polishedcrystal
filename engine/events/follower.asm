@@ -12,7 +12,6 @@ FollowerScript::
 
 .AdoresYou:
     applymovement FOLLOWER, .jumping
-    pause 30
     showemote EMOTE_HEART, FOLLOWER, 30
     opentext
     writetext .AdoresYouText

@@ -20,9 +20,9 @@ FollowerScript::
     end
 
 .jumping
-    jump_step_up
-    jump_step_up
-    jump_step_up
+    jump_in_place
+    jump_in_place
+    jump_in_place
     step_end
 
 .AdoresYouText:

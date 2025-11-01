@@ -9,7 +9,7 @@ FollowerScript::
 	ifgreater $95, .HappyWithYou
 	ifgreater $63, .CuriousAboutYou
 	ifgreater $31, .NotUsedToYou
-    ifequal    $0, .DisgustedByYou
+    ifequalfwd $0, .DisgustedByYou
 
 .AdoresYou:
     applymovement FOLLOWER, .jumping

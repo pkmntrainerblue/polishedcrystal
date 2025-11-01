@@ -11,12 +11,19 @@ FollowerScript::
 	ifgreater $31, .NotUsedToYou
 
 .AdoresYou:
-    showemote EMOTE_HEART, FOLLOWER, 15
+    applymovement FOLLOWER, .jumping
+    showemote EMOTE_HEART, FOLLOWER, 30
     opentext
     writetext .AdoresYouText
     waitbutton
     closetext
     end
+
+.jumping
+    jump_up
+    jump_up
+    jump_up
+    step_end
 
 .AdoresYouText:
     text "Pikachu absolutely"
@@ -24,6 +31,7 @@ FollowerScript::
     done
     
 .ReallyTrustsYou:
+    showemote EMOTE_HAPPY, FOLLOWER, 30
     opentext
     writetext .ReallyTrustsYouText
     waitbutton
@@ -36,6 +44,7 @@ FollowerScript::
     done
 
 .HappyWithYou:
+    showemote EMOTE_HAPPY, FOLLOWER, 30
     opentext
     writetext .HappyWithYouText
     waitbutton
